@@ -1,0 +1,49 @@
+name: Scrape Card Prices
+
+# ══════════════════════════════════════════════
+# ทริกเกอร์: ทุก 1 ชั่วโมง + กดรันมือได้
+# ══════════════════════════════════════════════
+on:
+  schedule:
+    - cron: "0 * * * *"   # ทุกชั่วโมงตรง (UTC)
+  workflow_dispatch:       # กดรันเองได้ใน Actions tab
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20    # ป้องกันค้างเกิน 20 นาที
+
+    steps:
+      # 1. ดึงโค้ดจาก repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. ติดตั้ง Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      # 3. ติดตั้ง Playwright + Chromium (รวม OS dependencies)
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      # 4. รัน scraper
+      - name: Run scraper
+        run: python scraper_cloud.py
+        env:
+          DATA_FOLDER: "."   # บันทึก JSON ในโฟลเดอร์ root ของ repo
+
+      # 5. Commit & Push JSON ที่เปลี่ยนแปลง
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_*.json
+          # commit เฉพาะเมื่อมีการเปลี่ยนแปลง
+          git diff --staged --quiet || git commit -m \
+            "chore: update prices $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
