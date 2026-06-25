@@ -1,0 +1,15 @@
+[
+  {"id": 0,  "name": "Zoro (Juro)",             "code": "OP05-067", "rarity": "R",   "url": "https://snkrdunk.com/search?keywords=%E3%82%BE%E3%83%AD%E5%8D%81%E9%83%8E+R-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 1,  "name": "Tashigi",                  "code": "ST06-006", "rarity": "C",   "url": "https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 2,  "name": "Sabo (Wanted)",            "code": "OP13-120", "rarity": "SEC", "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 3,  "name": "Gol D. Roger (Wanted)",   "code": "OP09-118", "rarity": "SEC", "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 4,  "name": "Buggy (Wanted)",           "code": "OP09-051", "rarity": "R",   "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP09-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 5,  "name": "Marshall D. Teach",        "code": "OP09-093", "rarity": "SR",  "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 6,  "name": "Sengoku",                  "code": "OP07-046", "rarity": "R",   "url": "https://snkrdunk.com/search?keywords=Sengoku+R-SPC++%5BOP07-046%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 7,  "name": "Queen",                    "code": "ST04-005", "rarity": "C",   "url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 8,  "name": "Rob Lucci",                "code": "OP05-093", "rarity": "SR",  "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP05-093&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 9,  "name": "Kaido",                    "code": "ST04-003", "rarity": "SR",  "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST04-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 10, "name": "Donquixote Rocinante",     "code": "OP04-119", "rarity": "SEC", "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP04-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 11, "name": "Perona",                   "code": "OP06-093", "rarity": "SR",  "url": "https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"},
+  {"id": 12, "name": "Shirahoshi",               "code": "EB01-057", "rarity": "SR",  "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"}
+]

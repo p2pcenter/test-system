@@ -1,80 +1,180 @@
 """
-SNKRDUNK Card Price Scraper — Cloud / GitHub Actions Version
-รันครั้งเดียวจบ (ไม่มี while loop), headless=True, บันทึก JSON ใน repo
+SNKRDUNK Card Price Scraper v2
+────────────────────────────────────────────────────────
+✅ อ่านรายการการ์ดจาก cards.json (แก้ที่เดียวใช้ทุกที่)
+✅ หมุน User-Agent ทุกรอบ
+✅ เข้าหน้าแรก snkrdunk.com ก่อนเริ่ม
+✅ จำลองการขยับเมาส์แบบ human
+✅ เก็บประวัติราคา 7 จุด
+✅ Cache รูปการ์ด (ไม่ดึงซ้ำถ้ามีอยู่แล้ว)
+✅ สุ่มลำดับการ์ดทุกรอบ
+✅ สุ่มหน่วงเวลา 5-10 วิ (บางครั้ง 15-25 วิ)
+✅ รัน 2 workers parallel (เร็วขึ้น ~50%)
+────────────────────────────────────────────────────────
 """
 
 from playwright.sync_api import sync_playwright
 import time, random, re, json, os, sys
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
 
 # ══════════════════════════════════════════════════════
-# รายการการ์ดที่ต้องการติดตาม  (ชื่อ + URL SNKRDUNK)
+# CONFIG
 # ══════════════════════════════════════════════════════
-TARGET_CARDS = [
-    {
-        "name": "Zoro Juro:R-SPC [OP05-067]",
-        "url": "https://snkrdunk.com/search?keywords=%E3%82%BE%E3%83%AD%E5%8D%81%E9%83%8E+R-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Tashigi C-SPC [ST06-006]",
-        "url": "https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Sabo:Wanted SEC-SPC [OP13-120]",
-        "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Gol D. Roger:Wanted SEC-SPC [OP09-118]",
-        "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Buggy:Wanted R-SPC [OP09-051]",
-        "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP09-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Marshall D Teach:SR-SPC [OP09-093]",
-        "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Sengoku:R-SPC [OP07-046]",
-        "url": "https://snkrdunk.com/search?keywords=Sengoku+R-SPC++%5BOP07-046%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Queen:C-SPC [ST04-005]",
-        "url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Rob Lucci:SR-SPC [OP05-093]",
-        "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP05-093&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Kaido:SR-SPC [ST04-003]",
-        "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST04-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Donquixote Rocinante:SEC-SPC [OP04-119]",
-        "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP04-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Perona:SR-SPC [OP06-093]",
-        "url": "https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    },
-    {
-        "name": "Shirahoshi:SR-SPC [EB01-057]",
-        "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
-    }
+CARDS_FILE  = os.path.join(os.path.dirname(__file__), "cards.json")
+DATA_FOLDER = os.environ.get("DATA_FOLDER", os.path.dirname(__file__) or ".")
+MAX_HISTORY = 7
+MAX_WORKERS = 2   # จำนวน browser parallel (แนะนำ 2)
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
 ]
 
-# ══════════════════════════════════════════════════════
-# โฟลเดอร์บันทึก JSON (ปรับได้ — ค่าเริ่มต้น: โฟลเดอร์เดียวกัน)
-# ══════════════════════════════════════════════════════
-DATA_FOLDER = os.environ.get("DATA_FOLDER", ".")
-os.makedirs(DATA_FOLDER, exist_ok=True)
+STEALTH_SCRIPT = """
+    Object.defineProperty(navigator, 'webdriver',  { get: () => undefined });
+    Object.defineProperty(navigator, 'plugins',    { get: () => [1, 2, 3, 4, 5] });
+    Object.defineProperty(navigator, 'languages',  { get: () => ['ja-JP', 'ja', 'en-US'] });
+    window.chrome = { runtime: {} };
+    const origQuery = navigator.permissions.query.bind(navigator.permissions);
+    navigator.permissions.query = (p) =>
+        p.name === 'notifications'
+        ? Promise.resolve({ state: Notification.permission })
+        : origQuery(p);
+"""
 
-NOW_UTC = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+# ══════════════════════════════════════════════════════
+# โหลด cards.json
+# ══════════════════════════════════════════════════════
+def load_cards():
+    if not os.path.exists(CARDS_FILE):
+        print(f"[WARNING] ไม่พบ {CARDS_FILE} — กรุณาสร้างไฟล์ก่อน")
+        sys.exit(1)
+    with open(CARDS_FILE, encoding="utf-8") as f:
+        cards = json.load(f)
+    print(f"[cards.json] โหลด {len(cards)} การ์ด")
+    return cards
 
-def scrape_all():
-    success, fail = 0, 0
+# ══════════════════════════════════════════════════════
+# จำลองการเคลื่อนเมาส์แบบ human
+# ══════════════════════════════════════════════════════
+def human_mouse(page, steps=3):
+    for _ in range(steps):
+        page.mouse.move(
+            random.randint(80, 1150),
+            random.randint(80, 650),
+        )
+        time.sleep(random.uniform(0.08, 0.25))
+
+# ══════════════════════════════════════════════════════
+# ดึงราคาการ์ด 1 ใบ
+# ══════════════════════════════════════════════════════
+def scrape_one(page, card, now_utc, visited_home):
+    card_id   = card["id"]
+    filepath  = os.path.join(DATA_FOLDER, f"data_{card_id}.json")
+
+    # อ่านข้อมูลเดิม (สำหรับ history + cache รูป)
+    old = {}
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                old = json.load(f)
+        except Exception:
+            pass
+
+    try:
+        # ─── เข้าหน้าแรกครั้งเดียว (human-like entry point) ───
+        if not visited_home[0]:
+            page.goto("https://snkrdunk.com/", timeout=25000, wait_until="domcontentloaded")
+            human_mouse(page, steps=random.randint(3, 6))
+            page.mouse.wheel(0, random.randint(200, 500))
+            time.sleep(random.uniform(2.0, 4.0))
+            visited_home[0] = True
+
+        # ─── จำลองการขยับเมาส์ก่อนไปหน้าใหม่ ───
+        human_mouse(page, steps=random.randint(2, 5))
+        time.sleep(random.uniform(0.3, 0.8))
+
+        # ─── ไปหน้า search ───
+        page.goto(card["url"], timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_selector("text=/¥/", timeout=25000)
+
+        human_mouse(page, steps=random.randint(2, 4))
+        page.mouse.wheel(0, random.randint(300, 750))
+        time.sleep(random.uniform(1.5, 3.0))
+
+        # ─── ดึงราคา ───
+        first = page.locator("a").filter(has_text="¥").first
+        text  = first.inner_text()
+
+        price_match = re.search(r"¥\s*[\d,]+", text)
+        if not price_match:
+            raise ValueError("ไม่พบราคา ¥ ในข้อความ")
+
+        price_str = price_match.group(0).strip()
+        price_int = int(re.sub(r"[¥,\s]", "", price_str))
+
+        # ─── Cache รูป: ดึงใหม่เฉพาะเมื่อยังไม่มี ───
+        img_url = old.get("image_url", "")
+        if not img_url:
+            try:
+                img_url = first.locator("img").first.get_attribute("src") or ""
+            except Exception:
+                pass
+
+        # ─── อัปเดต history (เก็บ 7 จุด) ───
+        history = old.get("history", [])
+        if not history or history[-1] != price_int:
+            history.append(price_int)
+        history = history[-MAX_HISTORY:]
+
+        prev_price = old.get("price", price_str)
+
+        payload = {
+            "datetime":   now_utc,
+            "name":       card["name"],
+            "code":       card.get("code", ""),
+            "rarity":     card.get("rarity", ""),
+            "price":      price_str,
+            "price_int":  price_int,
+            "prev_price": prev_price,
+            "image_url":  img_url,
+            "history":    history,
+            "product_url": page.url,
+        }
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+
+        print(f"   ✅ [{card_id}] {card['name']}: {price_str}  (history {len(history)} จุด)")
+        return True
+
+    except Exception as e:
+        print(f"   ❌ [{card_id}] {card['name']}: {e}")
+        if old:
+            print(f"        ↩  คงข้อมูลเดิมไว้")
+        else:
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump({
+                    "datetime": now_utc, "name": card["name"],
+                    "price": "", "error": str(e), "history": []
+                }, f, ensure_ascii=False, indent=2)
+        return False
+
+# ══════════════════════════════════════════════════════
+# Worker: 1 browser รัน N การ์ด
+# ══════════════════════════════════════════════════════
+def worker(cards_group, ua, now_utc, worker_id):
+    print(f"\n[Worker {worker_id}] เริ่ม — {len(cards_group)} การ์ด | UA: {ua[:40]}...")
+    results   = []
+    visited_home = [False]
+
+    vw = random.choice([1280, 1366, 1440, 1920])
+    vh = random.choice([720,  768,  800,  1080])
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -87,12 +187,8 @@ def scrape_all():
             ]
         )
         context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1280, "height": 800},
+            user_agent=ua,
+            viewport={"width": vw, "height": vh},
             locale="ja-JP",
             timezone_id="Asia/Tokyo",
             color_scheme="light",
@@ -104,98 +200,67 @@ def scrape_all():
                 "sec-ch-ua-platform": '"Windows"',
             }
         )
-        # ซ่อน automation fingerprint
-        context.add_init_script("""
-            // ซ่อน navigator.webdriver
-            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            // เพิ่ม plugins จำลอง
-            Object.defineProperty(navigator, 'plugins', { get: () => [1,2,3,4,5] });
-            // เพิ่ม languages
-            Object.defineProperty(navigator, 'languages', { get: () => ['ja-JP', 'ja', 'en-US'] });
-            // ซ่อน chrome headless
-            window.chrome = { runtime: {} };
-            // Permissions API
-            const orig = navigator.permissions.query;
-            navigator.permissions.query = (p) =>
-                p.name === 'notifications'
-                ? Promise.resolve({ state: Notification.permission })
-                : orig(p);
-        """)
+        context.add_init_script(STEALTH_SCRIPT)
         page = context.new_page()
 
-        for index, card in enumerate(TARGET_CARDS):
-            print(f"\n[{index+1}/{len(TARGET_CARDS)}] 🔍 {card['name']}")
-            filepath = os.path.join(DATA_FOLDER, f"data_{index}.json")
+        for i, card in enumerate(cards_group):
+            ok = scrape_one(page, card, now_utc, visited_home)
+            results.append(ok)
 
-            try:
-                page.goto(card["url"], timeout=30000, wait_until="domcontentloaded")
-
-                # รอราคา ¥ ปรากฏ (timeout 25 วิ)
-                page.wait_for_selector("text=/¥/", timeout=25000)
-
-                # เลื่อนหน้าเล็กน้อยเพื่อ trigger lazy-load
-                page.mouse.wheel(0, random.randint(400, 700))
-                time.sleep(random.uniform(2.0, 3.5))
-
-                # ดึงสินค้าแรก
-                first = page.locator("a").filter(has_text="¥").first
-                text  = first.inner_text()
-                img   = first.locator("img").first.get_attribute("src") or ""
-
-                price_match = re.search(r"¥\s*[\d,]+", text)
-                if not price_match:
-                    raise ValueError("ไม่พบราคาในข้อความ")
-
-                price_str = price_match.group(0).strip()
-
-                # อ่าน prevPrice จากไฟล์เดิม (ถ้ามี)
-                prev_price = price_str
-                if os.path.exists(filepath):
-                    try:
-                        with open(filepath, encoding="utf-8") as f:
-                            prev_price = json.load(f).get("price", price_str)
-                    except Exception:
-                        pass
-
-                payload = {
-                    "datetime":    NOW_UTC,
-                    "name":        card["name"],
-                    "price":       price_str,
-                    "prev_price":  prev_price,
-                    "image_url":   img,
-                    "product_url": page.url,
-                }
-
-                with open(filepath, "w", encoding="utf-8") as f:
-                    json.dump(payload, f, ensure_ascii=False, indent=2)
-
-                print(f"   ✅ {price_str}  → {filepath}")
-                success += 1
-
-            except Exception as e:
-                print(f"   ❌ ล้มเหลว: {e}")
-                fail += 1
-                # เขียน error payload ทับไฟล์เดิม (ไม่ให้ข้อมูลหาย)
-                if os.path.exists(filepath):
-                    print(f"   ↩  คงข้อมูลเดิมไว้")
+            # หน่วงระหว่างการ์ด (ไม่หน่วงหลังใบสุดท้าย)
+            if i < len(cards_group) - 1:
+                delay = random.uniform(5, 10)
+                if random.random() < 0.20:
+                    delay = random.uniform(15, 25)
+                    print(f"   ⏳ [W{worker_id}] human-like pause {delay:.1f}s...")
                 else:
-                    with open(filepath, "w", encoding="utf-8") as f:
-                        json.dump({"datetime": NOW_UTC, "name": card["name"],
-                                   "price": "", "error": str(e)}, f,
-                                  ensure_ascii=False, indent=2)
-
-            # หน่วงระหว่างการ์ดเพื่อไม่โดนบล็อก
-            if index < len(TARGET_CARDS) - 1:
-                delay = random.uniform(12, 22)
-                print(f"   ⏳ รอ {delay:.1f} วิ...")
+                    print(f"   ⏳ [W{worker_id}] {delay:.1f}s...")
                 time.sleep(delay)
 
         browser.close()
 
-    print(f"\n{'='*50}")
-    print(f"🏁 เสร็จ: {success} สำเร็จ, {fail} ล้มเหลว  [{NOW_UTC}]")
-    print(f"{'='*50}")
-    return fail   # exit code = จำนวน error
+    success = sum(results)
+    print(f"[Worker {worker_id}] เสร็จ — {success}/{len(results)} สำเร็จ")
+    return results
+
+# ══════════════════════════════════════════════════════
+# Main
+# ══════════════════════════════════════════════════════
+def scrape_all():
+    cards   = load_cards()
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    os.makedirs(DATA_FOLDER, exist_ok=True)
+
+    # สุ่มลำดับ
+    shuffled = cards[:]
+    random.shuffle(shuffled)
+    print(f"[สุ่มลำดับ] {[c['id'] for c in shuffled]}")
+
+    # แบ่งเป็น N กลุ่ม
+    n = min(MAX_WORKERS, len(shuffled))
+    groups = [shuffled[i::n] for i in range(n)]
+    uas    = random.sample(USER_AGENTS, min(n, len(USER_AGENTS)))
+
+    print(f"\n🚀 เริ่ม {n} workers parallel — {len(cards)} การ์ด รวม")
+    print(f"{'='*55}")
+
+    all_results = []
+    with ThreadPoolExecutor(max_workers=n) as executor:
+        futures = []
+        for i, (group, ua) in enumerate(zip(groups, uas)):
+            # หน่วง worker ที่ 2 ขึ้นไปนิดหน่อย ไม่ให้ hit พร้อมกัน
+            if i > 0:
+                time.sleep(random.uniform(4, 10))
+            futures.append(executor.submit(worker, group, ua, now_utc, i + 1))
+        for f in futures:
+            all_results.extend(f.result())
+
+    success = sum(all_results)
+    fail    = len(all_results) - success
+    print(f"\n{'='*55}")
+    print(f"🏁 เสร็จ: {success} สำเร็จ, {fail} ล้มเหลว  [{now_utc}]")
+    print(f"{'='*55}")
+    return fail
 
 if __name__ == "__main__":
     sys.exit(scrape_all())
