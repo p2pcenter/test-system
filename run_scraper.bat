@@ -5,8 +5,8 @@
 :: ═══════════════════════════════════════════════════════════════
 
 :: ── แก้ 3 บรรทัดนี้ให้ตรงกับเครื่องคุณ ──────────────────────
-set SCRIPT=F:\2.Cards\scraper_cloud.py
-set DATA_FOLDER=F:\2.Cards
+set SCRIPT=F:\2.Cards\card-check-file\scraper_cloud.py
+set DATA_FOLDER=F:\2.Cards\card-check-file
 set PYTHON=python
 :: ──────────────────────────────────────────────────────────────
 

@@ -5,7 +5,7 @@
 :: ═══════════════════════════════════════════════════════════════
 
 :: ── แก้ path นี้ให้ตรงกับที่วาง run_scraper.bat ──────────────
-set BAT_FILE=F:\2.Cards\run_scraper.bat
+set BAT_FILE=F:\2.Cards\card-check-file\run_scraper.bat
 set TASK_NAME=SNKRDUNK_PriceScraper
 :: ──────────────────────────────────────────────────────────────
 
