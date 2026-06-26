@@ -131,26 +131,42 @@ def scrape_one(page, card, now_utc, visited_home):
             page.mouse.wheel(0, random.randint(300, 750))
             time.sleep(random.uniform(1.5, 3.0))
 
-            # ─── ดึงราคา ───
-            first = page.locator("a").filter(has_text="¥").first
-            text  = first.inner_text()
+            # ─── ดึงราคา: สแกนทุกราคา ¥ ในหน้า แล้วเลือกถูกสุดที่อยู่ในช่วงสมเหตุสมผล ───
+            #     (หน้าเรียง price_low อยู่แล้ว → ราคาต่ำสุด = ใบที่ถูกที่สุดที่วางขาย)
+            body_text = page.inner_text("body")
+            all_found = re.findall(r"¥\s*[\d,]+", body_text)
+            candidates = []
+            for s in all_found:
+                try:
+                    v = int(re.sub(r"[¥,\s]", "", s))
+                    if MIN_PRICE <= v <= MAX_PRICE:
+                        candidates.append(v)
+                except Exception:
+                    pass
 
-            price_match = re.search(r"¥\s*[\d,]+", text)
-            if not price_match:
-                raise ValueError("ไม่พบราคา ¥ ในข้อความ")
+            if not candidates:
+                # เผื่อราคาอยู่ใน element ที่ inner_text รวมไม่ครบ → ลองจาก anchor แรก
+                try:
+                    txt = page.locator("a").filter(has_text="¥").first.inner_text()
+                    mm = re.search(r"¥\s*[\d,]+", txt)
+                    if mm:
+                        v = int(re.sub(r"[¥,\s]", "", mm.group(0)))
+                        if MIN_PRICE <= v <= MAX_PRICE:
+                            candidates.append(v)
+                except Exception:
+                    pass
 
-            price_str = price_match.group(0).strip()
-            price_int = int(re.sub(r"[¥,\s]", "", price_str))
+            if not candidates:
+                raise ValueError("ไม่พบราคา ¥ ที่ถูกต้องในหน้านี้ (อาจโหลดไม่ครบ/โดนบล็อก)")
 
-            # ─── Validate ราคาสมเหตุสมผล (กันราคาเพี้ยน เช่น ¥1 หรือ ¥99,999,999) ───
-            if price_int < MIN_PRICE or price_int > MAX_PRICE:
-                raise ValueError(f"ราคาผิดปกติ: ¥{price_int:,} (นอกช่วง {MIN_PRICE:,}-{MAX_PRICE:,})")
+            price_int = min(candidates)
+            price_str = "¥" + format(price_int, ",")
 
             # ─── Cache รูป: ดึงใหม่เฉพาะเมื่อยังไม่มี ───
             img_url = old.get("image_url", "")
             if not img_url:
                 try:
-                    img_url = first.locator("img").first.get_attribute("src") or ""
+                    img_url = page.locator("a").filter(has_text="¥").first.locator("img").first.get_attribute("src") or ""
                 except Exception:
                     pass
 
