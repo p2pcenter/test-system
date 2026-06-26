@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-06-26 07:07:15 UTC",
+  "datetime": "2026-06-26 08:00:03 UTC",
   "name": "Tashigi",
   "code": "ST06-006",
   "rarity": "C",
@@ -10,5 +10,6 @@
   "history": [
     23000
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  "product_url": "https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
 }

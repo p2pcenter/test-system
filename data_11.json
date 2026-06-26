@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-06-26 07:07:15 UTC",
+  "datetime": "2026-06-26 08:00:03 UTC",
   "name": "Perona",
   "code": "OP06-093",
   "rarity": "SR",
@@ -10,5 +10,6 @@
   "history": [
     35000
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  "product_url": "https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
 }

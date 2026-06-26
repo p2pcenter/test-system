@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-06-26 07:07:15 UTC",
+  "datetime": "2026-06-26 08:00:03 UTC",
   "name": "Zoro (Juro)",
   "code": "OP05-067",
   "rarity": "R",
@@ -10,5 +10,6 @@
   "history": [
     70000
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=%E3%82%BE%E3%83%AD%E5%8D%81%E9%83%8E+R-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  "product_url": "https://snkrdunk.com/search?keywords=%E3%82%BE%E3%83%AD%E5%8D%81%E9%83%8E+R-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
 }
