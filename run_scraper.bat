@@ -64,8 +64,13 @@ if errorlevel 1 (
 echo.
 echo [3/3] กำลัง push ขึ้น GitHub...
 
-git pull origin master --rebase >nul 2>&1
+git pull origin master --no-rebase -X ours --no-edit >nul 2>&1
 git push origin master
+if errorlevel 1 (
+    echo [3/3] push ชนกัน — ลองดึงใหม่อีกรอบ...
+    git pull origin master --no-rebase -X ours --no-edit >nul 2>&1
+    git push origin master
+)
 if errorlevel 1 (
     echo [ERROR] Push ไม่สำเร็จ — ตรวจสอบ internet หรือ credentials
 ) else (
