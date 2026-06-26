@@ -24,11 +24,25 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 3. ติดตั้ง Playwright + Chromium (รวม OS dependencies)
-      - name: Install Playwright
-        run: |
-          pip install playwright
-          playwright install chromium --with-deps
+      # 3. ติดตั้ง Python dependencies
+      - name: Install Python deps
+        run: pip install playwright
+
+      # 3b. Cache Chromium browser (ประหยัด ~2 นาที/รอบ)
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}
+
+      - name: Install Chromium (ถ้ายังไม่มีใน cache)
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium --with-deps
+
+      - name: Install Chromium deps (เมื่อใช้ cache)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: playwright install-deps chromium
 
       # 4. รัน scraper
       - name: Run scraper
@@ -36,13 +50,18 @@ jobs:
         env:
           DATA_FOLDER: "."   # บันทึก JSON ในโฟลเดอร์ root ของ repo
 
-      # 5. Commit & Push JSON ที่เปลี่ยนแปลง
+      # 5. Commit & Push JSON ที่เปลี่ยนแปลง (pull ก่อน push เสมอ กัน conflict)
       - name: Commit updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data_*.json
-          git diff --staged --quiet && echo "No changes" && exit 0
+          git diff --staged --quiet && echo "ไม่มีราคาเปลี่ยน" && exit 0
           git commit -m "chore: update prices $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull origin master --no-rebase -X ours
-          git push
+          # ดึงงานล่าสุดก่อน push — ใช้ของ remote สำหรับ cards.json, ของเราสำหรับ data
+          for i in 1 2 3; do
+            git pull origin master --no-rebase -X ours --no-edit && git push && exit 0
+            echo "push ชนกัน ลองใหม่ ($i/3)..."
+            sleep 5
+          done
+          echo "::error::push ไม่สำเร็จหลังลอง 3 รอบ" && exit 1

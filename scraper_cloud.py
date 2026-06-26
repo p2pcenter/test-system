@@ -25,6 +25,9 @@ CARDS_FILE  = os.path.join(os.path.dirname(__file__), "cards.json")
 DATA_FOLDER = os.environ.get("DATA_FOLDER", os.path.dirname(__file__) or ".")
 MAX_HISTORY = 7
 MAX_WORKERS = 2   # จำนวน browser parallel (แนะนำ 2)
+MAX_RETRIES = 3   # ลองดึงซ้ำกี่รอบถ้า fail
+MIN_PRICE   = 500       # ราคาต่ำสุดที่ยอมรับ (¥) — กันราคาเพี้ยน
+MAX_PRICE   = 5_000_000 # ราคาสูงสุดที่ยอมรับ (¥)
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -86,84 +89,118 @@ def scrape_one(page, card, now_utc, visited_home):
         except Exception:
             pass
 
-    try:
-        # ─── เข้าหน้าแรกครั้งเดียว (human-like entry point) ───
-        if not visited_home[0]:
-            page.goto("https://snkrdunk.com/", timeout=25000, wait_until="domcontentloaded")
-            human_mouse(page, steps=random.randint(3, 6))
-            page.mouse.wheel(0, random.randint(200, 500))
-            time.sleep(random.uniform(2.0, 4.0))
-            visited_home[0] = True
+    # ─── ลองดึงราคาสูงสุด 3 รอบ (retry) ───
+    last_err = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            # ─── เข้าหน้าแรกครั้งเดียว (human-like entry point) ───
+            if not visited_home[0]:
+                page.goto("https://snkrdunk.com/", timeout=25000, wait_until="domcontentloaded")
+                human_mouse(page, steps=random.randint(3, 6))
+                page.mouse.wheel(0, random.randint(200, 500))
+                time.sleep(random.uniform(2.0, 4.0))
+                visited_home[0] = True
 
-        # ─── จำลองการขยับเมาส์ก่อนไปหน้าใหม่ ───
-        human_mouse(page, steps=random.randint(2, 5))
-        time.sleep(random.uniform(0.3, 0.8))
+            # ─── จำลองการขยับเมาส์ก่อนไปหน้าใหม่ ───
+            human_mouse(page, steps=random.randint(2, 5))
+            time.sleep(random.uniform(0.3, 0.8))
 
-        # ─── ไปหน้า search ───
-        page.goto(card["url"], timeout=30000, wait_until="domcontentloaded")
-        page.wait_for_selector("text=/¥/", timeout=25000)
+            # ─── ไปหน้า search ───
+            page.goto(card["url"], timeout=30000, wait_until="domcontentloaded")
 
-        human_mouse(page, steps=random.randint(2, 4))
-        page.mouse.wheel(0, random.randint(300, 750))
-        time.sleep(random.uniform(1.5, 3.0))
+            # ─── ตรวจ "ขายหมด" หรือ "ไม่มีสินค้า" ───
+            body_text = page.inner_text("body")[:3000]
+            sold_out = bool(re.search(r"(該当する商品はありません|商品が見つかりません|No items|0\s*件|sold\s*out)", body_text, re.I))
 
-        # ─── ดึงราคา ───
-        first = page.locator("a").filter(has_text="¥").first
-        text  = first.inner_text()
-
-        price_match = re.search(r"¥\s*[\d,]+", text)
-        if not price_match:
-            raise ValueError("ไม่พบราคา ¥ ในข้อความ")
-
-        price_str = price_match.group(0).strip()
-        price_int = int(re.sub(r"[¥,\s]", "", price_str))
-
-        # ─── Cache รูป: ดึงใหม่เฉพาะเมื่อยังไม่มี ───
-        img_url = old.get("image_url", "")
-        if not img_url:
-            try:
-                img_url = first.locator("img").first.get_attribute("src") or ""
-            except Exception:
-                pass
-
-        # ─── อัปเดต history (เก็บ 7 จุด) ───
-        history = old.get("history", [])
-        if not history or history[-1] != price_int:
-            history.append(price_int)
-        history = history[-MAX_HISTORY:]
-
-        prev_price = old.get("price", price_str)
-
-        payload = {
-            "datetime":   now_utc,
-            "name":       card["name"],
-            "code":       card.get("code", ""),
-            "rarity":     card.get("rarity", ""),
-            "price":      price_str,
-            "price_int":  price_int,
-            "prev_price": prev_price,
-            "image_url":  img_url,
-            "history":    history,
-            "product_url": page.url,
-        }
-
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(payload, f, ensure_ascii=False, indent=2)
-
-        print(f"   ✅ [{card_id}] {card['name']}: {price_str}  (history {len(history)} จุด)")
-        return True
-
-    except Exception as e:
-        print(f"   ❌ [{card_id}] {card['name']}: {e}")
-        if old:
-            print(f"        ↩  คงข้อมูลเดิมไว้")
-        else:
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump({
+            if sold_out:
+                # เขียนสถานะ sold_out (ไม่ถือเป็น error — การ์ดมีอยู่แต่ขายหมด)
+                payload = {
                     "datetime": now_utc, "name": card["name"],
-                    "price": "", "error": str(e), "history": []
-                }, f, ensure_ascii=False, indent=2)
-        return False
+                    "code": card.get("code", ""), "rarity": card.get("rarity", ""),
+                    "price": "", "price_int": 0, "prev_price": old.get("price", ""),
+                    "image_url": old.get("image_url", ""), "history": old.get("history", []),
+                    "product_url": card["url"], "status": "sold_out",
+                }
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(payload, f, ensure_ascii=False, indent=2)
+                print(f"   🚫 [{card_id}] {card['name']}: ขายหมด (sold out)")
+                return True
+
+            page.wait_for_selector("text=/¥/", timeout=25000)
+            human_mouse(page, steps=random.randint(2, 4))
+            page.mouse.wheel(0, random.randint(300, 750))
+            time.sleep(random.uniform(1.5, 3.0))
+
+            # ─── ดึงราคา ───
+            first = page.locator("a").filter(has_text="¥").first
+            text  = first.inner_text()
+
+            price_match = re.search(r"¥\s*[\d,]+", text)
+            if not price_match:
+                raise ValueError("ไม่พบราคา ¥ ในข้อความ")
+
+            price_str = price_match.group(0).strip()
+            price_int = int(re.sub(r"[¥,\s]", "", price_str))
+
+            # ─── Validate ราคาสมเหตุสมผล (กันราคาเพี้ยน เช่น ¥1 หรือ ¥99,999,999) ───
+            if price_int < MIN_PRICE or price_int > MAX_PRICE:
+                raise ValueError(f"ราคาผิดปกติ: ¥{price_int:,} (นอกช่วง {MIN_PRICE:,}-{MAX_PRICE:,})")
+
+            # ─── Cache รูป: ดึงใหม่เฉพาะเมื่อยังไม่มี ───
+            img_url = old.get("image_url", "")
+            if not img_url:
+                try:
+                    img_url = first.locator("img").first.get_attribute("src") or ""
+                except Exception:
+                    pass
+
+            # ─── อัปเดต history (เก็บ 7 จุด) ───
+            history = old.get("history", [])
+            if not history or history[-1] != price_int:
+                history.append(price_int)
+            history = history[-MAX_HISTORY:]
+
+            prev_price = old.get("price", price_str)
+
+            payload = {
+                "datetime":   now_utc,
+                "name":       card["name"],
+                "code":       card.get("code", ""),
+                "rarity":     card.get("rarity", ""),
+                "price":      price_str,
+                "price_int":  price_int,
+                "prev_price": prev_price,
+                "image_url":  img_url,
+                "history":    history,
+                "product_url": page.url,
+                "status":     "ok",
+            }
+
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+
+            tag = f" (retry {attempt})" if attempt > 1 else ""
+            print(f"   ✅ [{card_id}] {card['name']}: {price_str}  (history {len(history)} จุด){tag}")
+            return True
+
+        except Exception as e:
+            last_err = e
+            if attempt < MAX_RETRIES:
+                backoff = random.uniform(6, 12) * attempt
+                print(f"   ↻ [{card_id}] {card['name']}: ลองใหม่ {attempt}/{MAX_RETRIES} ใน {backoff:.0f}s ({e})")
+                time.sleep(backoff)
+
+    # ─── ครบ retry แล้วยัง fail ───
+    print(f"   ❌ [{card_id}] {card['name']}: {last_err}")
+    if old:
+        print(f"        ↩  คงข้อมูลเดิมไว้")
+    else:
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump({
+                "datetime": now_utc, "name": card["name"],
+                "price": "", "error": str(last_err), "history": [], "status": "error"
+            }, f, ensure_ascii=False, indent=2)
+    return False
 
 # ══════════════════════════════════════════════════════
 # Worker: 1 browser รัน N การ์ด
