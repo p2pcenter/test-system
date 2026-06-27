@@ -1,0 +1,26 @@
+{
+  "datetime": "2026-06-27 16:24:01 UTC",
+  "name": "Ener SR-SPC [OP05-100]",
+  "code": "CUSTOM",
+  "rarity": "C",
+  "price": "¥58,000",
+  "price_int": 58000,
+  "prev_price": "¥38,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0c9b3e8b-c838-450a-8e0e-445d7b307ed5/7871972.jpeg?size=m",
+  "history": [
+    {
+      "t": 1782570429,
+      "p": 43800
+    },
+    {
+      "t": 1782574029,
+      "p": 40000
+    },
+    {
+      "t": 1782577629,
+      "p": 38000
+    }
+  ],
+  "product_url": "https://snkrdunk.com/search?keywords=Law+R-SPC+%5BOP13-031%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
+}

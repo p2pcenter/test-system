@@ -79,7 +79,8 @@ def human_mouse(page, steps=3):
 # ดึงราคาการ์ด 1 ใบ
 # ══════════════════════════════════════════════════════
 def scrape_one(page, card, now_utc, visited_home):
-    card_id   = card["id"]
+    # ใช้ cid ถาวรเป็นกุญแจไฟล์ (fallback id เดิมถ้ายังไม่ migrate)
+    card_id   = card.get("cid") or card["id"]
     filepath  = os.path.join(DATA_FOLDER, f"data_{card_id}.json")
 
     # อ่านข้อมูลเดิม (สำหรับ history + cache รูป)
@@ -164,13 +165,14 @@ def scrape_one(page, card, now_utc, visited_home):
             price_int = min(candidates)
             price_str = "¥" + format(price_int, ",")
 
-            # ─── Cache รูป: ดึงใหม่เฉพาะเมื่อยังไม่มี ───
+            # ─── รูป: ดึงของใบถูกสุด (anchor แรก = ถูกสุดเพราะ sort price_low) ทุกครั้ง → ล็อกกับ cid ───
             img_url = old.get("image_url", "")
-            if not img_url:
-                try:
-                    img_url = page.locator("a").filter(has_text="¥").first.locator("img").first.get_attribute("src") or ""
-                except Exception:
-                    pass
+            try:
+                new_img = page.locator("a").filter(has_text="¥").first.locator("img").first.get_attribute("src") or ""
+                if new_img:
+                    img_url = new_img   # เจอใบถูกสุดใหม่ → ทับรูปเก่า
+            except Exception:
+                pass
 
             # ─── อัปเดต history แบบ timestamp [{t: epoch, p: ราคา}] — เก็บเฉพาะตอนราคาเปลี่ยน ───
             now_epoch = int(datetime.now(timezone.utc).timestamp())
@@ -206,6 +208,7 @@ def scrape_one(page, card, now_utc, visited_home):
 
             payload = {
                 "datetime":   now_utc,
+                "cid":        card.get("cid", ""),
                 "name":       card["name"],
                 "code":       card.get("code", ""),
                 "rarity":     card.get("rarity", ""),
