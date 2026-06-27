@@ -1,16 +1,21 @@
 {
-  "datetime": "2026-06-27 16:24:01 UTC",
-  "name": "Luffy [ST01-012]",
+  "datetime": "2026-06-27 17:14:01 UTC",
+  "cid": "b53797bf",
+  "name": "Ace [OP02-013]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥63,800",
   "price_int": 63800,
-  "prev_price": "¥68,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a2f8b964-4bfa-4cbb-b266-e5b1006021fa/2014671.jpeg?size=m",
+  "prev_price": "¥63,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5bc7da98-140e-42e3-ac6d-ae8cec0b4e7f/5711790.jpeg?size=m",
   "history": [
     {
       "t": 1782577694,
       "p": 68000
+    },
+    {
+      "t": 1782580475,
+      "p": 63800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Ace+SR-SPC+%5BOP02-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

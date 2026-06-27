@@ -1,12 +1,13 @@
 {
-  "datetime": "2026-06-27 16:24:01 UTC",
-  "name": "Sabo [OP13-120]",
+  "datetime": "2026-06-27 17:14:01 UTC",
+  "cid": "91ff4acb",
+  "name": "Shanks [ST16-004]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥39,800",
   "price_int": 39800,
-  "prev_price": "¥21,890",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/db9f0ef5-b709-403c-8729-d8584ed90d93/5769139.jpeg?size=m",
+  "prev_price": "¥39,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b444fe36-5495-4c4f-aa46-63e0feee9a0e/7408695.jpeg?size=m",
   "history": [
     {
       "t": 1782574017,
@@ -15,6 +16,10 @@
     {
       "t": 1782577617,
       "p": 21890
+    },
+    {
+      "t": 1782580781,
+      "p": 39800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Shanks+SR-SPC+%5BST16-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

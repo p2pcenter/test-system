@@ -1,12 +1,13 @@
 {
-  "datetime": "2026-06-27 16:24:01 UTC",
-  "name": "Law [OP13-031]",
+  "datetime": "2026-06-27 17:14:01 UTC",
+  "cid": "13f0454d",
+  "name": "Sabo [OP13-120]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥58,000",
-  "price_int": 58000,
+  "price": "¥21,890",
+  "price_int": 21890,
   "prev_price": "¥58,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9bb55bac-5b33-43b7-b29c-e7185f1ede63/7288938.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f6a0220d-2f84-4c2b-bd5e-c7760be4db58/8491295.jpeg?size=m",
   "history": [
     {
       "t": 1782570269,
@@ -19,6 +20,10 @@
     {
       "t": 1782577469,
       "p": 58000
+    },
+    {
+      "t": 1782580701,
+      "p": 21890
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sabo+SEC-P+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

@@ -1,12 +1,13 @@
 {
-  "datetime": "2026-06-27 16:24:01 UTC",
-  "name": "Luffy Taro [ST18-005]",
+  "datetime": "2026-06-27 17:14:01 UTC",
+  "cid": "3020448a",
+  "name": "Vivi [EB03-024]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥85,000",
   "price_int": 85000,
-  "prev_price": "¥120,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f8bd40b1-aa9b-42d7-b76d-7862c2cc009d/5865488.jpeg?size=m",
+  "prev_price": "¥85,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bde37406-24e2-46fc-9754-84ffcf2bbcfe/8409794.jpeg?size=m",
   "history": [
     {
       "t": 1782566878,
@@ -23,6 +24,10 @@
     {
       "t": 1782577678,
       "p": 120000
+    },
+    {
+      "t": 1782580550,
+      "p": 85000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Vivi+SR-SPC+%5BEB03-024%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
