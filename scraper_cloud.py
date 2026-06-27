@@ -23,7 +23,9 @@ from concurrent.futures import ThreadPoolExecutor
 # ══════════════════════════════════════════════════════
 CARDS_FILE  = os.path.join(os.path.dirname(__file__), "cards.json")
 DATA_FOLDER = os.environ.get("DATA_FOLDER", os.path.dirname(__file__) or ".")
-MAX_HISTORY = 7
+MAX_HISTORY        = 7      # (เดิม) ไม่ใช้แล้ว
+MAX_HISTORY_POINTS = 160    # เก็บจุดที่ราคาเปลี่ยนไม่เกินกี่จุด
+HISTORY_MAX_DAYS   = 20     # ตัดจุดที่เก่ากว่ากี่วัน (คงไว้อย่างน้อยพอเทียบ 72 ชม.)
 MAX_WORKERS = 2   # จำนวน browser parallel (แนะนำ 2)
 MAX_RETRIES = 3   # ลองดึงซ้ำกี่รอบถ้า fail
 MIN_PRICE   = 500       # ราคาต่ำสุดที่ยอมรับ (¥) — กันราคาเพี้ยน
@@ -170,11 +172,35 @@ def scrape_one(page, card, now_utc, visited_home):
                 except Exception:
                     pass
 
-            # ─── อัปเดต history (เก็บ 7 จุด) ───
-            history = old.get("history", [])
-            if not history or history[-1] != price_int:
-                history.append(price_int)
-            history = history[-MAX_HISTORY:]
+            # ─── อัปเดต history แบบ timestamp [{t: epoch, p: ราคา}] — เก็บเฉพาะตอนราคาเปลี่ยน ───
+            now_epoch = int(datetime.now(timezone.utc).timestamp())
+            raw_hist = old.get("history", [])
+            history = []
+            # normalize: รองรับฟอร์แมตเดิม (list ของ int) → ใส่ timestamp ประมาณ (ห่าง 1 ชม.)
+            if raw_hist and isinstance(raw_hist[0], dict):
+                history = [h for h in raw_hist if isinstance(h, dict) and "p" in h and "t" in h]
+            else:
+                n = len(raw_hist)
+                for i, v in enumerate(raw_hist):
+                    try:
+                        history.append({"t": now_epoch - (n - 1 - i) * 3600, "p": int(v)})
+                    except Exception:
+                        pass
+            # เพิ่มจุดใหม่เฉพาะเมื่อราคาต่างจากจุดล่าสุด
+            if not history or history[-1]["p"] != price_int:
+                history.append({"t": now_epoch, "p": price_int})
+            else:
+                # ราคาเท่าเดิม: ไม่เพิ่มจุด (คง timestamp ที่ราคาเริ่มเปลี่ยนไว้ → ย้อนดู 72 ชม.ได้)
+                pass
+            # ตัดจุดที่เก่ากว่า HISTORY_MAX_DAYS แต่คงจุดก่อนหน้านั้นไว้ 1 จุด (สำหรับเทียบย้อนหลัง)
+            cutoff = now_epoch - HISTORY_MAX_DAYS * 86400
+            if len(history) > 2:
+                keep = [h for h in history if h["t"] >= cutoff]
+                older = [h for h in history if h["t"] < cutoff]
+                if older:
+                    keep = [older[-1]] + keep   # คงจุดล่าสุดที่เก่ากว่า cutoff ไว้ 1 จุด
+                history = keep
+            history = history[-MAX_HISTORY_POINTS:]
 
             prev_price = old.get("price", price_str)
 
