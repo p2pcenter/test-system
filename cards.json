@@ -334,5 +334,33 @@
     "code": "CUSTOM",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Shanks+SR-SPC+%5BST16-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 48,
+    "name": "Boa Hancock [PRB02-017]",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BPRB02-017%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 49,
+    "name": "Boa Hancock [P-115] B11",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-115%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 50,
+    "name": "Boa Hancock [OP07-038] B04",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+L-P+OP07-038&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 51,
+    "name": "Boa Hancock [OP02-059] B03",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+UC-P+%5BOP02-059%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
   }
 ]
