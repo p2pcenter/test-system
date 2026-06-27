@@ -1,15 +1,22 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
-  "name": "Boa Hancock [PRB02-017]",
+  "datetime": "2026-06-27 16:15:20 UTC",
+  "name": "Boa Hancock [P-115] B11",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥52,800",
-  "price_int": 52800,
+  "price": "¥55,280",
+  "price_int": 55280,
   "prev_price": "¥52,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a99fd3f6-dd55-4283-9509-f6f46fa40eb2/266661.jpeg?size=m",
   "history": [
-    52800
+    {
+      "t": 1782577200,
+      "p": 52800
+    },
+    {
+      "t": 1782577200,
+      "p": 55280
+    }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BPRB02-017%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-115%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }

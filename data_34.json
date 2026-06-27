@@ -1,17 +1,30 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
-  "name": "Onami [OP06-101]",
+  "datetime": "2026-06-27 16:15:20 UTC",
+  "name": "Luffy [OP09-119]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥79,800",
-  "price_int": 79800,
+  "price": "¥78,000",
+  "price_int": 78000,
   "prev_price": "¥79,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ddbe3d7c-9d6f-42ec-a595-e1376908e708/4972305.jpeg?size=m",
   "history": [
-    82000,
-    80000,
-    79800
+    {
+      "t": 1782569842,
+      "p": 82000
+    },
+    {
+      "t": 1782573442,
+      "p": 80000
+    },
+    {
+      "t": 1782577042,
+      "p": 79800
+    },
+    {
+      "t": 1782577042,
+      "p": 78000
+    }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Onami+R-SPC+%5BOP06-101%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }

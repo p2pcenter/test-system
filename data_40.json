@@ -1,17 +1,30 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
-  "name": "Sabo [PRB02-014]",
+  "datetime": "2026-06-27 16:15:20 UTC",
+  "name": "Edward Newgate [ST15-002]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥73,333",
-  "price_int": 73333,
+  "price": "¥49,999",
+  "price_int": 49999,
   "prev_price": "¥73,333",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/dbd28816-7447-4437-9305-6d7be8e26c0c/2703042.jpeg?size=m",
   "history": [
-    69800,
-    66900,
-    73333
+    {
+      "t": 1782569893,
+      "p": 69800
+    },
+    {
+      "t": 1782573493,
+      "p": 66900
+    },
+    {
+      "t": 1782577093,
+      "p": 73333
+    },
+    {
+      "t": 1782577093,
+      "p": 49999
+    }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Sabo+SR-SPC+%5BPRB02-014%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=Edward+Newgate+SR-SPC%3A+Full+Art+%5BST15-002%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }

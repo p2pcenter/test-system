@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
+  "datetime": "2026-06-27 16:15:20 UTC",
   "name": " Bonney  [ST02-007]",
   "code": "CUSTOM",
   "rarity": "C",
@@ -8,8 +8,14 @@
   "prev_price": "¥42,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/32522298-c07f-4f28-aaff-2447ddedc623/6719310.jpeg?size=m",
   "history": [
-    43000,
-    42000
+    {
+      "t": 1782573587,
+      "p": 43000
+    },
+    {
+      "t": 1782577187,
+      "p": 42000
+    }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST02-007%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"

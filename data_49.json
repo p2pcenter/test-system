@@ -1,15 +1,22 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
-  "name": "Boa Hancock [P-115] B11",
+  "datetime": "2026-06-27 16:15:20 UTC",
+  "name": "Boa Hancock [OP07-038] B04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥55,280",
-  "price_int": 55280,
+  "price": "¥39,800",
+  "price_int": 39800,
   "prev_price": "¥55,280",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4e6e468a-6b08-4244-a1ad-a5e42650a21b/5656682.jpeg?size=m",
   "history": [
-    55280
+    {
+      "t": 1782577056,
+      "p": 55280
+    },
+    {
+      "t": 1782577056,
+      "p": 39800
+    }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-115%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+L-P+OP07-038&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }

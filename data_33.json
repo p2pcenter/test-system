@@ -1,17 +1,30 @@
 {
-  "datetime": "2026-06-27 15:34:01 UTC",
-  "name": "Vivi [EB03-024]",
+  "datetime": "2026-06-27 16:15:20 UTC",
+  "name": "Onami [OP06-101]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥85,000",
-  "price_int": 85000,
+  "price": "¥79,800",
+  "price_int": 79800,
   "prev_price": "¥85,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7eafd9be-9a6c-43f2-93ad-3dfbe7f825d8/7234964.jpeg?size=m",
   "history": [
-    90000,
-    88000,
-    85000
+    {
+      "t": 1782569732,
+      "p": 90000
+    },
+    {
+      "t": 1782573332,
+      "p": 88000
+    },
+    {
+      "t": 1782576932,
+      "p": 85000
+    },
+    {
+      "t": 1782576932,
+      "p": 79800
+    }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Vivi+SR-SPC+%5BEB03-024%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=Onami+R-SPC+%5BOP06-101%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }
