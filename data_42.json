@@ -3,8 +3,8 @@
   "name": "Uta [EB03-003]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥92,000",
-  "price_int": 92000,
+  "price": "¥133,000",
+  "price_int": 133000,
   "prev_price": "¥92,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/38a8e837-831e-4a6a-a6c9-ef246be1c3ef/4946933.jpeg?size=m",
   "history": [
@@ -13,6 +13,6 @@
       "p": 92000
     }
   ],
-  "product_url": "https://snkrdunk.com/search?keywords=Uta+SR-SPC+%5BEB03-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-SPC+%5BOP12-014%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
   "status": "ok"
 }
