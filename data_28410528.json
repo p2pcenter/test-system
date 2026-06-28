@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-06-28 11:34:02 UTC",
+  "datetime": "2026-06-28 12:24:02 UTC",
   "cid": "28410528",
   "name": "Luffy [P-001] L32 ",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥39,400",
-  "price_int": 39400,
+  "price": "¥39,000",
+  "price_int": 39000,
   "prev_price": "¥39,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/cb4215ea-cc67-4d8a-b326-9843f6793de5/6014280.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c843866e-9b63-4095-8fad-058ad1c53675/7418713.jpeg?size=m",
   "history": [
     {
       "t": 1782631941,
       "p": 39400
+    },
+    {
+      "t": 1782649685,
+      "p": 39000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+p-p+P-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
