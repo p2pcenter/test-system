@@ -5,13 +5,24 @@ name: Scrape Card Prices
 # ══════════════════════════════════════════════
 on:
   schedule:
-    - cron: "0 * * * *"   # ทุกชั่วโมงตรง (UTC)
-  workflow_dispatch:       # กดรันเองได้ใน Actions tab
+    - cron: "*/30 * * * *"   # ทุก 30 นาที (UTC) — รองรับการ์ดเยอะ (300-400 ใบ ครบทุก ~3 ชม.)
+  workflow_dispatch:          # กดรันเองได้ใน Actions tab (ปุ่ม Run workflow)
+    inputs:
+      mode:
+        description: "โหมดการดึง"
+        type: choice
+        default: "all"
+        options:
+          - all          # ปกติ: หมุนชุดตาม offset
+          - fix          # 🔧 ซ่อม: ใหม่ + ไม่มีรูป + ดึงไม่ได้ (รวม 3 กลุ่ม)
+          - new          # เฉพาะการ์ดที่พึ่งเพิ่มใหม่ (ยังไม่เคยดึง)
+          - no_image     # เฉพาะการ์ดที่ไม่มีรูป
+          - failed       # เฉพาะการ์ดที่ดึงข้อมูลไม่ได้
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20    # ป้องกันค้างเกิน 20 นาที
+    timeout-minutes: 30    # เพดานความปลอดภัยของทั้ง job
 
     steps:
       # 1. ดึงโค้ดจาก repo
@@ -46,17 +57,25 @@ jobs:
 
       # 4. รัน scraper
       - name: Run scraper
+        timeout-minutes: 22    # หยุด step นี้ที่ 22 นาที (scraper หยุดเองที่ 19 นาทีอยู่แล้ว)
         run: python scraper_cloud.py
         env:
-          DATA_FOLDER: "."   # บันทึก JSON ในโฟลเดอร์ root ของ repo
+          DATA_FOLDER: "."          # บันทึก JSON ในโฟลเดอร์ root ของ repo
+          BATCH_SIZE: "70"          # 1 รอบ = 70 ใบ แล้วเลื่อนชุดถัดไปรอบหน้า (0 = ทำทุกใบ)
+          MAX_WORKERS: "2"          # 2 browser parallel — ปลอดภัยต่อ anti-bot, 70 ใบ ~10 นาที
+          # โหมดจากปุ่ม Run workflow (all/fix/new/no_image/failed); รันตามเวลาปกติ = all
+          SCRAPE_MODE: ${{ github.event.inputs.mode || 'all' }}
+          DEADLINE_SECONDS: "1140"  # safety net: หยุดรับการ์ดใหม่ที่ 19 นาที กันชน timeout
 
       # 5. Commit & Push JSON ที่เปลี่ยนแปลง (pull ก่อน push เสมอ กัน conflict)
+      #    if: always() → commit ข้อมูลที่ดึงได้เสมอ แม้ scraper จะ timeout/error
       - name: Commit updated data
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data_*.json
-          git diff --staged --quiet && echo "ไม่มีราคาเปลี่ยน" && exit 0
+          git add data_*.json scraper_state.json
+          git diff --staged --quiet && echo "ไม่มีอะไรเปลี่ยน" && exit 0
           git commit -m "chore: update prices $(date -u '+%Y-%m-%d %H:%M UTC')"
           # ดึงงานล่าสุดก่อน push — ใช้ของ remote สำหรับ cards.json, ของเราสำหรับ data
           for i in 1 2 3; do

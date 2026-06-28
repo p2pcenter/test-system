@@ -22,12 +22,23 @@ from concurrent.futures import ThreadPoolExecutor
 # CONFIG
 # ══════════════════════════════════════════════════════
 CARDS_FILE  = os.path.join(os.path.dirname(__file__), "cards.json")
+STATE_FILE  = os.path.join(os.path.dirname(__file__), "scraper_state.json")  # เก็บ offset ชุดล่าสุด
 DATA_FOLDER = os.environ.get("DATA_FOLDER", os.path.dirname(__file__) or ".")
 MAX_HISTORY        = 7      # (เดิม) ไม่ใช้แล้ว
 MAX_HISTORY_POINTS = 160    # เก็บจุดที่ราคาเปลี่ยนไม่เกินกี่จุด
 HISTORY_MAX_DAYS   = 20     # ตัดจุดที่เก่ากว่ากี่วัน (คงไว้อย่างน้อยพอเทียบ 72 ชม.)
-MAX_WORKERS = 2   # จำนวน browser parallel (แนะนำ 2)
-MAX_RETRIES = 3   # ลองดึงซ้ำกี่รอบถ้า fail
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "2"))   # จำนวน browser parallel (ตั้งผ่าน env ได้)
+MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "3"))   # ลองดึงซ้ำกี่รอบถ้า fail
+
+# ─── แบ่งชุด (batch) — 1 รอบ workflow ทำ BATCH_SIZE ใบ แล้วเลื่อนไปชุดถัดไปรอบหน้า ───
+# 0 = ทำทุกใบในรอบเดียว (ปิดการแบ่งชุด)
+BATCH_SIZE  = int(os.environ.get("BATCH_SIZE", "50"))
+
+# ─── งบเวลา (กันชน timeout ของ GitHub Actions) ───
+# พอเลยเวลานี้ worker จะหยุดรับการ์ดใหม่แบบนุ่มนวล แล้ว commit เท่าที่ได้
+# (รอบถัดไปสุ่มลำดับใหม่ → การ์ดที่ยังไม่ได้อัปเดตจะถูกหยิบในรอบหน้า)
+START_TS         = time.monotonic()
+DEADLINE_SECONDS = int(os.environ.get("DEADLINE_SECONDS", "1140"))  # 19 นาที (เผื่อ commit อีก ~1 นาที)
 MIN_PRICE   = 500       # ราคาต่ำสุดที่ยอมรับ (¥) — กันราคาเพี้ยน
 MAX_PRICE   = 5_000_000 # ราคาสูงสุดที่ยอมรับ (¥)
 
@@ -63,6 +74,80 @@ def load_cards():
         cards = json.load(f)
     print(f"[cards.json] โหลด {len(cards)} การ์ด")
     return cards
+
+# ══════════════════════════════════════════════════════
+# State (offset ของชุดล่าสุด) — ใช้หมุนชุดให้ครอบคลุมทุกใบอย่างเป็นธรรม
+# ══════════════════════════════════════════════════════
+def load_offset():
+    try:
+        with open(STATE_FILE, encoding="utf-8") as f:
+            return int(json.load(f).get("offset", 0))
+    except Exception:
+        return 0
+
+def save_offset(offset):
+    try:
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump({"offset": offset}, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[WARNING] บันทึก {STATE_FILE} ไม่ได้: {e}")
+
+def select_batch(cards):
+    """เลือกการ์ด BATCH_SIZE ใบเริ่มจาก offset (วนกลับเมื่อถึงท้าย) แล้วเลื่อน offset ไปชุดถัดไป.
+    เรียงตาม cid ให้ลำดับคงที่ทุกรอบ → การหมุนชุดครอบคลุมทุกใบแน่นอน."""
+    if BATCH_SIZE <= 0 or BATCH_SIZE >= len(cards):
+        return cards[:], 0  # ทำทุกใบ — ไม่ต้องเลื่อน offset
+
+    ordered = sorted(cards, key=lambda c: str(c.get("cid") or c.get("id") or ""))
+    total   = len(ordered)
+    offset  = load_offset() % total
+    # หยิบแบบวน (wrap-around) เผื่อชุดสุดท้ายเหลือไม่ถึง BATCH_SIZE
+    batch       = [ordered[(offset + k) % total] for k in range(BATCH_SIZE)]
+    next_offset = (offset + BATCH_SIZE) % total
+    save_offset(next_offset)
+
+    end = offset + BATCH_SIZE
+    print(f"[batch] ชุดนี้: ใบที่ {offset+1}–{end} จาก {total} (offset ถัดไป = {next_offset})")
+    return batch, next_offset
+
+# ══════════════════════════════════════════════════════
+# เลือกการ์ดตามโหมด (สำหรับปุ่มสั่งดึงเฉพาะกลุ่ม)
+#   new      = ยังไม่เคยดึง (ไม่มีไฟล์ data) — การ์ดที่พึ่งเพิ่มใหม่
+#   no_image = มีไฟล์แล้วแต่ไม่มีรูป (image_url ว่าง)
+#   failed   = ดึงข้อมูลไม่ได้ (status=error / ไฟล์เสีย / ไม่มีราคาและไม่ใช่ขายหมด)
+#   fix      = รวม 3 กลุ่มข้างบน (ปุ่มซ่อมทั้งหมด)
+# ══════════════════════════════════════════════════════
+def select_cards_for_mode(cards, mode):
+    picked = []
+    for card in cards:
+        cid    = card.get("cid") or card["id"]
+        fp     = os.path.join(DATA_FOLDER, f"data_{cid}.json")
+        exists = os.path.exists(fp)
+
+        d, corrupt = {}, False
+        if exists:
+            try:
+                with open(fp, encoding="utf-8") as f:
+                    d = json.load(f)
+            except Exception:
+                corrupt = True   # ไฟล์เสีย → ถือว่า fail
+
+        status   = d.get("status", "")
+        is_new   = not exists
+        no_image = exists and not corrupt and not d.get("image_url")
+        failed   = corrupt or status == "error" or (
+                       exists and not d.get("price") and status != "sold_out")
+
+        match = {
+            "new":      is_new,
+            "no_image": no_image,
+            "failed":   failed,
+            "fix":      is_new or no_image or failed,
+        }.get(mode, False)
+
+        if match:
+            picked.append(card)
+    return picked
 
 # ══════════════════════════════════════════════════════
 # จำลองการเคลื่อนเมาส์แบบ human
@@ -286,6 +371,12 @@ def worker(cards_group, ua, now_utc, worker_id):
         page = context.new_page()
 
         for i, card in enumerate(cards_group):
+            # ─── เช็ค deadline ก่อนเริ่มการ์ดใหม่ → หยุดนุ่มนวลก่อนชน timeout ───
+            if time.monotonic() - START_TS > DEADLINE_SECONDS:
+                left = len(cards_group) - i
+                print(f"   ⏰ [W{worker_id}] หมดงบเวลา ({DEADLINE_SECONDS}s) — ข้ามที่เหลือ {left} ใบ (รอบหน้าค่อยดึง)")
+                break
+
             ok = scrape_one(page, card, now_utc, visited_home)
             results.append(ok)
 
@@ -313,17 +404,32 @@ def scrape_all():
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     os.makedirs(DATA_FOLDER, exist_ok=True)
 
-    # สุ่มลำดับ
-    shuffled = cards[:]
+    # ─── เลือกการ์ดของรอบนี้ ───
+    mode = os.environ.get("SCRAPE_MODE", "all").strip().lower()
+    if mode in ("new", "no_image", "failed", "fix"):
+        # โหมดปุ่ม: ดึงเฉพาะการ์ดที่มีปัญหา (ไม่เลื่อน offset, ไม่ติด BATCH_SIZE)
+        batch = select_cards_for_mode(cards, mode)
+        label = {"new": "เพิ่งเพิ่มใหม่", "no_image": "ไม่มีรูป",
+                 "failed": "ดึงข้อมูลไม่ได้", "fix": "ใหม่+ไม่มีรูป+ดึงไม่ได้"}[mode]
+        print(f"[โหมด {mode}] ดึงเฉพาะการ์ด '{label}': พบ {len(batch)} ใบ จากทั้งหมด {len(cards)}")
+        if not batch:
+            print("   ✨ ไม่มีการ์ดที่ต้องซ่อม — จบเลย")
+            return 0
+    else:
+        # โหมดปกติ: หมุนชุด (batch) ตาม offset อัตโนมัติ
+        batch, _ = select_batch(cards)
+
+    # สุ่มลำดับภายในชุด (กันรูปแบบการเข้าถึงซ้ำ ๆ)
+    shuffled = batch[:]
     random.shuffle(shuffled)
-    print(f"[สุ่มลำดับ] {[c['id'] for c in shuffled]}")
+    print(f"[สุ่มลำดับในชุด] {[c['id'] for c in shuffled]}")
 
     # แบ่งเป็น N กลุ่ม
     n = min(MAX_WORKERS, len(shuffled))
     groups = [shuffled[i::n] for i in range(n)]
     uas    = random.sample(USER_AGENTS, min(n, len(USER_AGENTS)))
 
-    print(f"\n🚀 เริ่ม {n} workers parallel — {len(cards)} การ์ด รวม")
+    print(f"\n🚀 เริ่ม {n} workers parallel — {len(shuffled)} การ์ด ในชุดนี้ (จากทั้งหมด {len(cards)})")
     print(f"{'='*55}")
 
     all_results = []
@@ -345,4 +451,10 @@ def scrape_all():
     return fail
 
 if __name__ == "__main__":
-    sys.exit(scrape_all())
+    # ดึงราคา — แม้บางใบ fail ก็ exit 0 เสมอ เพื่อให้ขั้นตอน commit/push ทำงานต่อ
+    # (เดิม sys.exit(จำนวนที่ fail) ทำให้การ์ดเยอะ→fail บางใบ→workflow แดง→ไม่ commit)
+    try:
+        scrape_all()
+    except Exception as e:
+        print(f"[FATAL] {e}")
+    sys.exit(0)
