@@ -574,5 +574,29 @@
     "code": "CUSTOM",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+p-p+P-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 72,
+    "cid": "e9d66045",
+    "name": "Luffy [P-041] L33",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+P+%5BP-041%5D%28Start+Deck+%22Purple+Monkey.D.Luffy%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 73,
+    "cid": "f2244ef9",
+    "name": "Luffy [P-043] L35",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Monkey+D+Luffy+p043&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=4"
+  },
+  {
+    "id": 74,
+    "cid": "515429a6",
+    "name": "Luffy [OP07-109] L05",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Monkey+D+Luffy+sr-p+op07-109&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
   }
 ]
