@@ -118,7 +118,7 @@ def scrape_one(page, card, now_utc, visited_home):
             if sold_out:
                 # เขียนสถานะ sold_out (ไม่ถือเป็น error — การ์ดมีอยู่แต่ขายหมด)
                 payload = {
-                    "datetime": now_utc, "name": card["name"],
+                    "datetime": now_utc, "cid": card.get("cid", ""), "name": card["name"],
                     "code": card.get("code", ""), "rarity": card.get("rarity", ""),
                     "price": "", "price_int": 0, "prev_price": old.get("price", ""),
                     "image_url": old.get("image_url", ""), "history": old.get("history", []),
@@ -242,7 +242,7 @@ def scrape_one(page, card, now_utc, visited_home):
     else:
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump({
-                "datetime": now_utc, "name": card["name"],
+                "datetime": now_utc, "cid": card.get("cid", ""), "name": card["name"],
                 "price": "", "error": str(last_err), "history": [], "status": "error"
             }, f, ensure_ascii=False, indent=2)
     return False

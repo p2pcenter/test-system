@@ -318,26 +318,13 @@
   </div>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;dark&quot;,&quot;light&quot;],&quot;default&quot;:&quot;dark&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;variant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;clean&quot;,&quot;glass&quot;,&quot;pro&quot;],&quot;default&quot;:&quot;glass&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;rate&quot;:{&quot;editor&quot;:&quot;float&quot;,&quot;default&quot;:0.21,&quot;min&quot;:0.1,&quot;max&quot;:0.4,&quot;step&quot;:0.001,&quot;tsType&quot;:&quot;number&quot;},&quot;liveDemo&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;soundOn&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;githubRepo&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;githubBranch&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;main&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;dark&quot;,&quot;light&quot;],&quot;default&quot;:&quot;dark&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;variant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;clean&quot;,&quot;glass&quot;,&quot;pro&quot;],&quot;default&quot;:&quot;glass&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;rate&quot;:{&quot;editor&quot;:&quot;float&quot;,&quot;default&quot;:0.21,&quot;min&quot;:0.1,&quot;max&quot;:0.4,&quot;step&quot;:0.001,&quot;tsType&quot;:&quot;number&quot;},&quot;liveDemo&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;soundOn&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;githubRepo&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;githubBranch&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;master&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
 class Component extends DCLogic {
   state = { theme:null, variant:null, filter:'ทั้งหมด', rate:null, sound:null, live:null, dragMode:false, editMode:false, catEditMode:false, order:null, prices:null, flash:{}, updated:null, pos:null, drag:null, cw:0, cardH:null, settingsOpen:false, editCard:null, cardOverrides:{}, extraCards:[] };
   gridRef = React.createRef();
 
-  CARDS = [
-    {id:'c0', char:'Zoro (Juro)', rarity:'R', code:'OP05-067', yen:68000, prevYen:64000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/5e8f959b-f583-4240-a30f-8cf06fa2e2e4/4988938.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=%E3%82%BE%E3%83%AD%E5%8D%81%E9%83%8E+R-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c1', char:'Tashigi', rarity:'C', code:'ST06-006', yen:23000, prevYen:24500, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/851958bc-f350-4c81-9243-2fef5b51220d/8436206.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c2', char:'Sabo (Wanted)', rarity:'SEC', code:'OP13-120', yen:26000, prevYen:25200, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/47d486ba-403f-47b3-918c-8b0abbfdf890/5110668.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c3', char:'Gol D. Roger (Wanted)', rarity:'SEC', code:'OP09-118', yen:29780, prevYen:31000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/b0fd7801-64f2-404b-a5da-de01d944631c/7898400.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c4', char:'Buggy (Wanted)', rarity:'R', code:'OP09-051', yen:30000, prevYen:28800, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/b993f3c6-688c-4479-82fd-5806886e79e6/6696383.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=R-SPC+%5BOP09-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c5', char:'Marshall D. Teach', rarity:'SR', code:'OP09-093', yen:30000, prevYen:31500, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/775dba32-5dec-4123-8a4e-485594c89716/6555990.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c6', char:'Sengoku', rarity:'R', code:'OP07-046', yen:32000, prevYen:30500, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/d2ed19ad-f58b-4b40-8095-3475c79b5d37/818194.png?size=m', url:'https://snkrdunk.com/search?keywords=Sengoku+R-SPC++%5BOP07-046%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c7', char:'Queen', rarity:'C', code:'ST04-005', yen:15400, prevYen:16000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/96361da1-5558-4ee0-8b52-da87966eb222/432345.png?size=m', url:'https://snkrdunk.com/search?keywords=C-SPC+%5BST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c8', char:'Rob Lucci', rarity:'SR', code:'OP05-093', yen:19000, prevYen:18200, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/bbc7bc3e-aad5-407f-b395-e7e2fe904e3f/6555990.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SR-SPC+%5BOP05-093&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c9', char:'Kaido', rarity:'SR', code:'ST04-003', yen:19900, prevYen:21000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/aed66921-ad13-4a83-93b5-f5585ef6d563/8444820.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SR-SPC+%5BST04-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c10', char:'Donquixote Rocinante', rarity:'SEC', code:'OP04-119', yen:23300, prevYen:22100, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/c47b6fb7-790b-4a33-9273-b9e689c56169/8369714.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP04-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c11', char:'Perona', rarity:'SR', code:'OP06-093', yen:34900, prevYen:34000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/6dd733ef-531c-4a0d-b402-804515b71a9a/7359873.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'},
-    {id:'c12', char:'Shirahoshi', rarity:'SR', code:'EB01-057', yen:43000, prevYen:45000, image_url:'https://cdn.snkrdunk.com/apparel_used_listings/354f25ea-6f53-49e7-bdca-07fe93cff184/7356882.jpeg?size=m', url:'https://snkrdunk.com/search?keywords=SR-SPC+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1'}
-  ];
+  // โหลดรายการการ์ดจาก cards.json (แหล่งเดียวกับ scraper) ตอน mount — เริ่มจากว่าง
+  CARDS = [];
   RAR = { SEC:{cat:'Secret Rare',color:'#F5A623'}, SR:{cat:'Super Rare',color:'#BF5AF2'}, R:{cat:'Rare',color:'#0A84FF'}, C:{cat:'Common',color:'#8E8E93'} };
 
   initCats(){ return [{id:'cat-sec',name:'Secret Rare',color:'#F5A623'},{id:'cat-sr',name:'Super Rare',color:'#BF5AF2'},{id:'cat-r',name:'Rare',color:'#0A84FF'},{id:'cat-c',name:'Common',color:'#8E8E93'}]; }
@@ -363,14 +350,39 @@ class Component extends DCLogic {
   setCardCat=(cardId,catId)=>{ const cardCat={...(this.state.cardCat||this.initCardCat())}; cardCat[cardId]=catId; this.setState({cardCat}); };
   state_expandCat = null;
 
-  genHist(y, prev){ const a=[prev]; let v=prev; for(let i=0;i<4;i++){ v=v*(1+(Math.random()*0.05-0.025)); a.push(Math.round(v/100)*100); } a.push(y); return a; }
-  defaultPrices(){ const o={}; this.CARDS.forEach(c=>{ o[c.id]={ yen:c.yen, prevYen:c.prevYen, dir:c.yen>c.prevYen?'up':c.yen<c.prevYen?'down':'flat', history:this.genHist(c.yen,c.prevYen) }; }); return o; }
+  // ไม่มี demo แล้ว — ราคามาจากข้อมูลจริงล้วน เริ่มจากว่างจนกว่าจะ fetch เสร็จ
+  defaultPrices(){ return {}; }
+
+  // โหลด cards.json (แหล่งเดียวกับ scraper) แล้วดึงราคาจริง
+  loadCards = async () => {
+    const base = this.dataBase();
+    try {
+      const res = await fetch(`${base}/cards.json?t=${Date.now()}`, {cache:'no-store'});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const list = await res.json();
+      // map cards.json → รูปแบบที่ dashboard ใช้ (char=name, ผูก cid)
+      this.CARDS = list.map((c,i)=>({
+        id: c.cid || ('c'+(c.id ?? i)),   // ใช้ cid เป็นกุญแจหลัก (fallback id เดิม)
+        cid: c.cid || '',
+        char: c.name || '?',
+        rarity: c.rarity || 'C',
+        code: c.code || '',
+        url: c.url || '#',
+        image_url: ''
+      }));
+      console.log('[cards.json] โหลด', this.CARDS.length, 'การ์ด');
+    } catch(e){
+      console.warn('[cards.json] โหลดไม่สำเร็จ:', e.message);
+    }
+    // reset cat mapping ให้ตรงกับการ์ดที่เพิ่งโหลด แล้ว render
+    this.setState({ cats:null, cardCat:null, updated:Date.now() }, ()=>{
+      this.fetchRealData();
+      this.ensureTimer();
+    });
+  };
 
   componentDidMount(){
-    this.setState({ prices:this.defaultPrices(), updated:Date.now() }, ()=>{
-      this.ensureTimer();
-      this.fetchRealData();
-    });
+    this.loadCards();
     const el=this.gridRef.current;
     if(el && window.ResizeObserver){ this._ro=new ResizeObserver(()=>this.measure()); this._ro.observe(el); }
     setTimeout(()=>this.measure(), 60);
@@ -416,33 +428,54 @@ class Component extends DCLogic {
   };
   resetLayout = () => this.setState({ pos:null });
 
+  // base URL ของข้อมูล: ถ้าตั้ง githubRepo → raw.githubusercontent, ไม่งั้นใช้ path สัมพัทธ์ (เปิดไฟล์ในโฟลเดอร์ repo)
+  dataBase(){
+    const repo = (this.props.githubRepo||'p2pcenter/test-system').trim();
+    const branch = (this.props.githubBranch||'master').trim();
+    return repo ? `https://raw.githubusercontent.com/${repo}/${branch}` : '.';
+  }
+
   fetchRealData = async () => {
-    const repo = (this.props.githubRepo||'').trim();
-    if(!repo) return; // ไม่มี repo ตั้งค่า → ใช้เดโม
-    const branch = this.props.githubBranch||'main';
-    const base = `https://raw.githubusercontent.com/${repo}/${branch}`;
-    console.log('[fetch] loading from', base);
-    const ids = this.CARDS.map(c=>c.id);
-    const prices = {...(this.state.prices||this.defaultPrices())};
-    let changed = false;
-    await Promise.allSettled(ids.map(async (id, i)=>{
+    if(!this.CARDS.length) return;
+    const base = this.dataBase();
+    const prices = {...(this.state.prices||{})};
+    const flash = {};
+    let changed = false, soundDir = null;
+    await Promise.allSettled(this.CARDS.map(async (card)=>{
+      const key = card.cid || card.id;
       try {
-        const res = await fetch(`${base}/data_${i}.json?t=${Date.now()}`,{cache:'no-store'});
+        const res = await fetch(`${base}/data_${key}.json?t=${Date.now()}`,{cache:'no-store'});
         if(!res.ok) return;
         const d = await res.json();
-        if(!d.price) return;
+        // อัปเดตรูป/URL จากข้อมูลจริงเสมอ (แม้ขายหมด)
+        if(d.image_url) card.image_url = d.image_url;
+        if(d.product_url) card.url = d.product_url;
         const yen = parseInt((d.price||'').replace(/[¥,\s]/g,''))||0;
+        if(!yen){ // ขายหมด / ไม่มีราคา
+          if(prices[card.id]?.yen) return; // คงราคาเดิมถ้าเคยมี
+          prices[card.id] = { yen:0, prevYen:0, dir:'flat', history:[], soldOut:d.status==='sold_out' };
+          changed = true; return;
+        }
         const prevYen = parseInt((d.prev_price||d.price||'').replace(/[¥,\s]/g,''))||yen;
-        if(!yen) return;
-        const old = prices[id]?.yen||yen;
-        prices[id] = { yen, prevYen, dir: yen>prevYen?'up':yen<prevYen?'down':'flat', history:[...((prices[id]?.history)||[prevYen]),yen].slice(-7) };
-        // อัปเดตรูปและ URL จากข้อมูลจริง
-        const card = this.CARDS.find(c=>c.id===id);
-        if(card){ if(d.image_url) card.image_url=d.image_url; if(d.product_url) card.url=d.product_url; }
+        // ใช้ history จริงจาก scraper ([{t,p}] หรือ list เลขเดิม)
+        const hist = (Array.isArray(d.history)?d.history:[])
+          .map(h=>(h&&typeof h==='object')?h.p:h)
+          .map(n=>parseInt(n)||0).filter(n=>n>0);
+        const history = hist.length ? hist : [prevYen, yen];
+        const oldYen = prices[card.id]?.yen;
+        const dir = yen>prevYen?'up':yen<prevYen?'down':'flat';
+        prices[card.id] = { yen, prevYen, dir, history };
+        // กระพริบ + เสียงเฉพาะการ์ดที่ราคาเปลี่ยนจากรอบก่อน
+        if(oldYen && oldYen!==yen){ flash[card.id]=yen>oldYen?'up':'down'; soundDir=flash[card.id]; }
         changed = true;
-      } catch(e){ console.warn('[fetch] data_'+i+'.json failed:', e.message); }
+      } catch(e){ console.warn('[fetch] data_'+key+'.json failed:', e.message); }
     }));
-    if(changed) this.setState({prices, updated:Date.now(), liveSource:'github'});
+    if(changed){
+      this.setState({prices, flash, updated:Date.now(), liveSource:'github'}, ()=>{
+        if(soundDir && this.effSound()) this.beep(soundDir);
+        clearTimeout(this._ft); this._ft=setTimeout(()=>this.setState({flash:{}}),1500);
+      });
+    }
   };
 
   openAddCard  = () => this.setState({ editCard:{ id:null, name:'', url:'', isNew:true } });
@@ -468,33 +501,14 @@ class Component extends DCLogic {
     this.setState({ extraCards:extra, cardOverrides:ov, pos, order });
   };
 
+  // Live = เปิด auto-refresh ข้อมูลจริงทุก 5 นาที (scraper อัปเดตทุก 1 ชม. แต่ดึงถี่กว่าได้)
+  REFRESH_MS = 5 * 60 * 1000;
   effLive(){ return this.state.live ?? this.props.liveDemo ?? true; }
   effSound(){ return this.state.sound ?? this.props.soundOn ?? true; }
-  ensureTimer(){ clearInterval(this._t); if(this.effLive()) this._t=setInterval(this.tick,4200); }
+  ensureTimer(){ clearInterval(this._t); if(this.effLive()) this._t=setInterval(this.fetchRealData, this.REFRESH_MS); }
 
-  tick = ()=>{
-    this.setState(s=>{
-      const prices={...(s.prices||this.defaultPrices())};
-      const ids=this.CARDS.map(c=>c.id);
-      const n=1+Math.floor(Math.random()*3);
-      const flash={};
-      let dir=null;
-      for(let k=0;k<n;k++){
-        const id=ids[Math.floor(Math.random()*ids.length)];
-        const p={...prices[id]};
-        const sign=Math.random()<0.5?-1:1;
-        const pct=(Math.random()*0.07+0.01)*sign;
-        const old=p.yen;
-        let ny=Math.max(1000,Math.round(old*(1+pct)/100)*100);
-        if(ny===old) ny=old+(sign>0?100:-100);
-        p.prevYen=old; p.yen=ny; p.dir=ny>old?'up':'down';
-        p.history=[...(p.history||[old]),ny].slice(-7);
-        prices[id]=p; flash[id]=p.dir; dir=p.dir;
-      }
-      this._pendDir=dir;
-      return { prices, flash, updated:Date.now() };
-    }, ()=>{ if(this.effSound()&&this._pendDir) this.beep(this._pendDir); clearTimeout(this._ft); this._ft=setTimeout(()=>this.setState({flash:{}}),1500); });
-  };
+  // ปุ่มรีเฟรช → ดึงข้อมูลจริงทันที
+  tick = ()=> this.fetchRealData();
 
   beep(dir){ try{ const C=window.AudioContext||window.webkitAudioContext; if(!C) return; const ac=this._ac||(this._ac=new C()); const o=ac.createOscillator(), g=ac.createGain(); o.type='sine'; o.frequency.value=dir==='up'?880:392; o.connect(g); g.connect(ac.destination); const t=ac.currentTime; g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(0.07,t+0.02); g.gain.exponentialRampToValueAtTime(0.0001,t+0.22); o.start(t); o.stop(t+0.24); }catch(e){} }
 
@@ -720,8 +734,8 @@ class Component extends DCLogic {
       editCardTitle:this.state.editCard?.isNew?'เพิ่มการ์ดใหม่':'แก้ไขการ์ด',
       query:this.state.query||'', onSearch:(e)=>this.setState({query:e.target.value}),
       updatedAt:new Date(this.state.updated||Date.now()).toLocaleTimeString('th-TH'),
-      liveSource:this.state.liveSource||'demo',
-      sourceLabel:this.state.liveSource==='github'?'● ข้อมูลจริงจาก GitHub':'○ เดโม — ตั้งค่า GitHub Repo ใน Tweaks เพื่อดึงจริง',
+      liveSource:this.state.liveSource||'loading',
+      sourceLabel:this.state.liveSource==='github'?'● ข้อมูลจริงจาก GitHub':'○ กำลังโหลดข้อมูล...',
       sourceColor:this.state.liveSource==='github'?'var(--up)':'var(--faint)',
       githubRepo:(this.props.githubRepo||'').trim()
     };

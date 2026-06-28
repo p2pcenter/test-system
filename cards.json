@@ -114,7 +114,7 @@
   {
     "id": 14,
     "name": "Portgas D. Ace [EB02-028]",
-    "code": "CUSTOM",
+    "code": "EB02-028",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BEB02-028&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "e3fb11a1"
@@ -122,15 +122,15 @@
   {
     "id": 15,
     "name": "Luffy [OP13-118]",
-    "code": "CUSTOM",
+    "code": "OP13-118",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-P+%5BOP13-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "17b5c2f2"
   },
   {
     "id": 16,
-    "name": "Portgas D. Ace [OP13-119] ",
-    "code": "CUSTOM",
+    "name": "Portgas D. Ace [OP13-119]",
+    "code": "OP13-119",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-SPC+OP13-119&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "ac6e28ba"
@@ -138,15 +138,15 @@
   {
     "id": 17,
     "name": "Portgas D. Ace [OP13-119]",
-    "code": "CUSTOM",
+    "code": "OP13-119",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-P+%5BOP13-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "05d14be6"
   },
   {
     "id": 18,
-    "name": "Kid & Killer [EB01-003] ",
-    "code": "CUSTOM",
+    "name": "Kid & Killer [EB01-003]",
+    "code": "EB01-003",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BEB01-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "86b77780"
@@ -154,7 +154,7 @@
   {
     "id": 19,
     "name": "Dragon [OP07-015]",
-    "code": "CUSTOM",
+    "code": "OP07-015",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP07-015%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "c03fd721"
@@ -162,15 +162,15 @@
   {
     "id": 20,
     "name": "Pudding [OP03-112]",
-    "code": "CUSTOM",
+    "code": "OP03-112",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Pudding+R-SPC+%5BOP03-112%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "47043153"
   },
   {
     "id": 21,
-    "name": "Rob Lucci [OP03-092] ",
-    "code": "CUSTOM",
+    "name": "Rob Lucci [OP03-092]",
+    "code": "OP03-092",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP03-092%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "0e3c8cd6"
@@ -178,7 +178,7 @@
   {
     "id": 22,
     "name": "Sugar [OP10-065]",
-    "code": "CUSTOM",
+    "code": "OP10-065",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP10-065%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "df360beb"
@@ -186,7 +186,7 @@
   {
     "id": 23,
     "name": "Sabo [OP07-118]",
-    "code": "CUSTOM",
+    "code": "OP07-118",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP07-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "c02a839d"
@@ -194,23 +194,23 @@
   {
     "id": 24,
     "name": "Nami [OP01-016]",
-    "code": "CUSTOM",
+    "code": "OP01-016",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP01-016%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "5490c1b3"
   },
   {
     "id": 25,
-    "name": " Bonney  [ST02-007]",
-    "code": "CUSTOM",
+    "name": "Bonney [ST02-007]",
+    "code": "ST02-007",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST02-007%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "cbd43c23"
   },
   {
     "id": 26,
-    "name": "Uta [OP02-120] ",
-    "code": "CUSTOM",
+    "name": "Uta [OP02-120]",
+    "code": "OP02-120",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Uta+SEC-SPC+%5BOP02-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "89518ac6"
@@ -218,15 +218,15 @@
   {
     "id": 27,
     "name": "Shanks [OP09-004]",
-    "code": "CUSTOM",
+    "code": "OP09-004",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "45978d86"
   },
   {
     "id": 28,
-    "name": "Mihawk [OP12-030] ",
-    "code": "CUSTOM",
+    "name": "Mihawk [OP12-030]",
+    "code": "OP12-030",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPc++%5BOP12-030%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "7ea05bed"
@@ -234,7 +234,7 @@
   {
     "id": 29,
     "name": "Luffy Taro [ST18-005]",
-    "code": "CUSTOM",
+    "code": "ST18-005",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Luffy+Taro+SR-SPC+%5BST18-005%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "0357f1af"
@@ -242,7 +242,7 @@
   {
     "id": 30,
     "name": "Luffy [OP05-119]",
-    "code": "CUSTOM",
+    "code": "OP05-119",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP05-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "33696592"
@@ -250,7 +250,7 @@
   {
     "id": 31,
     "name": "Luffy [ST26-005]",
-    "code": "CUSTOM",
+    "code": "ST26-005",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST26-005%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "033d19be"
@@ -258,7 +258,7 @@
   {
     "id": 32,
     "name": "Vivi [EB03-024]",
-    "code": "CUSTOM",
+    "code": "EB03-024",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Vivi+SR-SPC+%5BEB03-024%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "3020448a"
@@ -266,7 +266,7 @@
   {
     "id": 33,
     "name": "Onami [OP06-101]",
-    "code": "CUSTOM",
+    "code": "OP06-101",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Onami+R-SPC+%5BOP06-101%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "07dd7eb2"
@@ -274,7 +274,7 @@
   {
     "id": 34,
     "name": "Luffy [OP09-119]",
-    "code": "CUSTOM",
+    "code": "OP09-119",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "53ac578f"
@@ -282,7 +282,7 @@
   {
     "id": 35,
     "name": "Luffy [OP13-118]",
-    "code": "CUSTOM",
+    "code": "OP13-118",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP13-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "d5c72c02"
@@ -290,7 +290,7 @@
   {
     "id": 36,
     "name": "Luffy [ST01-012]",
-    "code": "CUSTOM",
+    "code": "ST01-012",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST01-012%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "990d48d1"
@@ -298,7 +298,7 @@
   {
     "id": 37,
     "name": "Ace [OP02-013]",
-    "code": "CUSTOM",
+    "code": "OP02-013",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Ace+SR-SPC+%5BOP02-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "b53797bf"
@@ -306,7 +306,7 @@
   {
     "id": 38,
     "name": "Boa Hancock [OP07-051]",
-    "code": "CUSTOM",
+    "code": "OP07-051",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-SPC+%5BOP07-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "0f8a93d3"
@@ -314,7 +314,7 @@
   {
     "id": 39,
     "name": "Sabo [PRB02-014]",
-    "code": "CUSTOM",
+    "code": "PRB02-014",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Sabo+SR-SPC+%5BPRB02-014%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "10d30dda"
@@ -322,7 +322,7 @@
   {
     "id": 40,
     "name": "Edward Newgate [ST15-002]",
-    "code": "CUSTOM",
+    "code": "ST15-002",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Edward+Newgate+SR-SPC%3A+Full+Art+%5BST15-002%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "658a59b1"
@@ -330,7 +330,7 @@
   {
     "id": 41,
     "name": "Uta [EB03-003]",
-    "code": "CUSTOM",
+    "code": "EB03-003",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Uta+SR-SPC+%5BEB03-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "27680520"
@@ -338,7 +338,7 @@
   {
     "id": 42,
     "name": "Boa Hancock [OP12-014]",
-    "code": "CUSTOM",
+    "code": "OP12-014",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-SPC+%5BOP12-014%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "fa2761b8"
@@ -346,7 +346,7 @@
   {
     "id": 43,
     "name": "Ener SR-SPC [OP05-100]",
-    "code": "CUSTOM",
+    "code": "OP05-100",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=SR-SPC+OP05-100&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "5638c4b8"
@@ -354,7 +354,7 @@
   {
     "id": 44,
     "name": "Law [OP13-031]",
-    "code": "CUSTOM",
+    "code": "OP13-031",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Law+R-SPC+%5BOP13-031%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "798ffaeb"
@@ -362,7 +362,7 @@
   {
     "id": 45,
     "name": "Sabo [OP13-120]",
-    "code": "CUSTOM",
+    "code": "OP13-120",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Sabo+SEC-P+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "13f0454d"
@@ -370,7 +370,7 @@
   {
     "id": 46,
     "name": "Shanks [ST16-004]",
-    "code": "CUSTOM",
+    "code": "ST16-004",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Shanks+SR-SPC+%5BST16-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "91ff4acb"
@@ -378,7 +378,7 @@
   {
     "id": 47,
     "name": "Boa Hancock [PRB02-017]",
-    "code": "CUSTOM",
+    "code": "PRB02-017",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BPRB02-017%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "8ba569e2"
@@ -386,7 +386,7 @@
   {
     "id": 48,
     "name": "Boa Hancock [P-115] B11",
-    "code": "CUSTOM",
+    "code": "P-115",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-115%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "6bf1d1cd"
@@ -394,7 +394,7 @@
   {
     "id": 49,
     "name": "Boa Hancock [OP07-038] B04",
-    "code": "CUSTOM",
+    "code": "OP07-038",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+L-P+OP07-038&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "8ce6b513"
@@ -402,7 +402,7 @@
   {
     "id": 50,
     "name": "Boa Hancock [OP02-059] B03",
-    "code": "CUSTOM",
+    "code": "OP02-059",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+UC-P+%5BOP02-059%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "8974704c"
@@ -410,7 +410,7 @@
   {
     "id": 51,
     "name": "Boa Hancock [OP01-078] B01",
-    "code": "CUSTOM",
+    "code": "OP01-078",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BOP01-078%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "ee73dfa7"
@@ -418,15 +418,15 @@
   {
     "id": 52,
     "name": "Boa Hancock [OP07-051] B06",
-    "code": "CUSTOM",
+    "code": "OP07-051",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BOP07-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "6e4f1904"
   },
   {
     "id": 53,
-    "name": "Boa Hancock SR-P [OP01-078]  B02",
-    "code": "CUSTOM",
+    "name": "Boa Hancock SR-P [OP01-078] B02",
+    "code": "OP01-078",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=%E3%83%9C%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%B3%E3%83%83%E3%82%AF+SR-P+%5BOP01-078%5D%28%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%80%8CONE+PIECE+CARD+THE+BEST%E3%80%8D%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "ed609480"
@@ -434,7 +434,7 @@
   {
     "id": 54,
     "name": "Boa Hancock P [P-066]",
-    "code": "CUSTOM",
+    "code": "P-066",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-066%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "41295663"
@@ -442,7 +442,7 @@
   {
     "id": 55,
     "name": "Boa Hancock C-P [ST03-013]",
-    "code": "CUSTOM",
+    "code": "ST03-013",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C-P+%5BST03-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
     "cid": "57cb9146"
@@ -451,7 +451,7 @@
     "id": 56,
     "cid": "86d99c78",
     "name": "Boa Hancock C [ST03-013] B08",
-    "code": "CUSTOM",
+    "code": "ST03-013",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C%3A+Full+Art+%5BST03-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
   }
