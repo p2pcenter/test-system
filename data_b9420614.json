@@ -1,0 +1,9 @@
+{
+  "datetime": "2026-06-28 16:34:04 UTC",
+  "cid": "b9420614",
+  "name": "Yamato SR-P [EB02-006] Y20",
+  "price": "",
+  "error": "Page.wait_for_selector: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator(\"text=/¥/\") to be visible\n",
+  "history": [],
+  "status": "error"
+}
