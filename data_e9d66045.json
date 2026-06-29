@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-06-28 16:34:04 UTC",
+  "datetime": "2026-06-29 06:44:03 UTC",
   "cid": "e9d66045",
   "name": "Luffy [P-041] L33",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥21,900",
-  "price_int": 21900,
+  "price": "¥21,500",
+  "price_int": 21500,
   "prev_price": "¥21,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4ab2323a-6e3a-4956-aa48-8c5b05d15b16/4502337.jpeg?size=m",
   "history": [
@@ -16,6 +16,10 @@
     {
       "t": 1782662066,
       "p": 21900
+    },
+    {
+      "t": 1782715628,
+      "p": 21500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+P+%5BP-041%5D%28Start+Deck+%22Purple+Monkey.D.Luffy%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
