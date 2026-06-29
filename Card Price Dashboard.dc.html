@@ -162,7 +162,11 @@
     </div>
 
     <sc-if value="{{ dragMode }}" hint-placeholder-val="{{ false }}">
-      <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:14px;background:var(--hair);border:1px dashed var(--up);color:var(--up);font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;margin:0 0 16px;flex-wrap:wrap"><span style="flex:1;min-width:200px">✣ ลากการ์ดไปวางช่องที่ต้องการ — เลขมุมบนคือ "เบอร์ช่อง" ที่บันทึกไว้ (ย่อ/ขยายจอแล้วไหลตามเบอร์ ไม่ตกขอบ) · กด "บันทึก" ให้ทุกเครื่องเหมือนกัน</span><sc-if value="{{ hasLayoutMsg }}" hint-placeholder-val="{{ false }}"><span style="flex:none;font:600 12px 'FC Vision Rounded',ui-monospace,monospace;color:var(--dim)">{{ layoutMsg }}</span></sc-if><button onClick="{{ saveLayout }}" style="padding:6px 18px;border-radius:999px;border:none;background:var(--blue);color:#fff;font:700 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer">💾 บันทึก</button><button onClick="{{ resetLayout }}" style="padding:6px 14px;border-radius:999px;border:1px solid var(--up);background:transparent;color:var(--up);font:600 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer">รีเซ็ตการจัดเรียง</button></div>
+      <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:14px;background:var(--hair);border:1px dashed var(--up);color:var(--up);font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;margin:0 0 16px;flex-wrap:wrap"><span style="flex:1;min-width:200px">✣ ลากการ์ดไปวางช่องที่ต้องการ — เลขมุมบนคือ "เบอร์ช่อง" ที่บันทึกไว้ (ย่อ/ขยายจอแล้วไหลตามเบอร์ ไม่ตกขอบ) · กด "บันทึก" ให้ทุกเครื่องเหมือนกัน</span><sc-if value="{{ hasLayoutMsg }}" hint-placeholder-val="{{ false }}"><span style="flex:none;font:600 12px 'FC Vision Rounded',ui-monospace,monospace;color:var(--dim)">{{ layoutMsg }}</span></sc-if><button onClick="{{ saveLayout }}" style="padding:6px 18px;border-radius:999px;border:none;background:var(--blue);color:#fff;font:700 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer">💾 บันทึก</button><button onClick="{{ resetLayout }}" style="padding:6px 14px;border-radius:999px;border:1px solid var(--up);background:transparent;color:var(--up);font:600 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer">รีเซ็ตการจัดเรียง</button><button onClick="{{ dragBtn.onClick }}" title="ปิดโหมดลากจัดเรียง" style="{{ dragToggleStyle }}"><span style="{{ dragKnobStyle }}"></span></button></div>
+    </sc-if>
+
+    <sc-if value="{{ refEditMode }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:14px;background:var(--hair);border:1px dashed var(--blue);color:var(--blue);font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;margin:0 0 16px;flex-wrap:wrap"><span style="flex:1;min-width:200px">◎ กรอกราคาเยนอ้างอิงบนการ์ด (เว้นว่างได้) · กด "บันทึก" ให้ทุกเครื่องเหมือนกัน</span><sc-if value="{{ hasLayoutMsg }}" hint-placeholder-val="{{ false }}"><span style="flex:none;font:600 12px 'FC Vision Rounded',ui-monospace,monospace;color:var(--dim)">{{ layoutMsg }}</span></sc-if><button onClick="{{ saveLayout }}" style="padding:6px 18px;border-radius:999px;border:none;background:var(--blue);color:#fff;font:700 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer">💾 บันทึก</button><button onClick="{{ toggleRefEditMode }}" title="ปิดโหมดแก้ไขราคาอ้างอิง" style="{{ refEditToggleStyle }}"><span style="{{ refEditKnobStyle }}"></span></button></div>
     </sc-if>
 
     <!-- GRID HEADER -->
@@ -194,7 +198,7 @@
           <div style="position:relative;aspect-ratio:3/4;background:var(--img-bg);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);box-shadow:inset 0 1px 0 var(--glass-hi),inset 0 0 0 1px var(--hair)">
             <sc-if value="{{ card.hasImg }}" hint-placeholder-val="{{ true }}"><img src="{{ card.image_url }}" loading="lazy" referrerpolicy="no-referrer" onError="{{ card.onImgError }}" style="width:100%;height:100%;object-fit:contain;display:block"/></sc-if>
             <sc-if value="{{ card.noImg }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;background:repeating-linear-gradient(135deg,var(--hair),var(--hair) 9px,transparent 9px,transparent 18px)"><div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);letter-spacing:.1em">{{ card.rarity }}-SPC</div><div style="font:700 14px 'FC Vision Rounded',ui-monospace,monospace;color:var(--dim)">{{ card.code }}</div></div></sc-if>
-            <div onClick="{{ card.onBadgeClick }}" style="{{ card.badgeStyle }}"><span style="width:7px;height:7px;border-radius:50%;background:{{ card.rarColor }};flex:none"></span><span style="font:600 10px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;color:var(--text)">{{ card.catName }}</span><sc-if value="{{ card.showCatBadgeEdit }}" hint-placeholder-val="{{ false }}"><span style="font:400 9px system-ui;color:var(--blue);margin-left:2px">↻</span></sc-if></div>
+            <div onClick="{{ card.onBadgeClick }}" style="{{ card.badgeStyle }}"><span style="width:9px;height:9px;border-radius:50%;background:{{ card.rarColor }};flex:none"></span><span style="font:700 12px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.7)">{{ card.catName }}</span><sc-if value="{{ card.showCatBadgeEdit }}" hint-placeholder-val="{{ false }}"><span style="font:400 11px system-ui;color:#fff;margin-left:2px;text-shadow:0 1px 3px rgba(0,0,0,0.7)">↻</span></sc-if></div>
             <div style="{{ card.glowStyle }}"></div>
             <sc-if value="{{ card.soldOut }}" hint-placeholder-val="{{ false }}">
               <div style="position:absolute;inset:0;background:rgba(0,0,0,0.50);display:flex;align-items:center;justify-content:center;z-index:10;border-radius:14px">
@@ -203,7 +207,7 @@
             </sc-if>
           </div>
           </a>
-          <div style="padding:13px 6px 4px;opacity:{{ card.soldDim }}">
+          <div style="padding:{{ card.bodyPad }};opacity:{{ card.soldDim }}">
             <div style="display:flex;align-items:center;gap:6px">
               <a href="{{ card.url }}" target="_blank" rel="noopener" onClick="{{ card.onNameClick }}" draggable="false" style="flex:1;min-width:0;font:600 {{ card.fzName }} 'FC Vision Rounded',-apple-system,system-ui,sans-serif;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="{{ card.char }}">{{ card.char }}</a>
               <sc-if value="{{ card.showEdit }}" hint-placeholder-val="{{ false }}"><button onClick="{{ card.onEditClick }}" title="แก้ไข" style="flex:none;width:22px;height:22px;border-radius:6px;border:1px solid var(--border);background:var(--hair);color:var(--faint);font:500 11px system-ui;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:color .2s,border-color .2s" style-hover="color:var(--text);border-color:var(--blue)">✎</button></sc-if>
@@ -220,7 +224,7 @@
               </div>
               <div style="display:flex;flex-direction:column;align-items:flex-end;line-height:1.15" title="{{ card.histText }}">
                 <span style="font:700 {{ card.fzThb }} 'FC Vision Rounded',-apple-system,system-ui,sans-serif;letter-spacing:-.02em;color:{{ card.priceColor }}" title="{{ card.priceTitle }}">{{ card.thbFmt }}</span>
-                <span style="font:600 {{ card.fzChg }} 'FC Vision Rounded',ui-monospace,monospace;color:{{ card.chgColor }}">{{ card.arrow }} {{ card.chgFmt }}</span>
+                <span style="font:600 {{ card.fzChg }} 'FC Vision Rounded',ui-monospace,monospace;color:{{ card.chgColor }}">{{ card.arrow }}{{ card.chgFmt }}</span>
               </div>
             </div>
           </div>
@@ -264,7 +268,6 @@
 
         <!-- SECTION: Check Price Now -->
         <div style="padding:24px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">ดึงราคาทันที</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
             <div style="padding:16px 18px;border-bottom:1px solid var(--border)">
               <div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;margin-bottom:6px">GitHub Personal Access Token</div>
@@ -273,6 +276,8 @@
             </div>
             <div style="padding:16px 18px">
               <button onClick="{{ triggerScraper }}" style="{{ runBtnStyle }}">{{ runBtnLabel }}</button>
+              <div style="display:flex;gap:6px;margin-top:10px"><button onClick="{{ runFix }}" style="flex:1;padding:9px;border-radius:10px;border:1px solid var(--up);background:transparent;color:var(--up);font:700 12px 'FC Vision Rounded',system-ui;cursor:pointer" title="ดึงเฉพาะ: การ์ดใหม่ + ไม่มีรูป + ดึงไม่ได้">🔧 ซ่อมที่ขาด</button></div>
+              <div style="display:flex;gap:6px;margin-top:6px"><button onClick="{{ runNew }}" style="flex:1;padding:7px;border-radius:10px;border:1px solid var(--border);background:var(--panel-strong);color:var(--dim);font:600 12px 'FC Vision Rounded',system-ui;cursor:pointer" title="การ์ดที่พึ่งเพิ่มใหม่ (ยังไม่เคยดึง)">ใหม่</button><button onClick="{{ runNoImg }}" style="flex:1;padding:7px;border-radius:10px;border:1px solid var(--border);background:var(--panel-strong);color:var(--dim);font:600 12px 'FC Vision Rounded',system-ui;cursor:pointer" title="การ์ดที่ไม่มีรูป">ไม่มีรูป</button><button onClick="{{ runFailed }}" style="flex:1;padding:7px;border-radius:10px;border:1px solid var(--border);background:var(--panel-strong);color:var(--dim);font:600 12px 'FC Vision Rounded',system-ui;cursor:pointer" title="การ์ดที่ดึงข้อมูลไม่ได้">ดึงไม่ได้</button></div>
               <sc-if value="{{ hasRunMsg }}" hint-placeholder-val="{{ false }}">
                 <div style="margin-top:10px;font:600 12px 'FC Vision Rounded',ui-monospace,monospace;color:{{ runMsgColor }};text-align:center">{{ runMsg }}</div>
               </sc-if>
@@ -283,12 +288,10 @@
 
         <!-- SECTION: อัตราแลกเปลี่ยน -->
         <div style="padding:0 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">อัตราแลกเปลี่ยน</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
             <div style="display:flex;align-items:center;gap:12px;padding:16px 18px">
               <div style="flex:1">
                 <div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">1 ¥ เท่ากับ (฿)</div>
-                <div style="font:500 12px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:3px">พิมพ์ตัวเลขได้เลย เช่น 0.206</div>
               </div>
               <input type="number" value="{{ rateLabel }}" onInput="{{ onRateInput }}" step="0.001" min="0.1" max="0.4" style="width:90px;background:var(--panel-strong);border:1px solid var(--border);border-radius:12px;padding:10px 12px;color:var(--text);font:700 16px 'FC Vision Rounded',ui-monospace,monospace;outline:none;text-align:right;transition:border-color .2s" style-focus="border-color:var(--blue)"/>
             </div>
@@ -298,7 +301,7 @@
               <button onClick="{{ rateUp }}" style="flex:1;padding:10px;border-radius:12px;border:1px solid var(--border);background:var(--panel-strong);color:var(--text);font:600 18px system-ui;cursor:pointer;transition:background .2s">+</button>
             </div>
             <div style="border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔄 ดึงเรทอัตโนมัติ</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">อัปเดตเรท JPY→THB จากตลาดจริง</div></div>
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔄 ดึงเรทอัตโนมัติ</div></div>
               <button onClick="{{ autoRateBtn.onClick }}" style="{{ autoRateToggleStyle }}"><span style="{{ autoRateKnobStyle }}"></span></button>
             </div>
           </div>
@@ -306,13 +309,13 @@
 
         <!-- SECTION: แจ้งเตือนราคา -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">แจ้งเตือนราคา</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔔 แจ้งเตือนราคาขึ้น/ลง</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">เด้งแจ้งเตือน + เสียง เมื่อราคาเปลี่ยนแรง</div></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔔 แจ้งเตือนราคาขึ้น/ลง</div></div>
               <button onClick="{{ alertBtn.onClick }}" style="{{ alertToggleStyle }}"><span style="{{ alertKnobStyle }}"></span></button>
             </div>
-            <div style="padding:16px 18px">
+            <sc-if value="{{ alertOnFlag }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:16px 18px;border-top:1px solid var(--border)">
               <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px">
                 <div style="font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">แจ้งเมื่อเปลี่ยนเกิน</div>
                 <div style="display:flex;align-items:center;gap:6px">
@@ -325,18 +328,19 @@
                 <button onClick="{{ alertPctUp }}" style="flex:1;padding:9px;border-radius:11px;border:1px solid var(--border);background:var(--panel-strong);color:var(--text);font:600 16px system-ui;cursor:pointer">+</button>
               </div>
             </div>
+            </sc-if>
           </div>
         </div>
 
         <!-- SECTION: การแสดงผล -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">การแสดงผล</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">● Live อัปเดต</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">ดึงข้อมูลจริงอัตโนมัติทุก {{ liveMinLabel }}</div></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">● Live อัปเดต</div></div>
               <button onClick="{{ liveBtn.onClick }}" style="{{ liveToggleStyle }}"><span style="{{ liveKnobStyle }}"></span></button>
             </div>
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-bottom:1px solid var(--border)">
+            <sc-if value="{{ liveFlag }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-top:1px solid var(--border)">
               <div style="font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;color:var(--dim)">ความถี่อัปเดต</div>
               <div style="display:flex;align-items:center;gap:8px">
                 <button onClick="{{ liveMinDown }}" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--border);background:var(--panel-strong);color:var(--text);font:600 17px system-ui;cursor:pointer">−</button>
@@ -344,8 +348,9 @@
                 <button onClick="{{ liveMinUp }}" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--border);background:var(--panel-strong);color:var(--text);font:600 17px system-ui;cursor:pointer">+</button>
               </div>
             </div>
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔔 เสียงแจ้งเตือน</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">เสียงเมื่อราคาเปลี่ยนแปลง</div></div>
+            </sc-if>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-top:1px solid var(--border)">
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">🔔 เสียงแจ้งเตือน</div></div>
               <button onClick="{{ soundBtn.onClick }}" style="{{ soundToggleStyle }}"><span style="{{ soundKnobStyle }}"></span></button>
             </div>
           </div>
@@ -353,42 +358,38 @@
 
         <!-- SECTION: การจัดเรียง -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">การจัดเรียง</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">✣ โหมดลากจัดเรียง</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">ลากการ์ดอิสระ สแนปกริด</div></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">✣ โหมดลากจัดเรียง</div></div>
               <button onClick="{{ dragBtn.onClick }}" style="{{ dragToggleStyle }}"><span style="{{ dragKnobStyle }}"></span></button>
-            </div>
-            <div style="padding:14px 18px">
-              <button onClick="{{ resetLayout }}" style="width:100%;padding:12px;border-radius:14px;border:1px solid var(--border);background:var(--panel-strong);color:var(--dim);font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer;transition:background .2s,color .2s" style-hover="background:var(--hair);color:var(--text)">รีเซ็ตการจัดเรียงกลับเป็นกริด</button>
             </div>
           </div>
         </div>
 
         <!-- SECTION: แก้ไขข้อมูลการ์ด -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">แก้ไขข้อมูลการ์ด</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">✎ โหมดแก้ไขการ์ด</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">เปิดเพื่อแสดงปุ่มแก้ไขบนการ์ด</div></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">✎ โหมดแก้ไขการ์ด</div></div>
               <button onClick="{{ toggleEditMode }}" style="{{ editModeToggleStyle }}"><span style="{{ editModeKnobStyle }}"></span></button>
             </div>
-            <div style="padding:14px 18px">
+            <sc-if value="{{ editMode }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:14px 18px;border-top:1px solid var(--border)">
               <button onClick="{{ openAddCard }}" style="width:100%;padding:12px;border-radius:14px;border:1px dashed var(--blue);background:transparent;color:var(--blue);font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer;transition:background .2s" style-hover="background:var(--hair)">+ เพิ่มการ์ดที่ต้องการติดตาม</button>
               <button onClick="{{ syncExtraCards }}" style="width:100%;margin-top:10px;padding:12px;border-radius:14px;border:1px solid var(--border);background:var(--panel-strong);color:var(--dim);font:600 13px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:pointer;transition:background .2s" style-hover="background:var(--hair);color:var(--text)">⟳ ซิงค์การ์ดที่เพิ่มเอง</button>
               <sc-if value="{{ hasSyncMsg }}" hint-placeholder-val="{{ false }}">
                 <div style="margin-top:8px;font:600 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--dim);text-align:center">{{ syncMsg }}</div>
               </sc-if>
             </div>
+            </sc-if>
           </div>
         </div>
 
         <!-- SECTION: แก้ไขราคาอ้างอิง -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">แก้ไขราคาอ้างอิง</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">◎ แก้ไขราคาอ้างอิง</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">เปิดเพื่อกรอกราคาเยนอ้างอิงบนการ์ด (เว้นว่างได้)</div></div>
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">◎ แก้ไขราคาอ้างอิง</div></div>
               <button onClick="{{ toggleRefEditMode }}" style="{{ refEditToggleStyle }}"><span style="{{ refEditKnobStyle }}"></span></button>
             </div>
           </div>
@@ -396,10 +397,9 @@
 
         <!-- SECTION: การจัดการหมวดหมู่ -->
         <div style="padding:18px 22px 8px">
-          <div style="font:600 11px 'FC Vision Rounded',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:10px">การจัดการหมวดหมู่</div>
           <div style="background:var(--hair);border:1px solid var(--border);border-radius:18px;overflow:hidden">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)">
-              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">↔ โหมดจัดการหมวดหมู่</div><div style="font:500 11px 'FC Vision Rounded',ui-monospace,monospace;color:var(--faint);margin-top:2px">ลากชิป · แก้ชื่อ · คลิก badge บนการ์ดเพื่อย้ายหมวด</div></div>
+              <div><div style="font:600 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif">↔ โหมดจัดการหมวดหมู่</div></div>
               <button onClick="{{ toggleCatEditMode }}" style="{{ catEditModeToggleStyle }}"><span style="{{ catEditModeKnobStyle }}"></span></button>
             </div>
             <sc-if value="{{ catEditMode }}" hint-placeholder-val="{{ false }}">
@@ -644,6 +644,7 @@ class Component extends DCLogic {
     const autoRate = this.load('auto_rate');
     const refYen   = this.load('ref_yen');
     const liveMin  = this.load('live_min');
+    const savedPage = parseInt(localStorage.getItem('snkr_page')||'0')||0;
     this.setState({
       prices:this.defaultPrices(), updated:Date.now(), ghToken,
       ...(slots && {slots}),
@@ -658,6 +659,7 @@ class Component extends DCLogic {
       ...(autoRate !== null && {autoRate}),
       ...(refYen && {refYen}),
       ...(liveMin !== null && {liveMin}),
+      page: savedPage,
     }, ()=>{ this.ensureSlots(); this.ensureTimer(); this.fetchLayout(); this.fetchRealData(); if(this.state.autoRate) this.fetchRate(); });
     const el=this.gridRef.current;
     if(el && window.ResizeObserver){ this._ro=new ResizeObserver(()=>this.measure()); this._ro.observe(el); }
@@ -671,7 +673,7 @@ class Component extends DCLogic {
     localStorage.setItem('snkr_gh_token', v);
   };
 
-  triggerScraper = async () => {
+  _runScraper = async (mode='all') => {
     const repo  = (this.props.githubRepo||'p2pcenter/test-system').trim();
     const branch= this.props.githubBranch||'master';
     const token = this.state.ghToken.trim();
@@ -683,10 +685,10 @@ class Component extends DCLogic {
         `https://api.github.com/repos/${repo}/actions/workflows/scrape.yml/dispatches`,
         { method:'POST',
           headers:{ 'Authorization':`Bearer ${token}`, 'Accept':'application/vnd.github.v3+json', 'Content-Type':'application/json' },
-          body: JSON.stringify({ref: branch}) }
+          body: JSON.stringify({ref: branch, inputs: {mode: mode||'all'}}) }
       );
       if(res.status===204){
-        this.setState({runStatus:'running', runMsg:'⏳ Scraper กำลังรัน (~5 นาที)...'});
+        this.setState({runStatus:'running', runMsg:'⏳ Scraper ['+mode+'] กำลังรัน (~5 นาที)...'});
         clearInterval(this._poll);
         this._poll = setInterval(()=>this.fetchRealData(), 45000);
         setTimeout(()=>{
@@ -701,6 +703,11 @@ class Component extends DCLogic {
       this.setState({runStatus:'error', runMsg:'❌ Network error: '+e.message});
     }
   };
+  triggerScraper = () => this._runScraper('all');
+  runFix    = () => this._runScraper('fix');
+  runNew    = () => this._runScraper('new');
+  runNoImg  = () => this._runScraper('no_image');
+  runFailed = () => this._runScraper('failed');
 
   measure(){ const el=this.gridRef.current; if(!el) return; const card=el.querySelector('.cpd-card'); const next={}; if(el.clientWidth!==this.state.cw) next.cw=el.clientWidth; if(card && card.offsetHeight && card.offsetHeight!==this.state.cardH) next.cardH=card.offsetHeight; if(Object.keys(next).length) this.setState(next); }
 
@@ -789,6 +796,7 @@ class Component extends DCLogic {
     if(changed){ this._applyingRemote=true; this.save('slots',slots); this._applyingRemote=false; this.setState({slots}); }
   }
   resetLayout = () => this.setState({ slots:null }, ()=>this.save('slots',null));
+  setPage = (p) => { const tp=this._totalPages||1; const np=Math.min(Math.max(0,p),Math.max(0,tp-1)); this.setState({page:np}); try{localStorage.setItem('snkr_page',String(np));}catch(e){} };
 
   pushNewCardToGitHub = async ({name, url}) => {
     const repo   = (this.props.githubRepo||'p2pcenter/test-system').trim();
@@ -1190,7 +1198,7 @@ class Component extends DCLogic {
         url, showEdit:this.state.editMode,
         showCatBadgeEdit:this.state.catEditMode,
         onBadgeClick:this.state.catEditMode?(e)=>{ e.preventDefault(); e.stopPropagation(); this.cycleCat(c.id); }:null,
-        badgeStyle:`position:absolute;top:10px;left:10px;display:flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,0.12);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);border:1px solid rgba(255,255,255,0.18);box-shadow:inset 0 1px 0 rgba(255,255,255,0.22)${this.state.catEditMode?';cursor:pointer':''}`,
+        badgeStyle:`position:absolute;top:5px;left:6px;display:flex;align-items:center;gap:5px;filter:drop-shadow(0 1px 3px rgba(0,0,0,0.6))${this.state.catEditMode?';cursor:pointer':''}`,
         onEditClick:(e)=>{ e.stopPropagation(); this.openEditCard(c.id, char, url); },
         isCustom:!!this.state.extraCards?.find(x=>x.id===c.id),
         stopDown:(e)=>e.stopPropagation(),
@@ -1207,7 +1215,8 @@ class Component extends DCLogic {
         showRefStatic: !refEdit && hasRef,
         onRefInput:(e)=>this.setRefYen(c.id, e.target.value),
         chgFmt:(chg>0?'+':'')+chg.toFixed(1)+'%',
-        dir, arrow:dir==='up'?'▲':dir==='down'?'▼':'·',
+        dir, arrow: isMob ? '' : (dir==='up'?'▲ ':dir==='down'?'▼ ':'· '),
+        bodyPad: isMob?'11px 3px 3px':'13px 6px 4px',
         priceColor:col, chgColor:ccol,
         glowStyle:this.glow(fl),
         hasImg:!!c.image_url, noImg:!c.image_url, image_url:c.image_url||'',
@@ -1373,7 +1382,7 @@ class Component extends DCLogic {
       toggleSettings:()=>this.setState(s=>({settingsOpen:!s.settingsOpen})),
       settingsOpen:this.state.settingsOpen,
       ghToken:this.state.ghToken, onTokenInput:this.onTokenInput,
-      triggerScraper:this.triggerScraper,
+      triggerScraper:this.triggerScraper, runFix:this.runFix, runNew:this.runNew, runNoImg:this.runNoImg, runFailed:this.runFailed,
       runStatus:this.state.runStatus, runMsg:this.state.runMsg,
       runBtnStyle:`width:100%;padding:13px;border-radius:14px;border:none;font:700 14px 'FC Vision Rounded',-apple-system,system-ui,sans-serif;cursor:${this.state.runStatus==='running'?'not-allowed':'pointer'};transition:all .2s;background:${this.state.runStatus==='running'?'var(--faint)':'var(--blue)'};color:#fff;`,
       runBtnLabel:this.state.runStatus==='running'?'⏳ กำลังรัน...':'▶ Check Price Now',
@@ -1385,6 +1394,7 @@ class Component extends DCLogic {
       soundToggleStyle:`width:51px;height:31px;border-radius:999px;border:none;padding:2px;cursor:pointer;transition:background .25s;background:${this.effSound()?'var(--up)':'var(--faint)'};flex:none;display:flex;align-items:center`,
       soundKnobStyle:`width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.3);transition:transform .25s;transform:${this.effSound()?'translateX(20px)':'translateX(0)'}`,
       // ── Price Alert ──
+      alertOnFlag:this.effAlert(), liveFlag:this.effLive(),
       alertBtn:{ onClick:()=>{ const next=!this.effAlert(); this.save('alert_on',next); this.setState({alertOn:next}); if(next) this.requestAlertPerm(); } },
       alertToggleStyle:`width:51px;height:31px;border-radius:999px;border:none;padding:2px;cursor:pointer;transition:background .25s;background:${this.effAlert()?'var(--up)':'var(--faint)'};flex:none;display:flex;align-items:center`,
       alertKnobStyle:`width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.3);transition:transform .25s;transform:${this.effAlert()?'translateX(20px)':'translateX(0)'}`,
@@ -1414,9 +1424,9 @@ class Component extends DCLogic {
       tickerItems, movers3, gainCount:gainers.length, loseCount:losers.length,
       cards:boardCards, gridRef:this.gridRef, boardStyle, resetLayout:this.resetLayout,
       showPager: !filtering && (this._totalPages||1)>1,
-      pagePrev:()=>this.setState(s=>({page:Math.max(0,(s.page||0)-1)})),
-      pageNext:()=>this.setState(s=>({page:Math.min((this._totalPages||1)-1,(s.page||0)+1)})),
-      pageNums: (()=>{ const T=this._totalPages||1, p=this._page||0; const start = T<=4?0:Math.min(Math.max(0,p-3),T-4); const n=Math.min(4,T); const out=[]; for(let i=0;i<n;i++){ const pg=start+i; out.push({ label:String(pg+1), active:pg===p, boxStyle:'min-width:40px;height:40px;padding:0 10px;border-radius:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;font:700 15px \'FC Vision Rounded\',ui-monospace,monospace;transition:all .2s;'+(pg===p?'border:1.5px solid var(--blue);background:var(--hair);color:var(--text);box-shadow:0 0 0 3px color-mix(in oklch,var(--blue) 18%,transparent)':'border:1px solid transparent;background:transparent;color:var(--faint)'), onClick:()=>this.setState({page:pg}) }); } return out; })(),
+      pagePrev:()=>this.setPage((this.state.page||0)-1),
+      pageNext:()=>this.setPage((this.state.page||0)+1),
+      pageNums: (()=>{ const T=this._totalPages||1, p=this._page||0; const WIN=6; const start = T<=WIN?0:Math.min(Math.max(0,p-2),T-WIN); const n=Math.min(WIN,T); const out=[]; for(let i=0;i<n;i++){ const pg=start+i; out.push({ label:String(pg+1), active:pg===p, boxStyle:'min-width:38px;height:38px;padding:0 8px;border-radius:11px;display:flex;align-items:center;justify-content:center;cursor:pointer;font:700 14px \'FC Vision Rounded\',ui-monospace,monospace;transition:all .2s;'+(pg===p?'border:1.5px solid var(--blue);background:var(--hair);color:var(--text);box-shadow:0 0 0 3px color-mix(in oklch,var(--blue) 18%,transparent)':'border:1px solid transparent;background:transparent;color:var(--faint)'), onClick:()=>this.setPage(pg) }); } return out; })(),
       saveLayout:this.saveLayout, layoutMsg:this.state.layoutMsg||'', hasLayoutMsg:!!(this.state.layoutMsg),
       shownCount:shown.length, allCount:cards.length,
       catLabel:filter==='ทั้งหมด'?'การ์ดทั้งหมด':(customCats.find(c=>c.id===filter)?.name||filter),
