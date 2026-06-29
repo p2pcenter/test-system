@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1782662429213,
+  "updatedAt": 1782759354355,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -953,6 +953,14 @@
     "custom-1782571941528": {
       "name": "Boa Hancock C-P [ST03-013] B09",
       "url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C-P+%5BST03-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+    },
+    "custom-1782629031456": {
+      "name": "Luffy [P-043] L35",
+      "url": "https://snkrdunk.com/search?keywords=Luffy+p043&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+    },
+    "custom-1782627222536": {
+      "name": "Luffy [OP07-109]",
+      "url": "https://snkrdunk.com/search?keywords=%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%BBD%E3%83%BB%E3%83%AB%E3%83%95%E3%82%A3+SR+%5BOP07-109%5D%28%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
     }
   },
   "ref_yen": {
@@ -992,6 +1000,13 @@
     "custom-1782655936508": "36500",
     "custom-1782655019487": "24500",
     "custom-1782657640322": "49999",
-    "custom-1782661159797": "68000"
+    "custom-1782661159797": "68000",
+    "custom-1782662185001": "39999",
+    "custom-1782657530371": "18000",
+    "custom-1782657508251": "18500",
+    "custom-1782657485643": "24998",
+    "custom-1782657378198": "35000",
+    "custom-1782660389433": "18900",
+    "custom-1782662375603": "99999"
   }
 }
