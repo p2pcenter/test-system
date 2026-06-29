@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-06-29 06:44:03 UTC",
+  "datetime": "2026-06-29 11:19:15 UTC",
   "cid": "e0a36a2e",
   "name": "Yamato SR [OP04-112]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥39,800",
-  "price_int": 39800,
-  "prev_price": "¥33,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0010661a-59db-4424-93fd-393b287f49ae/8436206.jpeg?size=m",
+  "price": "¥45,000",
+  "price_int": 45000,
+  "prev_price": "¥39,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2668d981-1c7c-4610-969f-e4147f48da1d/4274216.jpeg?size=m",
   "history": [
     {
       "t": 1782659585,
@@ -16,6 +16,10 @@
     {
       "t": 1782715601,
       "p": 39800
+    },
+    {
+      "t": 1782732396,
+      "p": 45000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SR+%5BOP04-112%5D+%28Flagship+Battle+Top+8+Souvenirs%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
