@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-06-30 12:44:02 UTC",
+  "datetime": "2026-06-30 15:14:02 UTC",
   "cid": "97f8efe9",
   "name": "Zoro [OP05-067] Z03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥23,500",
-  "price_int": 23500,
+  "price": "¥24,500",
+  "price_int": 24500,
   "prev_price": "¥23,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6e92fe8b-8d36-40ae-8fd1-6eb5e4784143/520819.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/52530ead-7c2c-4749-b84f-45a079c3dc35/7418713.jpeg?size=m",
   "history": [
     {
       "t": 1782658638,
@@ -20,6 +20,10 @@
     {
       "t": 1782808912,
       "p": 23500
+    },
+    {
+      "t": 1782832554,
+      "p": 24500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=+R+%5BOP05-067%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
