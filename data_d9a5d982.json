@@ -4,9 +4,9 @@
   "name": "Zoro SR [ST01-013] ",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥33,000",
-  "price_int": 33000,
-  "prev_price": "¥33,000",
+  "price": "¥32,800",
+  "price_int": 32800,
+  "prev_price": "¥32,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e3e24adb-3c9d-4541-8551-2f99c2d53adf/6867173.jpeg?size=m",
   "history": [
     {
@@ -20,6 +20,18 @@
     {
       "t": 1783084864,
       "p": 33000
+    },
+    {
+      "t": 1783161427,
+      "p": 32900
+    },
+    {
+      "t": 1783172477,
+      "p": 39480
+    },
+    {
+      "t": 1783175890,
+      "p": 32800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Roronoa+Zoro+SR+%5BST01-013%5D+%28Promotion+Card+Set+1%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

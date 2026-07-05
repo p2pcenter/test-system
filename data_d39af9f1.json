@@ -4,14 +4,18 @@
   "name": "Zoro R-P [OP09-076]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥44,000",
-  "price_int": 44000,
-  "prev_price": "¥44,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6162a19e-bc22-4994-a694-b1565b90e4af/6564221.jpeg?size=m",
+  "price": "¥45,000",
+  "price_int": 45000,
+  "prev_price": "¥45,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a2d14938-bf19-4c2e-908e-2804718340a3/8271836.jpeg?size=m",
   "history": [
     {
       "t": 1782658673,
       "p": 44000
+    },
+    {
+      "t": 1783231845,
+      "p": 45000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=%E3%83%AD%E3%83%AD%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%BE%E3%83%AD+R-P+%5BOP09-076%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

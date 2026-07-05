@@ -7,7 +7,7 @@
   "price": "¥26,000",
   "price_int": 26000,
   "prev_price": "¥26,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/58433587-1668-4b4d-8f86-a7eaa5a1590b/16010.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/54f4ff37-2c83-49d4-8530-4311b62a5b70/5110668.jpeg?size=m",
   "history": [
     {
       "t": 1782570489,
@@ -63,6 +63,14 @@
     },
     {
       "t": 1783102714,
+      "p": 26000
+    },
+    {
+      "t": 1783145085,
+      "p": 25500
+    },
+    {
+      "t": 1783218967,
       "p": 26000
     }
   ],
