@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-05 05:00:52 UTC",
+  "datetime": "2026-07-05 05:30:47 UTC",
   "cid": "47043153",
   "name": "Pudding [OP03-112]",
   "code": "OP03-112",
   "rarity": "C",
-  "price": "¥29,800",
-  "price_int": 29800,
+  "price": "¥30,500",
+  "price_int": 30500,
   "prev_price": "¥29,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ae0f3d1e-e395-410e-a17d-f1c2b0854439/8436206.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/aee21a98-0505-4d88-b950-719a043ed00b/8420563.jpeg?size=m",
   "history": [
     {
       "t": 1782570538,
@@ -60,6 +60,10 @@
     {
       "t": 1782920395,
       "p": 29800
+    },
+    {
+      "t": 1783230061,
+      "p": 30500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Pudding+R-SPC+%5BOP03-112%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
