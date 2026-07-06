@@ -1,12 +1,12 @@
 {
-  "datetime": "2026-07-06 09:34:01 UTC",
+  "datetime": "2026-07-06 10:01:12 UTC",
   "cid": "27680520",
   "name": "Uta [EB03-003]",
   "code": "EB03-003",
   "rarity": "C",
   "price": "¥102,000",
   "price_int": 102000,
-  "prev_price": "¥102,500",
+  "prev_price": "¥102,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fcb3953a-7eea-4c92-8147-05ab21e1f09a/5607048.jpeg?size=m",
   "history": [
     {
@@ -50,7 +50,7 @@
       "p": 102500
     },
     {
-      "t": 1783330522,
+      "t": 1783330834,
       "p": 102000
     }
   ],
