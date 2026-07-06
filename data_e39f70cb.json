@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-06 03:30:53 UTC",
+  "datetime": "2026-07-06 04:00:55 UTC",
   "cid": "e39f70cb",
   "name": "Zoro UC [OP07-113]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥37,000",
-  "price_int": 37000,
+  "price": "¥35,000",
+  "price_int": 35000,
   "prev_price": "¥37,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5b5d308f-be8a-4ccd-93bd-48f4bf6461d8/5659633.jpeg?size=m",
   "history": [
@@ -20,6 +20,10 @@
     {
       "t": 1783231674,
       "p": 37000
+    },
+    {
+      "t": 1783310641,
+      "p": 35000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=UC+%5BOP07-113%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

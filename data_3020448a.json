@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-06 03:30:53 UTC",
+  "datetime": "2026-07-06 04:00:55 UTC",
   "cid": "3020448a",
   "name": "Vivi [EB03-024]",
   "code": "EB03-024",
   "rarity": "C",
-  "price": "¥81,980",
-  "price_int": 81980,
+  "price": "¥81,000",
+  "price_int": 81000,
   "prev_price": "¥81,980",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8d33af28-64f8-4e10-9bcf-561ce719edf9/7408695.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fd4d9efd-7e2f-41a6-93ee-519f89734fc0/7438860.jpeg?size=m",
   "history": [
     {
       "t": 1782566878,
@@ -64,6 +64,10 @@
     {
       "t": 1783261736,
       "p": 81980
+    },
+    {
+      "t": 1783310875,
+      "p": 81000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Vivi+SR-SPC+%5BEB03-024%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
