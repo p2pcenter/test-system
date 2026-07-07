@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-07 05:30:51 UTC",
+  "datetime": "2026-07-07 06:00:56 UTC",
   "cid": "5d5a3235",
   "name": "Buggy (Wanted)",
   "code": "OP09-051",
   "rarity": "R",
-  "price": "¥27,000",
-  "price_int": 27000,
+  "price": "¥25,000",
+  "price_int": 25000,
   "prev_price": "¥27,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/34533f23-4e16-472b-a079-3faa52546f45/5187501.jpeg?size=m",
   "history": [
@@ -88,6 +88,10 @@
     {
       "t": 1783298422,
       "p": 27000
+    },
+    {
+      "t": 1783404555,
+      "p": 25000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP09-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
