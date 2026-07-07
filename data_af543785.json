@@ -6,7 +6,7 @@
   "rarity": "C",
   "price": "¥16,500",
   "price_int": 16500,
-  "prev_price": "¥16,500",
+  "prev_price": "¥21,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/33ddd820-751f-4487-afcf-dca97bee05e9/7613761.jpeg?size=m",
   "history": [
     {
@@ -106,11 +106,7 @@
       "p": 21000
     },
     {
-      "t": 1783375288,
-      "p": 18000
-    },
-    {
-      "t": 1783384832,
+      "t": 1783387761,
       "p": 16500
     }
   ],
