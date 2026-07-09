@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-09 15:01:19 UTC",
+  "datetime": "2026-07-09 15:30:59 UTC",
   "cid": "033d19be",
   "name": "Luffy [ST26-005]",
   "code": "ST26-005",
   "rarity": "C",
-  "price": "¥105,000",
-  "price_int": 105000,
+  "price": "¥104,999",
+  "price_int": 104999,
   "prev_price": "¥105,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/cb4c13a5-cde0-47a5-a8a6-9364ee32d19f/5114973.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1f68d10d-6670-4c65-8914-b4173582c7f3/4254475.jpeg?size=m",
   "history": [
     {
       "t": 1782566700,
@@ -180,6 +180,10 @@
     {
       "t": 1783598973,
       "p": 105000
+    },
+    {
+      "t": 1783611379,
+      "p": 104999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST26-005%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
