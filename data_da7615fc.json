@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-12 03:31:05 UTC",
+  "datetime": "2026-07-12 04:02:16 UTC",
   "cid": "da7615fc",
   "name": "Tashigi",
   "code": "ST06-006",
   "rarity": "C",
-  "price": "¥23,400",
-  "price_int": 23400,
+  "price": "¥21,800",
+  "price_int": 21800,
   "prev_price": "¥23,400",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/adbb7019-a9a3-4800-8f2d-a32c036a8118/7936376.jpeg?size=m",
   "history": [
@@ -40,6 +40,10 @@
     {
       "t": 1783697696,
       "p": 23400
+    },
+    {
+      "t": 1783829184,
+      "p": 21800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=%E3%81%9F%E3%81%97%E3%81%8E+C-SPC&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
