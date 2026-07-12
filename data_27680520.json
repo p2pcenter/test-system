@@ -1,12 +1,12 @@
 {
-  "datetime": "2026-07-12 15:01:09 UTC",
+  "datetime": "2026-07-12 15:42:38 UTC",
   "cid": "27680520",
   "name": "Uta [EB03-003]",
   "code": "EB03-003",
   "rarity": "C",
-  "price": "¥95,000",
-  "price_int": 95000,
-  "prev_price": "¥96,000",
+  "price": "¥91,000",
+  "price_int": 91000,
+  "prev_price": "¥95,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/12b22707-6eb3-415b-94a0-4216ea391159/7822147.jpeg?size=m",
   "history": [
     {
@@ -116,6 +116,10 @@
     {
       "t": 1783868942,
       "p": 95000
+    },
+    {
+      "t": 1783871459,
+      "p": 91000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Uta+SR-SPC+%5BEB03-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
