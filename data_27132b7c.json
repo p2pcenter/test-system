@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-13 14:31:19 UTC",
+  "datetime": "2026-07-13 15:01:27 UTC",
   "cid": "27132b7c",
   "name": "Kaido",
   "code": "ST04-003",
   "rarity": "SR",
-  "price": "¥19,999",
-  "price_int": 19999,
+  "price": "¥21,700",
+  "price_int": 21700,
   "prev_price": "¥19,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b4d22927-b2b8-4ff0-9ffa-385603357059/4988938.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ccb4ada0-1106-482d-a0fc-22cd71dce5e4/70579.jpeg?size=m",
   "history": [
     {
       "t": 1782577790,
@@ -40,6 +40,10 @@
     {
       "t": 1783896586,
       "p": 19999
+    },
+    {
+      "t": 1783955073,
+      "p": 21700
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST04-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
