@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-13 10:44:16 UTC",
+  "datetime": "2026-07-13 11:01:08 UTC",
   "cid": "13f0454d",
   "name": "Sabo [OP13-120]",
   "code": "OP13-120",
   "rarity": "C",
-  "price": "¥25,500",
-  "price_int": 25500,
+  "price": "¥24,900",
+  "price_int": 24900,
   "prev_price": "¥25,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d24d08ec-f7d4-4791-b98f-27721ecc56d9/8396584.jpeg?size=m",
   "history": [
@@ -88,6 +88,10 @@
     {
       "t": 1783919405,
       "p": 25500
+    },
+    {
+      "t": 1783940573,
+      "p": 24900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sabo+SEC-P+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
