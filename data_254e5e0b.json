@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-14 02:30:58 UTC",
+  "datetime": "2026-07-14 03:01:21 UTC",
   "cid": "254e5e0b",
   "name": "Gol D. Roger (Wanted)",
   "code": "OP09-118",
   "rarity": "SEC",
-  "price": "¥28,500",
-  "price_int": 28500,
+  "price": "¥29,000",
+  "price_int": 29000,
   "prev_price": "¥28,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bea2e896-7c3f-4055-b767-bc04aefd62af/7934654.png?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b9f8395a-71a8-4f1c-a042-c856662465e0/6307859.jpeg?size=m",
   "history": [
     {
       "t": 1782574113,
@@ -56,6 +56,10 @@
     {
       "t": 1783845701,
       "p": 28500
+    },
+    {
+      "t": 1783998731,
+      "p": 29000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP09-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
