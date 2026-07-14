@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-14 10:30:57 UTC",
+  "datetime": "2026-07-14 11:01:13 UTC",
   "cid": "18075eec",
   "name": "Yamato SR-P [OP04-112] ",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥18,000",
-  "price_int": 18000,
+  "price": "¥17,500",
+  "price_int": 17500,
   "prev_price": "¥18,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/547ebc4d-0472-4af2-968d-55397fa9be91/6048092.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/683da8eb-3798-43db-900d-e01dc3a50584/4497603.jpeg?size=m",
   "history": [
     {
       "t": 1782659507,
@@ -16,6 +16,10 @@
     {
       "t": 1783920955,
       "p": 18000
+    },
+    {
+      "t": 1784027097,
+      "p": 17500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SR-P+%5BOP04-112%5D+%28Booster+Pack+The+Kingdom+Of+Conspiracy%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
