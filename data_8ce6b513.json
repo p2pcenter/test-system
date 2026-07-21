@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-21 05:01:05 UTC",
+  "datetime": "2026-07-21 05:31:02 UTC",
   "cid": "8ce6b513",
   "name": "Boa Hancock [OP07-038] B04",
   "code": "OP07-038",
   "rarity": "C",
-  "price": "¥31,000",
-  "price_int": 31000,
+  "price": "¥32,500",
+  "price_int": 32500,
   "prev_price": "¥31,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e37e6922-dbc7-4c96-b3f1-ed48d33af1c3/8409060.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/aa912e89-818b-4c93-9bd7-6620657fb236/7959843.jpeg?size=m",
   "history": [
     {
       "t": 1782658701,
@@ -236,6 +236,10 @@
     {
       "t": 1784608683,
       "p": 31000
+    },
+    {
+      "t": 1784612272,
+      "p": 32500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+L-P+OP07-038&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
