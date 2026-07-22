@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-22 10:31:05 UTC",
+  "datetime": "2026-07-22 11:00:58 UTC",
   "cid": "4667e44e",
   "name": "Yamato SEC-P [OP01-121",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥29,000",
-  "price_int": 29000,
+  "price": "¥28,999",
+  "price_int": 28999,
   "prev_price": "¥29,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5f8cab48-0a5b-4d65-9f32-dd347ea0126c/2672475.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/95d2cb3e-2499-4bdf-85c2-747e2ada1345/7770235.jpeg?size=m",
   "history": [
     {
       "t": 1782658900,
@@ -20,6 +20,10 @@
     {
       "t": 1784288533,
       "p": 29000
+    },
+    {
+      "t": 1784718231,
+      "p": 28999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SEC-P+%5BOP01-121%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
