@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-23 07:31:17 UTC",
+  "datetime": "2026-07-23 08:00:54 UTC",
   "cid": "af543785",
   "name": "Luffy [OP05-119] L04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,900",
-  "price_int": 14900,
+  "price": "¥14,800",
+  "price_int": 14800,
   "prev_price": "¥14,900",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/059e75de-003c-45c9-a6da-422421cb4b69/5657985.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7a89fc1e-0a04-4d73-b0e8-da5445eb91ab/8010687.jpeg?size=m",
   "history": [
     {
       "t": 1783042739,
@@ -220,6 +220,10 @@
     {
       "t": 1784781567,
       "p": 14900
+    },
+    {
+      "t": 1784793795,
+      "p": 14800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+SEC+OP05-119&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
