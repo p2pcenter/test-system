@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-23 12:31:03 UTC",
+  "datetime": "2026-07-23 13:01:03 UTC",
   "cid": "5638c4b8",
   "name": "Ener SR-SPC [OP05-100]",
   "code": "OP05-100",
   "rarity": "C",
-  "price": "¥35,000",
-  "price_int": 35000,
+  "price": "¥33,500",
+  "price_int": 33500,
   "prev_price": "¥35,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/583c43e1-9491-4ca2-a990-b83711d1ea45/8602967.jpeg?size=m",
   "history": [
@@ -132,6 +132,10 @@
     {
       "t": 1784798747,
       "p": 35000
+    },
+    {
+      "t": 1784812185,
+      "p": 33500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+OP05-100&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
