@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-07-24 11:30:48 UTC",
+  "datetime": "2026-07-24 12:01:02 UTC",
   "cid": "ed609480",
   "name": "Boa Hancock SR-P [OP01-078] B02",
   "code": "OP01-078",
   "rarity": "C",
-  "price": "¥28,000",
-  "price_int": 28000,
+  "price": "¥26,000",
+  "price_int": 26000,
   "prev_price": "¥28,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/dc272964-3f36-4d10-babe-56933bfe80e7/6219521.jpeg?size=m",
   "history": [
@@ -44,6 +44,10 @@
     {
       "t": 1784761672,
       "p": 28000
+    },
+    {
+      "t": 1784894953,
+      "p": 26000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=%E3%83%9C%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%B3%E3%83%83%E3%82%AF+SR-P+%5BOP01-078%5D%28%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%80%8CONE+PIECE+CARD+THE+BEST%E3%80%8D%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
