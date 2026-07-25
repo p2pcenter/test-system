@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-07-25 12:02:42 UTC",
+  "datetime": "2026-07-25 13:00:58 UTC",
   "cid": "990d48d1",
   "name": "Luffy [ST01-012]",
   "code": "ST01-012",
   "rarity": "C",
-  "price": "¥78,999",
-  "price_int": 78999,
+  "price": "¥75,800",
+  "price_int": 75800,
   "prev_price": "¥78,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fb000b3d-3907-4eef-a623-64817e10cd8e/3051568.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b82518b6-d455-481a-b76e-9d15eb5112ab/5853101.jpeg?size=m",
   "history": [
     {
       "t": 1783143416,
@@ -152,6 +152,10 @@
     {
       "t": 1784970506,
       "p": 78999
+    },
+    {
+      "t": 1784984865,
+      "p": 75800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST01-012%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
