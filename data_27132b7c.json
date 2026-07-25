@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-07-25 14:00:51 UTC",
+  "datetime": "2026-07-25 14:30:51 UTC",
   "cid": "27132b7c",
   "name": "Kaido",
   "code": "ST04-003",
@@ -9,10 +9,6 @@
   "prev_price": "¥25,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6e78c56e-250b-4f3d-aa8c-03350f0fef14/8436206.jpeg?size=m",
   "history": [
-    {
-      "t": 1782973592,
-      "p": 20500
-    },
     {
       "t": 1783261485,
       "p": 19000
