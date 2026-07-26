@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-07-26 03:30:52 UTC",
+  "datetime": "2026-07-26 04:00:51 UTC",
   "cid": "5490c1b3",
   "name": "Nami [OP01-016]",
   "code": "OP01-016",
@@ -9,10 +9,6 @@
   "prev_price": "¥65,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c48ed04b-a4f1-4f28-b088-23af7f37ed1f/8445068.jpeg?size=m",
   "history": [
-    {
-      "t": 1783282875,
-      "p": 65000
-    },
     {
       "t": 1783309748,
       "p": 64800
