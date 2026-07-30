@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-07-30 08:30:51 UTC",
+  "datetime": "2026-07-30 09:00:56 UTC",
   "cid": "cbd43c23",
   "name": "Bonney [ST02-007]",
   "code": "ST02-007",
@@ -9,10 +9,6 @@
   "prev_price": "¥33,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e72487fb-72c8-43e6-9b5e-3f336ec9c207/8028034.jpeg?size=m",
   "history": [
-    {
-      "t": 1783661806,
-      "p": 33000
-    },
     {
       "t": 1783674406,
       "p": 31999
