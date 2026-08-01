@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-08-01 00:04:45 UTC",
+  "datetime": "2026-08-01 04:00:17 UTC",
   "cid": "1fbde3e2",
   "name": "Perona",
   "code": "OP06-093",
@@ -9,10 +9,6 @@
   "prev_price": "¥24,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a97170aa-9422-4b25-9cf0-b09ee9c4c1e4/8024254.jpeg?size=m",
   "history": [
-    {
-      "t": 1783604399,
-      "p": 32000
-    },
     {
       "t": 1783818537,
       "p": 30000
