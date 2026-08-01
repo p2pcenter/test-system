@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-01 14:06:22 UTC",
+  "datetime": "2026-08-01 15:36:23 UTC",
   "cid": "07dd7eb2",
   "name": "Onami [OP06-101]",
   "code": "OP06-101",
   "rarity": "C",
-  "price": "¥79,999",
-  "price_int": 79999,
+  "price": "¥75,000",
+  "price_int": 75000,
   "prev_price": "¥79,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/441844ec-97bf-40cd-b1ec-ea44a1a07dd9/8569832.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/eb72d326-92d6-48b6-937e-9a99bd21d988/5555811.jpeg?size=m",
   "history": [
-    {
-      "t": 1783859773,
-      "p": 79800
-    },
     {
       "t": 1783869009,
       "p": 79700
@@ -100,6 +96,10 @@
     {
       "t": 1785488922,
       "p": 79999
+    },
+    {
+      "t": 1785598678,
+      "p": 75000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Onami+R-SPC+%5BOP06-101%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
