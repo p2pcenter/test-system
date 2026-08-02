@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-08-02 15:58:57 UTC",
+  "datetime": "2026-08-02 17:08:14 UTC",
   "cid": "965e56d1",
   "name": "Yamato SEC-P[OP01-121]",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥17,499",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/184a1647-f2d8-439e-bf6e-47fa3f68eda2/6438978.jpeg?size=m",
   "history": [
-    {
-      "t": 1783758925,
-      "p": 16800
-    },
     {
       "t": 1783962591,
       "p": 16999
