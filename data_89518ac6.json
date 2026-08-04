@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-04 06:25:58 UTC",
+  "datetime": "2026-08-04 09:20:18 UTC",
   "cid": "89518ac6",
   "name": "Uta [OP02-120]",
   "code": "OP02-120",
   "rarity": "C",
-  "price": "¥39,000",
-  "price_int": 39000,
-  "prev_price": "¥38,500",
+  "price": "¥38,500",
+  "price_int": 38500,
+  "prev_price": "¥39,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f22b735a-f5ba-491f-92a2-e9fd02a0b752/3838903.jpeg?size=m",
   "history": [
-    {
-      "t": 1784037819,
-      "p": 40800
-    },
     {
       "t": 1784097551,
       "p": 40000
@@ -152,6 +148,10 @@
     {
       "t": 1785825082,
       "p": 39000
+    },
+    {
+      "t": 1785835584,
+      "p": 38500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Uta+SEC-SPC+%5BOP02-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
