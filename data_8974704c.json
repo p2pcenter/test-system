@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-04 14:05:44 UTC",
+  "datetime": "2026-08-04 16:27:19 UTC",
   "cid": "8974704c",
   "name": "Boa Hancock [OP02-059] B03",
   "code": "OP02-059",
   "rarity": "C",
   "price": "¥27,700",
   "price_int": 27700,
-  "prev_price": "¥27,800",
+  "prev_price": "¥27,700",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/414afa5a-3a9f-4e2c-8882-cb353f5985dc/6378276.jpeg?size=m",
   "history": [
-    {
-      "t": 1783948137,
-      "p": 26800
-    },
     {
       "t": 1784128113,
       "p": 27500
