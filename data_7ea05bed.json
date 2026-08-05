@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-05 06:35:48 UTC",
+  "datetime": "2026-08-05 09:35:48 UTC",
   "cid": "7ea05bed",
   "name": "Mihawk [OP12-030]",
   "code": "OP12-030",
   "rarity": "C",
   "price": "¥34,000",
   "price_int": 34000,
-  "prev_price": "¥35,200",
+  "prev_price": "¥34,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5d1e4032-5850-463e-aaae-ba195351593f/7214651.jpeg?size=m",
   "history": [
-    {
-      "t": 1784183734,
-      "p": 34500
-    },
     {
       "t": 1784191141,
       "p": 35500
