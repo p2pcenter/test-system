@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-07 22:06:54 UTC",
+  "datetime": "2026-08-07 23:05:41 UTC",
   "cid": "859df284",
   "name": "Zoro R-P [OP05-067] Z02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,800",
-  "price_int": 14800,
+  "price": "¥5,000",
+  "price_int": 5000,
   "prev_price": "¥14,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/cafc2d2f-ba86-44d2-946d-e334c0d11cfb/6219521.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/081ee6d8-9b30-4562-a7d9-6c8b8a084449/4444524.jpeg?size=m",
   "history": [
     {
       "t": 1784369513,
@@ -80,6 +80,10 @@
     {
       "t": 1786107897,
       "p": 14800
+    },
+    {
+      "t": 1786144415,
+      "p": 5000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Zorojuro+R-P+%5BOP05-067%5D+%28Booster+Pack+Awakening+of+the+New+Era%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
