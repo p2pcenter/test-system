@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-07 00:23:32 UTC",
+  "datetime": "2026-08-07 03:27:36 UTC",
   "cid": "91ff4acb",
   "name": "Shanks [ST16-004]",
   "code": "ST16-004",
   "rarity": "C",
   "price": "¥39,500",
   "price_int": 39500,
-  "prev_price": "¥39,800",
+  "prev_price": "¥39,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/96d0697e-3cff-478c-b9b7-5988118f808a/2762128.jpeg?size=m",
   "history": [
-    {
-      "t": 1784332065,
-      "p": 40800
-    },
     {
       "t": 1784340445,
       "p": 44000
