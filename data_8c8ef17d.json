@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-08 09:35:07 UTC",
+  "datetime": "2026-08-08 10:30:00 UTC",
   "cid": "8c8ef17d",
   "name": "Zoro R-P [PRB02-006]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥32,000",
-  "price_int": 32000,
+  "price": "¥31,000",
+  "price_int": 31000,
   "prev_price": "¥32,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c2506085-f798-464f-88c0-22f3da3d503d/8363754.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2b004c2a-9ea3-4ff5-9565-18612da6e89d/2673992.jpeg?size=m",
   "history": [
     {
       "t": 1784135818,
@@ -56,6 +56,10 @@
     {
       "t": 1785931416,
       "p": 32000
+    },
+    {
+      "t": 1786185037,
+      "p": 31000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-P+%5BPRB02-006%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
