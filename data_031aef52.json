@@ -1,77 +1,21 @@
 {
-  "datetime": "2026-07-08 20:31:07 UTC",
+  "datetime": "2026-08-08 14:34:31 UTC",
   "cid": "031aef52",
   "name": "Shirahoshi",
   "code": "EB01-057",
   "rarity": "SR",
-  "price": "¥41,000",
-  "price_int": 41000,
+  "price": "¥37,000",
+  "price_int": 37000,
   "prev_price": "¥41,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f9c05105-4b77-4063-a646-0d10d6f63d2f/7577323.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fe96ce0b-3ab2-4d70-9621-a35b7573f841/8429525.jpeg?size=m",
   "history": [
-    {
-      "t": 1782567051,
-      "p": 42000
-    },
-    {
-      "t": 1782570651,
-      "p": 43000
-    },
-    {
-      "t": 1782574251,
-      "p": 42500
-    },
-    {
-      "t": 1782577851,
-      "p": 43000
-    },
-    {
-      "t": 1782739591,
-      "p": 43580
-    },
-    {
-      "t": 1782805590,
-      "p": 43000
-    },
-    {
-      "t": 1782922766,
-      "p": 42999
-    },
-    {
-      "t": 1782949200,
-      "p": 41980
-    },
-    {
-      "t": 1783093190,
-      "p": 41000
-    },
-    {
-      "t": 1783125223,
-      "p": 40999
-    },
-    {
-      "t": 1783139855,
-      "p": 40888
-    },
-    {
-      "t": 1783151516,
-      "p": 39999
-    },
-    {
-      "t": 1783152401,
-      "p": 40888
-    },
-    {
-      "t": 1783168475,
-      "p": 41980
-    },
-    {
-      "t": 1783220865,
-      "p": 39800
-    },
     {
       "t": 1783390833,
       "p": 41000
+    },
+    {
+      "t": 1786200142,
+      "p": 37000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

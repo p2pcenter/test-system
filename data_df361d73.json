@@ -1,69 +1,21 @@
 {
-  "datetime": "2026-07-08 20:31:07 UTC",
+  "datetime": "2026-08-08 14:34:31 UTC",
   "cid": "df361d73",
   "name": "Zoro SEC-P [OP06-118]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥40,900",
-  "price_int": 40900,
+  "price": "¥34,000",
+  "price_int": 34000,
   "prev_price": "¥40,900",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8655cb9c-a27f-4e74-bc7f-011642ced6a5/3128966.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f743533c-6bb8-4998-89a7-77abbfbb8da0/6555990.jpeg?size=m",
   "history": [
-    {
-      "t": 1782659329,
-      "p": 48000
-    },
-    {
-      "t": 1782805709,
-      "p": 47000
-    },
-    {
-      "t": 1782907920,
-      "p": 45500
-    },
-    {
-      "t": 1782916736,
-      "p": 45900
-    },
-    {
-      "t": 1782977783,
-      "p": 45000
-    },
-    {
-      "t": 1782992314,
-      "p": 44900
-    },
-    {
-      "t": 1783333676,
-      "p": 43800
-    },
-    {
-      "t": 1783348473,
-      "p": 43700
-    },
-    {
-      "t": 1783414981,
-      "p": 43500
-    },
-    {
-      "t": 1783418914,
-      "p": 43700
-    },
-    {
-      "t": 1783486472,
-      "p": 42500
-    },
-    {
-      "t": 1783497912,
-      "p": 41000
-    },
-    {
-      "t": 1783513276,
-      "p": 40000
-    },
     {
       "t": 1783517650,
       "p": 40900
+    },
+    {
+      "t": 1786200144,
+      "p": 34000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=%E3%83%AD%E3%83%AD%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%BE%E3%83%AD+SEC-p+%5BOP06-118%5D+%28%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF+%E5%8F%8C%E7%92%A7%E3%81%AE%E8%A6%87%E8%80%85%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
