@@ -1,21 +1,41 @@
 {
-  "datetime": "2026-07-08 20:44:02 UTC",
+  "datetime": "2026-08-08 14:29:49 UTC",
   "cid": "a5e11990",
   "name": "Queen",
   "code": "ST04-005",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
-  "prev_price": "¥15,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a08acbd7-bcff-4b66-ac0c-f13a7d8b3795/2611121.jpeg?size=m",
+  "price": "¥22,000",
+  "price_int": 22000,
+  "prev_price": "¥22,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/24e48987-693b-481f-bad8-dc027fc6776d/8174915.jpeg?size=m",
   "history": [
     {
-      "t": 1782577779,
-      "p": 15300
+      "t": 1784246890,
+      "p": 14900
     },
     {
-      "t": 1782961673,
+      "t": 1785118068,
       "p": 15000
+    },
+    {
+      "t": 1785211677,
+      "p": 14999
+    },
+    {
+      "t": 1785215379,
+      "p": 14000
+    },
+    {
+      "t": 1785229860,
+      "p": 15000
+    },
+    {
+      "t": 1785835384,
+      "p": 14800
+    },
+    {
+      "t": 1785843924,
+      "p": 22000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

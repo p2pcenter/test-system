@@ -1,33 +1,57 @@
 {
-  "datetime": "2026-07-08 20:44:02 UTC",
+  "datetime": "2026-08-08 14:29:49 UTC",
   "cid": "a02e7765",
   "name": "Zoro P [P-045]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥40,000",
-  "price_int": 40000,
-  "prev_price": "¥40,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3c21a80c-fc23-4604-9d9d-8c2e9a03423c/641524.jpeg?size=m",
+  "price": "¥25,000",
+  "price_int": 25000,
+  "prev_price": "¥25,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d5efb47b-e07d-483f-98dd-2a290ddb8cdb/8370843.jpeg?size=m",
   "history": [
     {
-      "t": 1782658547,
-      "p": 37700
+      "t": 1784194785,
+      "p": 38500
     },
     {
-      "t": 1782738483,
-      "p": 38000
+      "t": 1784605028,
+      "p": 37800
     },
     {
-      "t": 1782751480,
-      "p": 43000
+      "t": 1784607050,
+      "p": 38500
     },
     {
-      "t": 1783058474,
-      "p": 42000
+      "t": 1784790487,
+      "p": 30000
     },
     {
-      "t": 1783152507,
-      "p": 40000
+      "t": 1784907351,
+      "p": 29500
+    },
+    {
+      "t": 1784989973,
+      "p": 29000
+    },
+    {
+      "t": 1785566703,
+      "p": 26500
+    },
+    {
+      "t": 1785593549,
+      "p": 25000
+    },
+    {
+      "t": 1786090329,
+      "p": 26500
+    },
+    {
+      "t": 1786116613,
+      "p": 26000
+    },
+    {
+      "t": 1786172006,
+      "p": 25000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Roronoa+Zoro+P+%5BP-045%5D+%28Meetup+Souvenir%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

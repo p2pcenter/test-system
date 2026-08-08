@@ -1,17 +1,61 @@
 {
-  "datetime": "2026-07-08 20:44:02 UTC",
+  "datetime": "2026-08-08 14:29:49 UTC",
   "cid": "516464b4",
   "name": "Boa Hancock C [ST03-013] B08",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥68,000",
-  "price_int": 68000,
-  "prev_price": "¥68,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b47c73f4-7ab9-429c-a780-5681c0e84566/5121930.jpeg?size=m",
+  "price": "¥19,800",
+  "price_int": 19800,
+  "prev_price": "¥19,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3d2b6eab-a281-4a6c-b6c5-e321dda9fd13/6219521.jpeg?size=m",
   "history": [
     {
-      "t": 1782665328,
-      "p": 68000
+      "t": 1784403320,
+      "p": 33000
+    },
+    {
+      "t": 1785009984,
+      "p": 32000
+    },
+    {
+      "t": 1785141703,
+      "p": 31800
+    },
+    {
+      "t": 1785195228,
+      "p": 30999
+    },
+    {
+      "t": 1785682445,
+      "p": 30000
+    },
+    {
+      "t": 1785763854,
+      "p": 28000
+    },
+    {
+      "t": 1785773358,
+      "p": 30000
+    },
+    {
+      "t": 1785781378,
+      "p": 28000
+    },
+    {
+      "t": 1785852548,
+      "p": 22000
+    },
+    {
+      "t": 1786187465,
+      "p": 19800
+    },
+    {
+      "t": 1786190363,
+      "p": 22000
+    },
+    {
+      "t": 1786193119,
+      "p": 19800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C+%3AFull+Art+%5BST03-013%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
