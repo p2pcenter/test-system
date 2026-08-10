@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-10 14:35:42 UTC",
+  "datetime": "2026-08-10 15:58:50 UTC",
   "cid": "c248a543",
   "name": "Yamato",
   "code": "OP01-121",
   "rarity": "SEC",
-  "price": "¥27,999",
-  "price_int": 27999,
+  "price": "¥27,890",
+  "price_int": 27890,
   "prev_price": "¥27,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a377138d-c306-4d0e-8958-088894964423/8368205.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/01c4d7ee-d59e-4358-a1f5-7af2b29525c3/7388839.jpeg?size=m",
   "history": [
     {
       "t": 1783522768,
@@ -32,6 +32,10 @@
     {
       "t": 1786367017,
       "p": 27999
+    },
+    {
+      "t": 1786378036,
+      "p": 27890
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP01-121%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
