@@ -1,42 +1,14 @@
 {
-  "datetime": "2026-08-09 16:54:02 UTC",
+  "datetime": "2026-08-12 13:56:31 UTC",
   "cid": "89518ac6",
   "name": "Uta [OP02-120]",
   "code": "OP02-120",
   "rarity": "C",
-  "price": "¥38,500",
-  "price_int": 38500,
-  "prev_price": "¥38,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d45e63b1-1c8c-46a0-99a7-e6a0f0dc704e/7968400.jpeg?size=m",
+  "price": "¥35,800",
+  "price_int": 35800,
+  "prev_price": "¥35,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9bc35611-dad9-4d69-a953-b8ae2a63696c/5853101.jpeg?size=m",
   "history": [
-    {
-      "t": 1784554576,
-      "p": 40730
-    },
-    {
-      "t": 1784598010,
-      "p": 40580
-    },
-    {
-      "t": 1784604838,
-      "p": 40500
-    },
-    {
-      "t": 1784606619,
-      "p": 40499
-    },
-    {
-      "t": 1784621335,
-      "p": 40000
-    },
-    {
-      "t": 1784687692,
-      "p": 39999
-    },
-    {
-      "t": 1784692952,
-      "p": 38888
-    },
     {
       "t": 1784813904,
       "p": 38500
@@ -156,6 +128,22 @@
     {
       "t": 1786258501,
       "p": 38500
+    },
+    {
+      "t": 1786329409,
+      "p": 38000
+    },
+    {
+      "t": 1786361895,
+      "p": 35800
+    },
+    {
+      "t": 1786445363,
+      "p": 35000
+    },
+    {
+      "t": 1786529515,
+      "p": 35800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Uta+SEC-SPC+%5BOP02-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

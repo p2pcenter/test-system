@@ -1,46 +1,14 @@
 {
-  "datetime": "2026-08-09 16:54:02 UTC",
+  "datetime": "2026-08-12 13:56:31 UTC",
   "cid": "8ce6b513",
   "name": "Boa Hancock [OP07-038] B04",
   "code": "OP07-038",
   "rarity": "C",
-  "price": "¥24,400",
-  "price_int": 24400,
-  "prev_price": "¥24,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/aa912e89-818b-4c93-9bd7-6620657fb236/7959843.jpeg?size=m",
+  "price": "¥22,900",
+  "price_int": 22900,
+  "prev_price": "¥22,900",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c09167f0-71a6-4563-9495-01a10ef378e6/7591584.jpeg?size=m",
   "history": [
-    {
-      "t": 1784556075,
-      "p": 33500
-    },
-    {
-      "t": 1784588664,
-      "p": 32600
-    },
-    {
-      "t": 1784608683,
-      "p": 31000
-    },
-    {
-      "t": 1784612272,
-      "p": 32500
-    },
-    {
-      "t": 1784615787,
-      "p": 32200
-    },
-    {
-      "t": 1784627553,
-      "p": 31999
-    },
-    {
-      "t": 1784633475,
-      "p": 32500
-    },
-    {
-      "t": 1784720103,
-      "p": 32000
-    },
     {
       "t": 1784813482,
       "p": 31800
@@ -192,6 +160,22 @@
     {
       "t": 1786267985,
       "p": 24400
+    },
+    {
+      "t": 1786329174,
+      "p": 24000
+    },
+    {
+      "t": 1786411675,
+      "p": 23900
+    },
+    {
+      "t": 1786423776,
+      "p": 23000
+    },
+    {
+      "t": 1786534109,
+      "p": 22900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+L-P+OP07-038&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
