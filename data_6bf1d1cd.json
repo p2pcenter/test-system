@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-13 23:38:26 UTC",
+  "datetime": "2026-08-14 01:45:25 UTC",
   "cid": "6bf1d1cd",
   "name": "Boa Hancock [P-115] B11",
   "code": "P-115",
   "rarity": "C",
-  "price": "¥18,999",
-  "price_int": 18999,
+  "price": "¥18,800",
+  "price_int": 18800,
   "prev_price": "¥18,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/baefed21-cac3-417f-8d9a-f866e4f04863/6219521.jpeg?size=m",
   "history": [
@@ -124,6 +124,10 @@
     {
       "t": 1786623335,
       "p": 18999
+    },
+    {
+      "t": 1786672291,
+      "p": 18800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-115%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

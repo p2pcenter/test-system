@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-13 23:38:26 UTC",
+  "datetime": "2026-08-14 01:45:25 UTC",
   "cid": "62c6fe67",
   "name": "Luffy [ST29-001]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥35,500",
   "price_int": 35500,
-  "prev_price": "¥36,000",
+  "prev_price": "¥35,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/16dc5783-0c63-4b0a-8dc8-15794bc6427f/5638657.jpeg?size=m",
   "history": [
-    {
-      "t": 1784898701,
-      "p": 49800
-    },
     {
       "t": 1784936506,
       "p": 48999
