@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-08-12 13:56:31 UTC",
+  "datetime": "2026-08-15 17:04:04 UTC",
   "cid": "a02e7765",
   "name": "Zoro P [P-045]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥24,900",
-  "price_int": 24900,
+  "price": "¥24,000",
+  "price_int": 24000,
   "prev_price": "¥24,900",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/86c68d89-cde2-423c-a4d5-1891ce54ef46/7936376.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4bb18bd3-98ab-4494-945b-bf376805ccae/2619761.jpeg?size=m",
   "history": [
-    {
-      "t": 1784790487,
-      "p": 30000
-    },
-    {
-      "t": 1784907351,
-      "p": 29500
-    },
     {
       "t": 1784989973,
       "p": 29000
@@ -44,6 +36,10 @@
     {
       "t": 1786519382,
       "p": 24900
+    },
+    {
+      "t": 1786813661,
+      "p": 24000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Roronoa+Zoro+P+%5BP-045%5D+%28Meetup+Souvenir%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
