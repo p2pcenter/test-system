@@ -1,34 +1,14 @@
 {
-  "datetime": "2026-08-12 13:56:31 UTC",
+  "datetime": "2026-08-15 16:50:05 UTC",
   "cid": "5f5357ea",
   "name": "Zoro SEC [OP06-118] Z04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥28,000",
-  "price_int": 28000,
-  "prev_price": "¥28,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7f08d926-da30-4466-9d09-497a123a5811/6702948.jpeg?size=m",
+  "price": "¥29,800",
+  "price_int": 29800,
+  "prev_price": "¥29,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f47a36d1-a527-455d-85ec-e1793f079e6c/7774745.jpeg?size=m",
   "history": [
-    {
-      "t": 1784815287,
-      "p": 46000
-    },
-    {
-      "t": 1784901962,
-      "p": 45500
-    },
-    {
-      "t": 1784984794,
-      "p": 45000
-    },
-    {
-      "t": 1785033501,
-      "p": 45500
-    },
-    {
-      "t": 1785053510,
-      "p": 45000
-    },
     {
       "t": 1785081070,
       "p": 44800
@@ -148,6 +128,30 @@
     {
       "t": 1786524491,
       "p": 28000
+    },
+    {
+      "t": 1786554485,
+      "p": 29000
+    },
+    {
+      "t": 1786594267,
+      "p": 32000
+    },
+    {
+      "t": 1786615374,
+      "p": 30000
+    },
+    {
+      "t": 1786680627,
+      "p": 29000
+    },
+    {
+      "t": 1786775941,
+      "p": 30000
+    },
+    {
+      "t": 1786784518,
+      "p": 29800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Roronoa+Zoro+SEC+%5BOP06-118%5D%28Special+Goods+Set+%222nd+ANNIVERSARY+SET%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

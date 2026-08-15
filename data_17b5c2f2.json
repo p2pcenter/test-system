@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-12 14:54:03 UTC",
+  "datetime": "2026-08-15 16:50:05 UTC",
   "cid": "17b5c2f2",
   "name": "Luffy [OP13-118]",
   "code": "OP13-118",
   "rarity": "C",
-  "price": "¥35,000",
-  "price_int": 35000,
-  "prev_price": "¥35,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/414a316a-d3c5-4ddc-b3c9-eb289293b321/5633346.jpeg?size=m",
+  "price": "¥32,800",
+  "price_int": 32800,
+  "prev_price": "¥32,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0ea548c4-f3b4-4be9-82f1-627dc7d89345/467561.jpeg?size=m",
   "history": [
     {
       "t": 1783534821,
@@ -68,6 +68,66 @@
     {
       "t": 1786529090,
       "p": 35000
+    },
+    {
+      "t": 1786629461,
+      "p": 34800
+    },
+    {
+      "t": 1786633309,
+      "p": 34500
+    },
+    {
+      "t": 1786649777,
+      "p": 34000
+    },
+    {
+      "t": 1786687444,
+      "p": 33800
+    },
+    {
+      "t": 1786723118,
+      "p": 33700
+    },
+    {
+      "t": 1786726644,
+      "p": 33600
+    },
+    {
+      "t": 1786756035,
+      "p": 33590
+    },
+    {
+      "t": 1786770401,
+      "p": 33580
+    },
+    {
+      "t": 1786779398,
+      "p": 33500
+    },
+    {
+      "t": 1786782436,
+      "p": 33400
+    },
+    {
+      "t": 1786785957,
+      "p": 33380
+    },
+    {
+      "t": 1786789787,
+      "p": 33370
+    },
+    {
+      "t": 1786797796,
+      "p": 33000
+    },
+    {
+      "t": 1786802239,
+      "p": 32980
+    },
+    {
+      "t": 1786809057,
+      "p": 32800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-P+%5BOP13-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

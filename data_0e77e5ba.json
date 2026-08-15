@@ -1,42 +1,14 @@
 {
-  "datetime": "2026-08-12 14:54:03 UTC",
+  "datetime": "2026-08-15 16:50:05 UTC",
   "cid": "0e77e5ba",
   "name": "Luffy [ST21-001]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥60,000",
-  "price_int": 60000,
-  "prev_price": "¥69,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/416aa365-d295-4fcb-99ac-b5faf4465879/7733456.jpeg?size=m",
+  "price": "¥64,800",
+  "price_int": 64800,
+  "prev_price": "¥64,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6a64aa63-96e5-4125-a4ab-1b2e9e607c07/467561.jpeg?size=m",
   "history": [
-    {
-      "t": 1784791900,
-      "p": 96999
-    },
-    {
-      "t": 1784849554,
-      "p": 96000
-    },
-    {
-      "t": 1784864159,
-      "p": 95500
-    },
-    {
-      "t": 1784903609,
-      "p": 94500
-    },
-    {
-      "t": 1784906524,
-      "p": 93000
-    },
-    {
-      "t": 1784941904,
-      "p": 89999
-    },
-    {
-      "t": 1784968827,
-      "p": 88888
-    },
     {
       "t": 1785033076,
       "p": 88000
@@ -132,6 +104,46 @@
     {
       "t": 1786546769,
       "p": 60000
+    },
+    {
+      "t": 1786601027,
+      "p": 61999
+    },
+    {
+      "t": 1786620357,
+      "p": 59800
+    },
+    {
+      "t": 1786623145,
+      "p": 61999
+    },
+    {
+      "t": 1786633330,
+      "p": 66000
+    },
+    {
+      "t": 1786680936,
+      "p": 65000
+    },
+    {
+      "t": 1786687008,
+      "p": 64800
+    },
+    {
+      "t": 1786722705,
+      "p": 62800
+    },
+    {
+      "t": 1786756091,
+      "p": 62500
+    },
+    {
+      "t": 1786791052,
+      "p": 62800
+    },
+    {
+      "t": 1786805635,
+      "p": 64800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+L-P+%5BST21-001%5D%28Start+Deck+EX+%22Gear+5%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

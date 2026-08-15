@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-12 13:56:31 UTC",
+  "datetime": "2026-08-15 16:50:05 UTC",
   "cid": "86d99c78",
   "name": "Boa Hancock C [ST03-013] B08",
   "code": "ST03-013",
   "rarity": "C",
-  "price": "¥18,000",
-  "price_int": 18000,
-  "prev_price": "¥18,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ebe144a3-32bd-4da7-aa8c-986a3a04bec1/6219521.jpeg?size=m",
+  "price": "¥16,800",
+  "price_int": 16800,
+  "prev_price": "¥16,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7d9d05b8-50ef-44e0-8de7-397646a04f5d/6219521.jpeg?size=m",
   "history": [
-    {
-      "t": 1784403441,
-      "p": 33000
-    },
     {
       "t": 1785010122,
       "p": 32000
@@ -60,6 +56,42 @@
     {
       "t": 1786341647,
       "p": 18000
+    },
+    {
+      "t": 1786578322,
+      "p": 17800
+    },
+    {
+      "t": 1786594241,
+      "p": 16800
+    },
+    {
+      "t": 1786620606,
+      "p": 15980
+    },
+    {
+      "t": 1786623109,
+      "p": 15500
+    },
+    {
+      "t": 1786697461,
+      "p": 16800
+    },
+    {
+      "t": 1786787840,
+      "p": 22000
+    },
+    {
+      "t": 1786791371,
+      "p": 16800
+    },
+    {
+      "t": 1786803613,
+      "p": 22000
+    },
+    {
+      "t": 1786805298,
+      "p": 16800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C%3A+Full+Art+%5BST03-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

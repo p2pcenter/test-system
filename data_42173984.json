@@ -1,50 +1,14 @@
 {
-  "datetime": "2026-08-12 13:56:31 UTC",
+  "datetime": "2026-08-15 16:50:05 UTC",
   "cid": "42173984",
   "name": "Luffy [OP05-119] L03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥25,000",
-  "price_int": 25000,
-  "prev_price": "¥25,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9dfe7db4-5d16-40d6-817e-0c2a24f93c74/5807968.jpeg?size=m",
+  "price": "¥23,000",
+  "price_int": 23000,
+  "prev_price": "¥23,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/45c59eed-d335-43d3-b5df-bfb5efb025cc/5977374.jpeg?size=m",
   "history": [
-    {
-      "t": 1784813959,
-      "p": 29800
-    },
-    {
-      "t": 1784906640,
-      "p": 29000
-    },
-    {
-      "t": 1784921778,
-      "p": 29800
-    },
-    {
-      "t": 1784943500,
-      "p": 28999
-    },
-    {
-      "t": 1784999301,
-      "p": 28500
-    },
-    {
-      "t": 1785012266,
-      "p": 29000
-    },
-    {
-      "t": 1785023183,
-      "p": 28500
-    },
-    {
-      "t": 1785036893,
-      "p": 29000
-    },
-    {
-      "t": 1785039163,
-      "p": 28500
-    },
     {
       "t": 1785067308,
       "p": 28300
@@ -184,6 +148,34 @@
     {
       "t": 1786453472,
       "p": 25000
+    },
+    {
+      "t": 1786620540,
+      "p": 24900
+    },
+    {
+      "t": 1786664648,
+      "p": 24000
+    },
+    {
+      "t": 1786719539,
+      "p": 23999
+    },
+    {
+      "t": 1786726228,
+      "p": 24000
+    },
+    {
+      "t": 1786730157,
+      "p": 23999
+    },
+    {
+      "t": 1786784609,
+      "p": 23500
+    },
+    {
+      "t": 1786800725,
+      "p": 23000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+SEC-P+OP05-119&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
