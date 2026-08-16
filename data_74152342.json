@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-08-15 16:50:05 UTC",
+  "datetime": "2026-08-16 11:18:37 UTC",
   "cid": "74152342",
   "name": "Marshall D. Teach",
   "code": "OP09-093",
   "rarity": "SR",
-  "price": "¥32,900",
-  "price_int": 32900,
-  "prev_price": "¥33,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2237c196-e8a7-42c2-97ba-ca62ca620c37/8431506.jpeg?size=m",
+  "price": "¥32,500",
+  "price_int": 32500,
+  "prev_price": "¥32,500",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a34c30ec-7b73-4cfc-9443-295fe2bb4e9e/6771266.jpeg?size=m",
   "history": [
-    {
-      "t": 1785040572,
-      "p": 37800
-    },
-    {
-      "t": 1785085915,
-      "p": 40000
-    },
     {
       "t": 1785121386,
       "p": 39200
@@ -116,6 +108,10 @@
     {
       "t": 1786812615,
       "p": 32900
+    },
+    {
+      "t": 1786874198,
+      "p": 32500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
