@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-16 10:20:44 UTC",
+  "datetime": "2026-08-16 10:48:37 UTC",
   "cid": "cbd43c23",
   "name": "Bonney [ST02-007]",
   "code": "ST02-007",
   "rarity": "C",
-  "price": "¥33,800",
-  "price_int": 33800,
+  "price": "¥33,300",
+  "price_int": 33300,
   "prev_price": "¥33,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0df28fb4-4cfd-44f8-83d5-828427acaac6/5611710.jpeg?size=m",
   "history": [
@@ -52,6 +52,10 @@
     {
       "t": 1786867366,
       "p": 33800
+    },
+    {
+      "t": 1786877777,
+      "p": 33300
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=C-SPC+%5BST02-007%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
