@@ -875,12 +875,21 @@ class Component extends DCLogic {
     const repo = (this.props.githubRepo||'p2pcenter/test-system').trim();
     if(!repo) return;
     const branch = this.props.githubBranch||'master';
-    const base = `https://raw.githubusercontent.com/${repo}/${branch}`;
+    // ── อ่านข้อมูลจาก GitHub Pages ไม่ใช่ raw.githubusercontent ──────────
+    //    หน้านี้ยิง 1 (cards.json) + 112 (data_*.json) = 113 request ต่อรอบ
+    //    raw.* จำกัด request ต่อ IP → โดน HTTP 429 แล้ว cards.json โหลดไม่ได้
+    //    ⇒ byUrl/byName ว่าง ⇒ การ์ดขึ้น "ยังไม่เชื่อม ⚠" ทั้งกระดาน
+    //    Pages เป็น CDN ไม่มีลิมิตแบบนั้น + เป็น origin เดียวกับหน้านี้
+    const [ghOwner, ghName] = repo.split('/');
+    const rawBase = `https://raw.githubusercontent.com/${repo}/${branch}`;
+    const base = (ghOwner && ghName) ? `https://${ghOwner}.github.io/${ghName}` : rawBase;
     const t = Date.now();
     // อ่าน cards.json — สร้าง map name→id สำหรับ extraCards ด้วย
     let githubCards = [];
     try {
-      const cr = await fetch(`${base}/cards.json?t=${t}`,{cache:'no-store'});
+      let cr = await fetch(`${base}/cards.json?t=${t}`,{cache:'no-store'});
+      // เผื่อยังไม่ได้เปิด Pages หรือ deploy ยังไม่ขึ้น → ถอยไปใช้ raw
+      if(!cr.ok && base!==rawBase) cr = await fetch(`${rawBase}/cards.json?t=${t}`,{cache:'no-store'});
       if(cr.ok){
         githubCards = await cr.json();
         const RARC={SEC:{cat:'Secret Rare',color:'#F5A623'},SR:{cat:'Super Rare',color:'#BF5AF2'},R:{cat:'Rare',color:'#0A84FF'},C:{cat:'Common',color:'#8E8E93'}};
