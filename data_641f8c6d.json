@@ -1,0 +1,19 @@
+{
+  "datetime": "2026-08-17 15:49:34 UTC",
+  "cid": "641f8c6d",
+  "name": "Flampe [EB01-056] C03",
+  "code": "CUSTOM",
+  "rarity": "C",
+  "price": "¥23,000",
+  "price_int": 23000,
+  "prev_price": "¥23,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/691b00b6-5332-4383-b00e-34b8fabb82dd/2165294.jpeg?size=m",
+  "history": [
+    {
+      "t": 1786981980,
+      "p": 23000
+    }
+  ],
+  "product_url": "https://snkrdunk.com/search?keywords=Charlotte+Flampe+R-P+%5BEB01-056%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
+}
