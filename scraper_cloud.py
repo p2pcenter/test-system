@@ -42,6 +42,16 @@ DEADLINE_SECONDS = int(os.environ.get("DEADLINE_SECONDS", "1140"))  # 19 นา�
 MIN_PRICE   = 500       # ราคาต่ำสุดที่ยอมรับ (¥) — กันราคาเพี้ยน
 MAX_PRICE   = 5_000_000 # ราคาสูงสุดที่ยอมรับ (¥)
 
+# ─── ข้อความที่บอกว่า "ไม่มีของขายในหน้านี้" (ไม่ใช่ error) ───
+#     (?<!\d) กัน "10 件"/"20 件" ถูกอ่านว่า "0 件"
+#     snkrdunk หน้าไม่มีของจริงขึ้นว่า "お探しの商品は見つかりませんでした"
+#     (คนละคำกับ hint "商品が見つからない場合は…" ที่ขึ้นในหน้าปกติ — จึงไม่ false positive)
+NO_ITEM_RE = re.compile(
+    r"(該当する商品はありません|商品[はが]見つかりません|検索結果はありません"
+    r"|出品されていません|No items|(?<!\d)0\s*件|sold\s*out)",
+    re.I,
+)
+
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
@@ -114,7 +124,8 @@ def select_batch(cards):
 # เลือกการ์ดตามโหมด (สำหรับปุ่มสั่งดึงเฉพาะกลุ่ม)
 #   new      = ยังไม่เคยดึง (ไม่มีไฟล์ data) — การ์ดที่พึ่งเพิ่มใหม่
 #   no_image = มีไฟล์แล้วแต่ไม่มีรูป (image_url ว่าง)
-#   failed   = ดึงข้อมูลไม่ได้ (status=error / ไฟล์เสีย / ไม่มีราคาและไม่ใช่ขายหมด)
+#   failed   = ดึงข้อมูลไม่ได้ (status=error / ไฟล์เสีย / ไม่มีราคาและไม่ใช่ขายหมด
+#              / fail ติดกัน ≥3 รอบ แม้ยังมีราคาเก่าค้างอยู่)
 #   fix      = รวม 3 กลุ่มข้างบน (ปุ่มซ่อมทั้งหมด)
 # ══════════════════════════════════════════════════════
 def select_cards_for_mode(cards, mode):
@@ -136,7 +147,9 @@ def select_cards_for_mode(cards, mode):
         is_new   = not exists
         no_image = exists and not corrupt and not d.get("image_url")
         failed   = corrupt or status == "error" or (
-                       exists and not d.get("price") and status != "sold_out")
+                       exists and not d.get("price") and status != "sold_out") or (
+                       # มีราคาเดิมแต่ดึงพลาดติดกันหลายรอบ → ราคาเริ่มเก่า ควรซ่อมด้วย
+                       int(d.get("fail_streak", 0) or 0) >= 3)
 
         match = {
             "new":      is_new,
@@ -197,10 +210,7 @@ def scrape_one(page, card, now_utc, visited_home):
             page.goto(card["url"], timeout=30000, wait_until="domcontentloaded")
 
             # ─── ตรวจ "ขายหมด" หรือ "ไม่มีสินค้า" ───
-            body_text = page.inner_text("body")[:3000]
-            sold_out = bool(re.search(r"(該当する商品はありません|商品が見つかりません|No items|0\s*件|sold\s*out)", body_text, re.I))
-
-            if sold_out:
+            def mark_sold_out():
                 # เขียนสถานะ sold_out (ไม่ถือเป็น error — การ์ดมีอยู่แต่ขายหมด)
                 payload = {
                     "datetime": now_utc, "cid": card.get("cid", ""), "name": card["name"],
@@ -212,9 +222,20 @@ def scrape_one(page, card, now_utc, visited_home):
                 with open(filepath, "w", encoding="utf-8") as f:
                     json.dump(payload, f, ensure_ascii=False, indent=2)
                 print(f"   🚫 [{card_id}] {card['name']}: ขายหมด (sold out)")
+
+            if NO_ITEM_RE.search(page.inner_text("body")[:3000]):
+                mark_sold_out()
                 return True
 
-            page.wait_for_selector("text=/¥/", timeout=25000)
+            try:
+                page.wait_for_selector("text=/¥/", timeout=25000)
+            except Exception:
+                # หน้า SPA อาจ render ช้ากว่าการเช็คครั้งแรก (ตอนนั้น body ยังว่าง)
+                # → อ่านซ้ำหลังหมดเวลาคอย ก่อนจะตัดสินว่าเป็น error
+                if NO_ITEM_RE.search(page.inner_text("body")[:3000]):
+                    mark_sold_out()
+                    return True
+                raise
             human_mouse(page, steps=random.randint(2, 4))
             page.mouse.wheel(0, random.randint(300, 750))
             time.sleep(random.uniform(1.5, 3.0))
@@ -322,13 +343,24 @@ def scrape_one(page, card, now_utc, visited_home):
 
     # ─── ครบ retry แล้วยัง fail ───
     print(f"   ❌ [{card_id}] {card['name']}: {last_err}")
-    if old:
-        print(f"        ↩  คงข้อมูลเดิมไว้")
+    if old.get("price"):
+        # มีราคาเดิมที่ใช้ได้ → คงราคา/รูป/history ไว้ (dashboard ยังโชว์ราคาล่าสุดที่ดึงได้)
+        # แต่บันทึกร่องรอยว่ารอบนี้ fail ไว้ด้วย ไม่ให้การ์ดเสียซ่อนตัวเงียบ ๆ
+        old["last_fail"]   = now_utc
+        old["last_error"]  = str(last_err)
+        old["fail_streak"] = int(old.get("fail_streak", 0)) + 1
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(old, f, ensure_ascii=False, indent=2)
+        print(f"        ↩  คงราคาเดิมไว้ (fail ติดกัน {old['fail_streak']} รอบ)")
     else:
+        # ไม่มีราคาเดิมให้รักษา → เขียน error พร้อมประทับเวลารอบนี้
+        # (เดิมถ้าไฟล์ error เก่ามีอยู่แล้ว จะไม่เขียนทับ ทำให้ datetime ค้างเป็นเดือน)
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump({
                 "datetime": now_utc, "cid": card.get("cid", ""), "name": card["name"],
-                "price": "", "error": str(last_err), "history": [], "status": "error"
+                "price": "", "error": str(last_err),
+                "history": old.get("history", []), "status": "error",
+                "fail_streak": int(old.get("fail_streak", 0)) + 1,
             }, f, ensure_ascii=False, indent=2)
     return False
 

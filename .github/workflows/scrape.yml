@@ -1,13 +1,17 @@
 name: Scrape Card Prices
 
 # ══════════════════════════════════════════════
-# ทริกเกอร์: ทุก 1 ชั่วโมง + กดรันมือได้
+# ทริกเกอร์: GitHub schedule ทุก 30 นาที (ตัวหลัก) + กดรันมือได้
+#
+# ประวัติ: เคยใช้ external cron (cron-job.org) ยิง workflow_dispatch เพราะกลัว
+# schedule ถูก throttle — cron ตัวนั้นหยุดไปเอง 2026-07-31 (PAT หมดอายุ)
+# ตรวจแล้ว 2026-08-17: schedule ด้านล่างรันจริงทุก ~25–60 นาที success ต่อเนื่อง
+# ⇒ ไม่ต้องพึ่ง external cron อีก ถ้าวันไหนราคาหยุดอัปเดตให้ดู Actions tab ก่อน
 # ══════════════════════════════════════════════
 on:
   schedule:
-    - cron: "*/30 * * * *"   # สำรอง: GitHub schedule ไม่การันตีเวลา (มักได้จริงแค่ ~4 ครั้ง/วัน)
-                             # ตัวยิงจริงที่ตรงเวลาคือ external cron → workflow_dispatch (ดู README/หมายเหตุ)
-  workflow_dispatch:          # กดรันเองได้ใน Actions tab + ให้ external cron (cron-job.org) เรียกผ่าน API
+    - cron: "*/30 * * * *"   # ตัวยิงหลัก — 112 ใบ/รอบ (BATCH_SIZE=0) ใช้เวลา ~30 นาที
+  workflow_dispatch:          # กดรันเองได้ใน Actions tab (เลือกโหมดซ่อมได้) + เรียกผ่าน API ได้
     inputs:
       mode:
         description: "โหมดการดึง"
