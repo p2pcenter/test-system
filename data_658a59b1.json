@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-17 21:50:16 UTC",
+  "datetime": "2026-08-17 22:21:28 UTC",
   "cid": "658a59b1",
   "name": "Edward Newgate [ST15-002]",
   "code": "ST15-002",
   "rarity": "C",
-  "price": "¥36,500",
-  "price_int": 36500,
+  "price": "¥35,800",
+  "price_int": 35800,
   "prev_price": "¥36,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a39dc79e-d9fd-4ed6-80fd-16eb92981029/8401166.jpeg?size=m",
   "history": [
@@ -100,6 +100,10 @@
     {
       "t": 1786958192,
       "p": 36500
+    },
+    {
+      "t": 1787005585,
+      "p": 35800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Edward+Newgate+SR-SPC%3A+Full+Art+%5BST15-002%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
