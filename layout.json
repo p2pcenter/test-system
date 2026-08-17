@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786983941301,
+  "updatedAt": 1786984032094,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -122,7 +122,8 @@
     "custom-1786981542357": 124,
     "custom-1786981619431": 125,
     "custom-1786983848960": 126,
-    "custom-1786983941301": 134
+    "custom-1786983941301": 134,
+    "custom-1786984032094": 135
   },
   "cats": [
     {
@@ -1019,6 +1020,16 @@
       "id": "custom-1786983941301",
       "char": "Perona [OP06-093] P03",
       "url": "https://snkrdunk.com/search?keywords=Perona+SR-P+%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1786984032094",
+      "char": "Perona [OP12-034] P04",
+      "url": "https://snkrdunk.com/search?keywords=Perona+SR-P+%5BOP12-034%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
