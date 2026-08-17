@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786981189343,
+  "updatedAt": 1786981542357,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -118,7 +118,8 @@
     "custom-1786980460613": 24,
     "custom-1786980592845": 119,
     "custom-1786980990966": 120,
-    "custom-1786981189343": 121
+    "custom-1786981189343": 121,
+    "custom-1786981542357": 124
   },
   "cats": [
     {
@@ -975,6 +976,16 @@
       "id": "custom-1786981189343",
       "char": "Sugar [OP10-003] S60",
       "url": "https://snkrdunk.com/search?keywords=Sugar+L-P+%5BOP10-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1786981542357",
+      "char": "Rebecca [OP04-039] R30",
+      "url": "https://snkrdunk.com/search?keywords=Rebecca+L-P+%5BOP04-039%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
