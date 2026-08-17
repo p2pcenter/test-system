@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1782769340542,
+  "updatedAt": 1786980005121,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -113,7 +113,8 @@
     "custom-1782660647989": 64,
     "custom-1782661159797": 91,
     "custom-1782662185001": 99,
-    "custom-1782662375603": 98
+    "custom-1782662375603": 98,
+    "c73": 133
   },
   "cats": [
     {
@@ -961,6 +962,10 @@
     "custom-1782627222536": {
       "name": "Luffy [OP07-109]",
       "url": "https://snkrdunk.com/search?keywords=%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%BBD%E3%83%BB%E3%83%AB%E3%83%95%E3%82%A3+SR+%5BOP07-109%5D%28%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+    },
+    "c20": {
+      "name": "Pudding [OP03-112] P10",
+      "url": "https://snkrdunk.com/search?keywords=Pudding+R-SPC+%5BOP03-112%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
     }
   },
   "ref_yen": {
