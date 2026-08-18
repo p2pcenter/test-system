@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-18 06:39:12 UTC",
+  "datetime": "2026-08-18 07:36:12 UTC",
   "cid": "57cb9146",
   "name": "Boa Hancock C-P [ST03-013]",
   "code": "ST03-013",
   "rarity": "C",
-  "price": "¥15,800",
-  "price_int": 15800,
+  "price": "¥15,000",
+  "price_int": 15000,
   "prev_price": "¥15,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fe983064-2c8a-44b4-96f7-423c3b8e7766/6219521.jpeg?size=m",
   "history": [
@@ -88,6 +88,10 @@
     {
       "t": 1786969854,
       "p": 15800
+    },
+    {
+      "t": 1787038955,
+      "p": 15000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C-P+%5BST03-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
