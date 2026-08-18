@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-18 07:36:12 UTC",
+  "datetime": "2026-08-18 08:34:03 UTC",
   "cid": "42173984",
   "name": "Luffy [OP05-119] L03",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥21,999",
   "price_int": 21999,
-  "prev_price": "¥22,000",
+  "prev_price": "¥21,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9c6f73dc-feca-4a32-beb8-cc82afe6b53f/8010687.jpeg?size=m",
   "history": [
-    {
-      "t": 1785292616,
-      "p": 28000
-    },
     {
       "t": 1785314496,
       "p": 27950
