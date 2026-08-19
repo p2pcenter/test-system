@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-19 05:57:01 UTC",
+  "datetime": "2026-08-19 08:35:28 UTC",
   "cid": "b53797bf",
   "name": "Ace [OP02-013]",
   "code": "OP02-013",
   "rarity": "C",
-  "price": "¥68,000",
-  "price_int": 68000,
+  "price": "¥65,000",
+  "price_int": 65000,
   "prev_price": "¥68,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9350403c-0a95-42a2-9922-b6a2230f3a5d/4248364.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8fc817d4-b988-4a48-870d-b58c4506938c/8282768.jpeg?size=m",
   "history": [
     {
       "t": 1785380676,
@@ -76,6 +76,10 @@
     {
       "t": 1787031130,
       "p": 68000
+    },
+    {
+      "t": 1787129067,
+      "p": 65000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Ace+SR-SPC+%5BOP02-013%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
