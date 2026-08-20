@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787243147597,
+  "updatedAt": 1787243248254,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -144,7 +144,8 @@
     "custom-1787242606302": 141,
     "custom-1787242699785": 142,
     "custom-1787242874664": 143,
-    "custom-1787243147597": 140
+    "custom-1787243147597": 140,
+    "custom-1787243248253": 141
   },
   "cats": [
     {
@@ -1261,6 +1262,16 @@
       "id": "custom-1787243147597",
       "char": "Ace [OP07-119] A01",
       "url": "https://snkrdunk.com/search?keywords=Portgas+D+Ace+SEC-P+%5BOP07-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787243248253",
+      "char": "Ace [OP07-119] A02",
+      "url": "https://snkrdunk.com/search?keywords=Portgas+D+Ace+SEC+%5BOP07-119%5D+%28Booster+Pack+500+Yeas+in+the+Future%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
