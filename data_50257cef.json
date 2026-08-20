@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-20 02:36:18 UTC",
+  "datetime": "2026-08-20 03:43:48 UTC",
   "cid": "50257cef",
   "name": "Luffy [OP13-001] L13",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥13,500",
-  "price_int": 13500,
+  "price": "¥13,000",
+  "price_int": 13000,
   "prev_price": "¥13,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/516dff95-e8a3-4b35-88ca-58858d11747e/6970820.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/cf237649-f0c2-406c-83ed-94f5ee6a6f93/7214651.jpeg?size=m",
   "history": [
     {
       "t": 1785292713,
@@ -144,6 +144,10 @@
     {
       "t": 1787147071,
       "p": 13500
+    },
+    {
+      "t": 1787197843,
+      "p": 13000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+l-p+op13-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
