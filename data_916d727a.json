@@ -1,0 +1,19 @@
+{
+  "datetime": "2026-08-20 17:26:07 UTC",
+  "cid": "916d727a",
+  "name": "Law [OP14-009] T03",
+  "code": "CUSTOM",
+  "rarity": "C",
+  "price": "¥33,000",
+  "price_int": 33000,
+  "prev_price": "¥33,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/334007af-8f5f-4db9-9648-621142942628/7389205.jpeg?size=m",
+  "history": [
+    {
+      "t": 1787247185,
+      "p": 33000
+    }
+  ],
+  "product_url": "https://snkrdunk.com/search?keywords=OP14-009&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
+}
