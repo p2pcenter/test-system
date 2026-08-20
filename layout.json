@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787240087465,
+  "updatedAt": 1787240421835,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -129,7 +129,8 @@
     "custom-1787239811069": 114,
     "custom-1787239967707": 115,
     "custom-1787240016787": 116,
-    "custom-1787240087464": 117
+    "custom-1787240087464": 117,
+    "custom-1787240421835": 136
   },
   "cats": [
     {
@@ -1096,6 +1097,16 @@
       "id": "custom-1787240087464",
       "char": "Sabo [ST13-008] S08",
       "url": "https://snkrdunk.com/search?keywords=ST13-008&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787240421835",
+      "char": "Sanji [PRB01-001] S13",
+      "url": "https://snkrdunk.com/search?keywords=PRB01-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
