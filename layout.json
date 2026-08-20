@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787241078303,
+  "updatedAt": 1787241231483,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -135,7 +135,8 @@
     "custom-1787240644421": 138,
     "custom-1787240815994": 139,
     "custom-1787240898086": 140,
-    "custom-1787241078302": 112
+    "custom-1787241078302": 112,
+    "custom-1787241231483": 113
   },
   "cats": [
     {
@@ -1162,6 +1163,16 @@
       "id": "custom-1787241078302",
       "char": "Shirahoshi [OP05-082] S41",
       "url": "https://snkrdunk.com/search?keywords=Shirahoshi+R-P+%5BOP05-082%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787241231483",
+      "char": "Shirahoshi [OP05-082] S40",
+      "url": "https://snkrdunk.com/search?keywords=Shirahoshi+R+%3AFull+Art+%5BOP05-082%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
