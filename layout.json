@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787243342537,
+  "updatedAt": 1787243480768,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -146,7 +146,8 @@
     "custom-1787242874664": 143,
     "custom-1787243147597": 140,
     "custom-1787243248253": 141,
-    "custom-1787243342537": 142
+    "custom-1787243342537": 142,
+    "custom-1787243480768": 140
   },
   "cats": [
     {
@@ -1283,6 +1284,16 @@
       "id": "custom-1787243342537",
       "char": "Ace [OP13-007] A03",
       "url": "https://snkrdunk.com/search?keywords=op13+007&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787243480768",
+      "char": "Queen [ST04-005] Q02",
+      "url": "https://snkrdunk.com/search?keywords=ST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
