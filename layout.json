@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787242606302,
+  "updatedAt": 1787242699785,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -141,7 +141,8 @@
     "custom-1787242010145": 112,
     "custom-1787242248780": 140,
     "custom-1787242527737": 140,
-    "custom-1787242606302": 141
+    "custom-1787242606302": 141,
+    "custom-1787242699785": 142
   },
   "cats": [
     {
@@ -1228,6 +1229,16 @@
       "id": "custom-1787242606302",
       "char": "Uta [OP06-001] U03",
       "url": "https://snkrdunk.com/search?keywords=OP06-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787242699785",
+      "char": "Uta [ST16-001] U05",
+      "url": "https://snkrdunk.com/search?keywords=ST16-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
