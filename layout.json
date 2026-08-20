@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787240016788,
+  "updatedAt": 1787240087465,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -128,7 +128,8 @@
     "custom-1787239671216": 113,
     "custom-1787239811069": 114,
     "custom-1787239967707": 115,
-    "custom-1787240016787": 116
+    "custom-1787240016787": 116,
+    "custom-1787240087464": 117
   },
   "cats": [
     {
@@ -1085,6 +1086,16 @@
       "id": "custom-1787240016787",
       "char": "Sabo [OP04-083]",
       "url": "https://snkrdunk.com/search?keywords=Sabo+SR+%5BOP04-083%5D%28Special+Goods+Set+%222nd+ANNIVERSARY+SET%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787240087464",
+      "char": "Sabo [ST13-008] S08",
+      "url": "https://snkrdunk.com/search?keywords=ST13-008&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
