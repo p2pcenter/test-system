@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787245696128,
+  "updatedAt": 1787245751340,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -158,7 +158,8 @@
     "custom-1787245060017": 149,
     "custom-1787245134679": 150,
     "custom-1787245633415": 151,
-    "custom-1787245696127": 152
+    "custom-1787245696127": 152,
+    "custom-1787245751340": 153
   },
   "cats": [
     {
@@ -1415,6 +1416,16 @@
       "id": "custom-1787245696127",
       "char": "Law [OP14-009] T03",
       "url": "https://snkrdunk.com/search?keywords=OP14-009&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787245751340",
+      "char": "Law [EB03-062] T04",
+      "url": "https://snkrdunk.com/search?keywords=EB03-062&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
