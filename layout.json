@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787245134680,
+  "updatedAt": 1787245633416,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -156,7 +156,8 @@
     "custom-1787244790571": 147,
     "custom-1787244852062": 148,
     "custom-1787245060017": 149,
-    "custom-1787245134679": 150
+    "custom-1787245134679": 150,
+    "custom-1787245633415": 151
   },
   "cats": [
     {
@@ -1393,6 +1394,16 @@
       "id": "custom-1787245134679",
       "char": "Reiju [OP06-069] V11",
       "url": "https://snkrdunk.com/search?keywords=Vinsmoke+Reiju+SR-P+%5BOP06-069%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787245633415",
+      "char": "Law [OP10-119] T02",
+      "url": "https://snkrdunk.com/search?keywords=Trafalgar+Law+SEC-P+%5BOP10-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
