@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787244614969,
+  "updatedAt": 1787244733066,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -151,7 +151,8 @@
     "custom-1787243859224": 144,
     "custom-1787244232936": 140,
     "custom-1787244298607": 141,
-    "custom-1787244614969": 145
+    "custom-1787244614969": 145,
+    "custom-1787244733065": 146
   },
   "cats": [
     {
@@ -1338,6 +1339,16 @@
       "id": "custom-1787244614969",
       "char": "Robin [OP09-062] N10",
       "url": "https://snkrdunk.com/search?keywords=OP09-062&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787244733065",
+      "char": "Vivi [OP04-118] V01",
+      "url": "https://snkrdunk.com/search?keywords=OP04-118&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
