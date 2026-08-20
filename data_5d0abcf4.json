@@ -1,0 +1,19 @@
+{
+  "datetime": "2026-08-20 17:56:23 UTC",
+  "cid": "5d0abcf4",
+  "name": "Event [OP06-115] E01",
+  "code": "CUSTOM",
+  "rarity": "C",
+  "price": "¥13,999",
+  "price_int": 13999,
+  "prev_price": "¥13,999",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/aa354f0f-17b0-47f9-a13b-6479c8bd6043/8199568.jpeg?size=m",
+  "history": [
+    {
+      "t": 1787249313,
+      "p": 13999
+    }
+  ],
+  "product_url": "https://snkrdunk.com/search?keywords=OP06-115&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
+}
