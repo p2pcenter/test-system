@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787240815994,
+  "updatedAt": 1787240898086,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -133,7 +133,8 @@
     "custom-1787240421835": 136,
     "custom-1787240556521": 137,
     "custom-1787240644421": 138,
-    "custom-1787240815994": 139
+    "custom-1787240815994": 139,
+    "custom-1787240898086": 140
   },
   "cats": [
     {
@@ -1140,6 +1141,16 @@
       "id": "custom-1787240815994",
       "char": "Shanks [OP13-065] S21",
       "url": "https://snkrdunk.com/search?keywords=OP13-065&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787240898086",
+      "char": "Shanks [OP09-001] S20",
+      "url": "https://snkrdunk.com/search?keywords=OP09-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
