@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787247275553,
+  "updatedAt": 1787247377469,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -167,7 +167,8 @@
     "custom-1787246491562": 158,
     "custom-1787246900398": 159,
     "custom-1787247129096": 160,
-    "custom-1787247275552": 161
+    "custom-1787247275552": 161,
+    "custom-1787247377469": 162
   },
   "cats": [
     {
@@ -1514,6 +1515,16 @@
       "id": "custom-1787247275552",
       "char": "Event [OP06-115] E01",
       "url": "https://snkrdunk.com/search?keywords=OP06-115&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787247377469",
+      "char": "Event [OP10-019] E02",
+      "url": "https://snkrdunk.com/search?keywords=Divine+departur+R-P+%5BOP10-019%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
