@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787245751340,
+  "updatedAt": 1787245828969,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -159,7 +159,8 @@
     "custom-1787245134679": 150,
     "custom-1787245633415": 151,
     "custom-1787245696127": 152,
-    "custom-1787245751340": 153
+    "custom-1787245751340": 153,
+    "custom-1787245828968": 154
   },
   "cats": [
     {
@@ -1426,6 +1427,16 @@
       "id": "custom-1787245751340",
       "char": "Law [EB03-062] T04",
       "url": "https://snkrdunk.com/search?keywords=EB03-062&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787245828968",
+      "char": "Law [ST10-001] T05",
+      "url": "https://snkrdunk.com/search?keywords=Trafalgar+Law+L+%5BST10-001%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
