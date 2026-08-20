@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787240421835,
+  "updatedAt": 1787240556522,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -130,7 +130,8 @@
     "custom-1787239967707": 115,
     "custom-1787240016787": 116,
     "custom-1787240087464": 117,
-    "custom-1787240421835": 136
+    "custom-1787240421835": 136,
+    "custom-1787240556521": 137
   },
   "cats": [
     {
@@ -1107,6 +1108,16 @@
       "id": "custom-1787240421835",
       "char": "Sanji [PRB01-001] S13",
       "url": "https://snkrdunk.com/search?keywords=PRB01-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787240556521",
+      "char": "Sanji [OP04-104] S10",
+      "url": "https://snkrdunk.com/search?keywords=Sanji+SR-P+%5BOP04-104%5D+%28Booster+Pack+The+Kingdom+Of+Conspiracy%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
