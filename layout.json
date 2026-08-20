@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787239533916,
+  "updatedAt": 1787239671216,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -124,7 +124,8 @@
     "custom-1786983848960": 126,
     "custom-1786983941301": 134,
     "custom-1786984032094": 135,
-    "custom-1787239533915": 112
+    "custom-1787239533915": 112,
+    "custom-1787239671216": 113
   },
   "cats": [
     {
@@ -1041,6 +1042,16 @@
       "id": "custom-1787239533915",
       "char": "Sabo [OP07-118] S03",
       "url": "https://snkrdunk.com/search?keywords=SEC+%5BOP07-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787239671216",
+      "char": "Sabo [OP13-004] S05",
+      "url": "https://snkrdunk.com/search?keywords=L-P+%5BOP13-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
