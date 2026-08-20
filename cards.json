@@ -1142,5 +1142,21 @@
     "code": "CUSTOM",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=ST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 143,
+    "cid": "4301bb69",
+    "name": "Teach [OP09-093] M30",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "Marshall.D.Teach SR [OP09-093]"
+  },
+  {
+    "id": 144,
+    "cid": "b0228ac8",
+    "name": "Nami [OP08-106] N03",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=OP08-106&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
   }
 ]
