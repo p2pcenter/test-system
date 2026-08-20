@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787243480768,
+  "updatedAt": 1787243859224,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -147,7 +147,8 @@
     "custom-1787243147597": 140,
     "custom-1787243248253": 141,
     "custom-1787243342537": 142,
-    "custom-1787243480768": 140
+    "custom-1787243480768": 140,
+    "custom-1787243859224": 144
   },
   "cats": [
     {
@@ -1294,6 +1295,16 @@
       "id": "custom-1787243480768",
       "char": "Queen [ST04-005] Q02",
       "url": "https://snkrdunk.com/search?keywords=ST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787243859224",
+      "char": "Teach [OP09-093] M30",
+      "url": "Marshall.D.Teach SR [OP09-093]",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
