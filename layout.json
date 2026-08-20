@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787246064665,
+  "updatedAt": 1787246435487,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -162,7 +162,8 @@
     "custom-1787245751340": 153,
     "custom-1787245828968": 154,
     "custom-1787245974040": 155,
-    "custom-1787246064665": 156
+    "custom-1787246064665": 156,
+    "custom-1787246435486": 157
   },
   "cats": [
     {
@@ -1459,6 +1460,16 @@
       "id": "custom-1787246064665",
       "char": "Tashigi [ST06-006] T11",
       "url": "https://snkrdunk.com/search?keywords=ST06-006&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787246435486",
+      "char": "DON Sakasuki D01",
+      "url": "https://snkrdunk.com/search?keywords=DON+Sakazuki&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
