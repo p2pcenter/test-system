@@ -1,0 +1,19 @@
+{
+  "datetime": "2026-08-20 16:32:08 UTC",
+  "cid": "8bea106b",
+  "name": "Uta [OP06-001] U03",
+  "code": "CUSTOM",
+  "rarity": "C",
+  "price": "¥23,000",
+  "price_int": 23000,
+  "prev_price": "¥23,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e16d5579-0c9b-4539-8c80-a290cddd4e10/1599709.jpeg?size=m",
+  "history": [
+    {
+      "t": 1787243740,
+      "p": 23000
+    }
+  ],
+  "product_url": "https://snkrdunk.com/search?keywords=OP06-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+  "status": "ok"
+}
