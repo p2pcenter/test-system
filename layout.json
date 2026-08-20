@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787242527737,
+  "updatedAt": 1787242606302,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -140,7 +140,8 @@
     "custom-1787241365709": 114,
     "custom-1787242010145": 112,
     "custom-1787242248780": 140,
-    "custom-1787242527737": 140
+    "custom-1787242527737": 140,
+    "custom-1787242606302": 141
   },
   "cats": [
     {
@@ -1217,6 +1218,16 @@
       "id": "custom-1787242527737",
       "char": "Uta [OP02-120] U02",
       "url": "https://snkrdunk.com/search?keywords=Uta+SEC+%5BOP02-120%5D+%28Premium+Card+Collection+-+Uta+-%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787242606302",
+      "char": "Uta [OP06-001] U03",
+      "url": "https://snkrdunk.com/search?keywords=OP06-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
