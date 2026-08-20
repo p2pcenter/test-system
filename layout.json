@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787247743006,
+  "updatedAt": 1787247890574,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -171,7 +171,8 @@
     "custom-1787247377469": 162,
     "custom-1787247537875": 163,
     "custom-1787247623229": 164,
-    "custom-1787247743005": 165
+    "custom-1787247743005": 165,
+    "custom-1787247890574": 166
   },
   "cats": [
     {
@@ -1558,6 +1559,16 @@
       "id": "custom-1787247743005",
       "char": "Event [OP13-076] E03",
       "url": "https://snkrdunk.com/search?keywords=OP11-018&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787247890574",
+      "char": "Roger [OP13-003] R01",
+      "url": "https://snkrdunk.com/search?keywords=OP13-003&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
