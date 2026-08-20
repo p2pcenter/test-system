@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787244790572,
+  "updatedAt": 1787244852062,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -153,7 +153,8 @@
     "custom-1787244298607": 141,
     "custom-1787244614969": 145,
     "custom-1787244733065": 146,
-    "custom-1787244790571": 147
+    "custom-1787244790571": 147,
+    "custom-1787244852062": 148
   },
   "cats": [
     {
@@ -1360,6 +1361,16 @@
       "id": "custom-1787244790571",
       "char": "Vivi [EB02-026] V02",
       "url": "https://snkrdunk.com/search?keywords=EB02-026&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787244852062",
+      "char": "Vivi [EB03-001] V03",
+      "url": "https://snkrdunk.com/search?keywords=EB03-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
