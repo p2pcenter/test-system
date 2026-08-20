@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787242010146,
+  "updatedAt": 1787242248781,
   "slots": {
     "c11": 12,
     "c20": 5,
@@ -138,7 +138,8 @@
     "custom-1787241078302": 112,
     "custom-1787241231483": 113,
     "custom-1787241365709": 114,
-    "custom-1787242010145": 112
+    "custom-1787242010145": 112,
+    "custom-1787242248780": 140
   },
   "cats": [
     {
@@ -1195,6 +1196,16 @@
       "id": "custom-1787242010145",
       "char": "Saint Ju Peter [OP13-084] S50",
       "url": "https://snkrdunk.com/search?keywords=Saint+Shepherd+Ju+Peter+R-P+%5BOP13-084%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
+      "rarity": "C",
+      "code": "CUSTOM",
+      "yen": 0,
+      "prevYen": 0,
+      "image_url": ""
+    },
+    {
+      "id": "custom-1787242248780",
+      "char": "Sakazuki [OP02-099] A10",
+      "url": "https://snkrdunk.com/search?keywords=Sakazuki+SR-P+%5BOP02-099%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
       "rarity": "C",
       "code": "CUSTOM",
       "yen": 0,
