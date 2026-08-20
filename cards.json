@@ -982,5 +982,29 @@
     "code": "CUSTOM",
     "rarity": "C",
     "url": "https://snkrdunk.com/search?keywords=sabo+SEC-P+%5BOP07-118%5D+%28Booster+Pack+The+Future+After+500+years%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 123,
+    "cid": "29de2158",
+    "name": "Sabo [OP04-083] S01",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=Sabo+SR-P+%5BOP04-083%5D+%28Booster+Pack+The+Kingdom+Of+Conspiracy%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 124,
+    "cid": "638c4ea0",
+    "name": "Sabo [ST13-008] S08",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=ST13-008&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
+  },
+  {
+    "id": 125,
+    "cid": "29d7df38",
+    "name": "Sanji [PRB01-001] S13",
+    "code": "CUSTOM",
+    "rarity": "C",
+    "url": "https://snkrdunk.com/search?keywords=PRB01-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1"
   }
 ]
