@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-08-21 01:09:27 UTC",
+  "datetime": "2026-08-21 02:43:25 UTC",
   "cid": "ed201115",
   "name": "Sabo [OP13-004] S05",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥11,400",
-  "price_int": 11400,
+  "price": "¥11,000",
+  "price_int": 11000,
   "prev_price": "¥11,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/05b8874a-5552-47d4-9a91-a53709d05717/5435191.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/17a20b86-2807-478a-89fb-829413ab0983/7214651.jpeg?size=m",
   "history": [
     {
       "t": 1787240366,
       "p": 11400
+    },
+    {
+      "t": 1787280370,
+      "p": 11000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=L-P+%5BOP13-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
