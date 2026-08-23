@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-22 23:45:28 UTC",
+  "datetime": "2026-08-23 01:10:38 UTC",
   "cid": "031aef52",
   "name": "Shirahoshi",
   "code": "EB01-057",
   "rarity": "SR",
-  "price": "¥29,000",
-  "price_int": 29000,
+  "price": "¥27,500",
+  "price_int": 27500,
   "prev_price": "¥29,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8dc9da98-426d-4335-8fe9-0641dd53e0a8/5772141.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3eb7fc05-0971-475f-be39-b7f60316dcb2/5772141.jpeg?size=m",
   "history": [
     {
       "t": 1783390833,
@@ -88,6 +88,10 @@
     {
       "t": 1787430714,
       "p": 29000
+    },
+    {
+      "t": 1787447751,
+      "p": 27500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
