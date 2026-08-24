@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-24 05:36:12 UTC",
+  "datetime": "2026-08-24 06:53:37 UTC",
   "cid": "71125f4b",
   "name": "Yamato SR-P [OP04-112]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥19,000",
-  "price_int": 19000,
+  "price": "¥55,000",
+  "price_int": 55000,
   "prev_price": "¥19,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c5023cfe-f935-4aac-847e-0ce413b257de/7518776.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/05f213e4-e74e-47ad-9c81-214dca341734/7815029.jpeg?size=m",
   "history": [
     {
       "t": 1784968615,
@@ -24,6 +24,10 @@
     {
       "t": 1787375704,
       "p": 19000
+    },
+    {
+      "t": 1787555186,
+      "p": 55000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SR-P+%5BOP04-112%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
