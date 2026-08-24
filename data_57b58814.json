@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-24 06:53:37 UTC",
+  "datetime": "2026-08-24 07:56:22 UTC",
   "cid": "57b58814",
   "name": "Shanks [OP09-001] S20",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥12,499",
-  "price_int": 12499,
+  "price": "¥12,999",
+  "price_int": 12999,
   "prev_price": "¥12,499",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1c2b2329-26d6-4eff-97ca-5d0c7ffcf920/8524598.jpeg?size=m",
   "history": [
@@ -40,6 +40,10 @@
     {
       "t": 1787509858,
       "p": 12499
+    },
+    {
+      "t": 1787558900,
+      "p": 12999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP09-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
