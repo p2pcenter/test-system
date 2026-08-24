@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-08-24 08:47:28 UTC",
+  "datetime": "2026-08-24 09:44:17 UTC",
   "cid": "34d7a776",
   "name": "Law [OP10-119] T02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,500",
-  "price_int": 15500,
+  "price": "¥14,400",
+  "price_int": 14400,
   "prev_price": "¥15,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0f890136-a4d2-4ea8-bd8f-da68ebc7f673/7356642.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ad713085-cff4-4043-baa9-6b0166fb92d1/6472624.jpeg?size=m",
   "history": [
     {
       "t": 1787247147,
       "p": 15500
+    },
+    {
+      "t": 1787565307,
+      "p": 14400
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Trafalgar+Law+SEC-P+%5BOP10-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
