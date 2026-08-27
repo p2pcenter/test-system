@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-08-27 00:26:52 UTC",
+  "datetime": "2026-08-27 10:08:34 UTC",
   "cid": "638c4ea0",
   "name": "Sabo [ST13-008] S08",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥34,500",
-  "price_int": 34500,
+  "price": "¥35,000",
+  "price_int": 35000,
   "prev_price": "¥34,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ba170e5b-d909-4f20-9761-9aa8210114f8/4992503.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/67159ec8-356f-4644-b3eb-dc838cf4f5ae/6555990.jpeg?size=m",
   "history": [
     {
       "t": 1787244211,
       "p": 34500
+    },
+    {
+      "t": 1787826057,
+      "p": 35000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=ST13-008&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
