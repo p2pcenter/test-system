@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-27 20:40:40 UTC",
+  "datetime": "2026-08-28 05:06:20 UTC",
   "cid": "c495415a",
   "name": "Yamato [P-008]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,800",
-  "price_int": 15800,
+  "price": "¥15,200",
+  "price_int": 15200,
   "prev_price": "¥15,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8ec3c26c-9965-47df-b04e-07d777ce4334/8161957.jpeg?size=m",
   "history": [
@@ -36,6 +36,10 @@
     {
       "t": 1787790608,
       "p": 15800
+    },
+    {
+      "t": 1787894210,
+      "p": 15200
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+%5BP-008%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
