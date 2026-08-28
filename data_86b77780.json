@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-28 05:06:20 UTC",
+  "datetime": "2026-08-28 17:36:22 UTC",
   "cid": "86b77780",
   "name": "Kid & Killer [EB01-003]",
   "code": "EB01-003",
   "rarity": "C",
-  "price": "¥17,000",
-  "price_int": 17000,
+  "price": "¥16,000",
+  "price_int": 16000,
   "prev_price": "¥17,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/26ed14e8-2985-46df-9004-b3e4919401b0/6434852.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/73f65da1-8975-4ead-806b-77fbfaa6ed41/6702948.jpeg?size=m",
   "history": [
     {
       "t": 1786147543,
@@ -52,6 +52,10 @@
     {
       "t": 1787863405,
       "p": 17000
+    },
+    {
+      "t": 1787939002,
+      "p": 16000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-SPC+%5BEB01-003%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
