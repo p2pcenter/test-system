@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-08-29 13:56:20 UTC",
+  "datetime": "2026-08-29 17:31:58 UTC",
   "cid": "a87d586f",
   "name": "Shirahoshi [OP05-082] S41",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥20,800",
-  "price_int": 20800,
+  "price": "¥44,000",
+  "price_int": 44000,
   "prev_price": "¥20,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e825a8b3-4137-409e-97c3-be4ed8ad2050/7936376.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7dfe9d82-4f0c-45c0-86f2-9e18d9c8b418/170503.jpeg?size=m",
   "history": [
     {
       "t": 1787244241,
       "p": 20800
+    },
+    {
+      "t": 1788025507,
+      "p": 44000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Shirahoshi+R-P+%5BOP05-082%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
