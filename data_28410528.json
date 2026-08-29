@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-29 08:12:09 UTC",
+  "datetime": "2026-08-29 13:56:20 UTC",
   "cid": "28410528",
   "name": "Luffy [P-001] L32 ",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥15,000",
   "price_int": 15000,
-  "prev_price": "¥14,790",
+  "prev_price": "¥15,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ca6cc27a-56f0-46c3-95bf-59daf7c0d480/4713073.jpeg?size=m",
   "history": [
-    {
-      "t": 1786255471,
-      "p": 19999
-    },
     {
       "t": 1786273704,
       "p": 20500
