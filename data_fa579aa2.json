@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-08-29 01:27:46 UTC",
+  "datetime": "2026-08-29 08:12:09 UTC",
   "cid": "fa579aa2",
   "name": "Shirahoshi [EB01-057] S42",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥17,000",
-  "price_int": 17000,
+  "price": "¥14,000",
+  "price_int": 14000,
   "prev_price": "¥17,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/97200b84-4e69-4f0b-905f-ffadccbaa95e/6564221.jpeg?size=m",
   "history": [
@@ -20,6 +20,10 @@
     {
       "t": 1787669659,
       "p": 17000
+    },
+    {
+      "t": 1787991932,
+      "p": 14000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Shirahoshi+SR-P+%5BEB01-057%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
