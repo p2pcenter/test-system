@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-28 17:36:22 UTC",
+  "datetime": "2026-08-29 01:27:46 UTC",
   "cid": "c02a839d",
   "name": "Sabo [OP07-118]",
   "code": "OP07-118",
   "rarity": "C",
   "price": "¥17,000",
   "price_int": 17000,
-  "prev_price": "¥17,400",
+  "prev_price": "¥17,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/007620c5-4674-4d28-8182-6e975d18bc4f/7630898.jpeg?size=m",
   "history": [
-    {
-      "t": 1786197196,
-      "p": 24200
-    },
     {
       "t": 1786225295,
       "p": 24000
