@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-30 01:02:46 UTC",
+  "datetime": "2026-08-30 07:03:59 UTC",
   "cid": "0e196232",
   "name": "Luffy [OP11-040] L10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥16,543",
-  "price_int": 16543,
+  "price": "¥15,800",
+  "price_int": 15800,
   "prev_price": "¥16,543",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/83911ed7-d9cd-4e15-9a9c-53b2165242fd/6071461.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f8d1a862-95ef-4458-8fdf-8f20726fbc5d/7378315.jpeg?size=m",
   "history": [
     {
       "t": 1786199989,
@@ -48,6 +48,10 @@
     {
       "t": 1787938689,
       "p": 16543
+    },
+    {
+      "t": 1788073685,
+      "p": 15800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+l-p+OP11-040&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
