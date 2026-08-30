@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-08-30 07:03:59 UTC",
+  "datetime": "2026-08-30 13:07:00 UTC",
   "cid": "085a78fe",
   "name": "Vivi [EB03-001] V03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,500",
-  "price_int": 9500,
+  "price": "¥8,500",
+  "price_int": 8500,
   "prev_price": "¥9,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fe010490-f851-46af-8418-1df29a619860/5853101.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2d43b621-55ba-4f47-ac2c-192841be18ff/4972305.jpeg?size=m",
   "history": [
     {
       "t": 1787247089,
@@ -44,6 +44,10 @@
     {
       "t": 1787939350,
       "p": 9500
+    },
+    {
+      "t": 1788095975,
+      "p": 8500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=EB03-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
