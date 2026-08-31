@@ -1,17 +1,21 @@
 {
-  "datetime": "2026-08-30 23:10:00 UTC",
+  "datetime": "2026-08-31 01:27:53 UTC",
   "cid": "b37de5f8",
   "name": "Usopp [OP03-041] U20",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥11,780",
-  "price_int": 11780,
+  "price": "¥11,500",
+  "price_int": 11500,
   "prev_price": "¥11,780",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/784bf549-a3f1-4cd0-af17-9f7526f3889a/644152.jpeg?size=m",
   "history": [
     {
       "t": 1787243790,
       "p": 11780
+    },
+    {
+      "t": 1788139751,
+      "p": 11500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP03-041&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

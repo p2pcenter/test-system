@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-08-30 23:10:00 UTC",
+  "datetime": "2026-08-31 01:27:53 UTC",
   "cid": "53ac578f",
   "name": "Luffy [OP09-119]",
   "code": "OP09-119",
   "rarity": "C",
   "price": "¥46,000",
   "price_int": 46000,
-  "prev_price": "¥47,000",
+  "prev_price": "¥46,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1909a9ea-35d0-433c-b973-e7d3f05aa25e/4040377.jpeg?size=m",
   "history": [
-    {
-      "t": 1786352752,
-      "p": 58999
-    },
     {
       "t": 1786405147,
       "p": 58000
