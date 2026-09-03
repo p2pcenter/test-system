@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-09-03 13:47:28 UTC",
+  "datetime": "2026-09-03 17:31:16 UTC",
   "cid": "0f8a93d3",
   "name": "Boa Hancock [OP07-051]",
   "code": "OP07-051",
   "rarity": "C",
-  "price": "¥52,000",
-  "price_int": 52000,
-  "prev_price": "¥54,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/afbf99ab-5ba1-4c04-a7ab-0cdb06e983a2/5907002.jpeg?size=m",
+  "price": "¥51,000",
+  "price_int": 51000,
+  "prev_price": "¥52,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c4bbb137-b3b7-4692-bdf0-4d982aeeb357/7364661.jpeg?size=m",
   "history": [
-    {
-      "t": 1786697124,
-      "p": 61000
-    },
-    {
-      "t": 1786716008,
-      "p": 64000
-    },
     {
       "t": 1786726437,
       "p": 64800
@@ -240,6 +232,10 @@
     {
       "t": 1788443341,
       "p": 52000
+    },
+    {
+      "t": 1788456730,
+      "p": 51000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-SPC+%5BOP07-051%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

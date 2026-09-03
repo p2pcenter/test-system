@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-03 13:47:28 UTC",
+  "datetime": "2026-09-03 17:31:16 UTC",
   "cid": "0e77e5ba",
   "name": "Luffy [ST21-001]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥55,800",
-  "price_int": 55800,
+  "price": "¥55,000",
+  "price_int": 55000,
   "prev_price": "¥55,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d98a1fb8-af47-44e1-afe1-b4590cc8e827/7378315.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f8cc96b2-9794-4398-bb58-2f3226d6d1c6/4985191.jpeg?size=m",
   "history": [
-    {
-      "t": 1786687008,
-      "p": 64800
-    },
     {
       "t": 1786722705,
       "p": 62800
@@ -148,6 +144,10 @@
     {
       "t": 1788428058,
       "p": 55800
+    },
+    {
+      "t": 1788457439,
+      "p": 55000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+L-P+%5BST21-001%5D%28Start+Deck+EX+%22Gear+5%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-03 13:47:28 UTC",
+  "datetime": "2026-09-03 17:31:16 UTC",
   "cid": "0bfcd563",
   "name": "Zoro R [EB02-019]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥20,000",
-  "price_int": 20000,
+  "price": "¥19,000",
+  "price_int": 19000,
   "prev_price": "¥20,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/75fa1187-61e4-4272-a46e-7ed21f487aaf/7364661.jpeg?size=m",
   "history": [
@@ -28,6 +28,10 @@
     {
       "t": 1788368856,
       "p": 20000
+    },
+    {
+      "t": 1788457345,
+      "p": 19000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R+%5BEB02-019%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
