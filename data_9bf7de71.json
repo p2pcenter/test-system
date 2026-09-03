@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-03 04:55:55 UTC",
+  "datetime": "2026-09-03 09:28:13 UTC",
   "cid": "9bf7de71",
   "name": "Yamato L [OP06-022] L06",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥11,500",
-  "price_int": 11500,
+  "price": "¥11,000",
+  "price_int": 11000,
   "prev_price": "¥11,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c98fbbb8-d042-438d-939f-8843c90f4183/2409131.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1d46a4ad-6d62-4bc6-834a-48f6cf8907d4/2409131.jpeg?size=m",
   "history": [
     {
       "t": 1786458147,
@@ -52,6 +52,10 @@
     {
       "t": 1788276888,
       "p": 11500
+    },
+    {
+      "t": 1788428258,
+      "p": 11000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+L+%5BOP06-022%5D+Promotional&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
