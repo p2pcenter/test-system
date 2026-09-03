@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-03 00:30:14 UTC",
+  "datetime": "2026-09-03 04:55:55 UTC",
   "cid": "9694ff16",
   "name": "Reiju [OP06-069] V11",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥20,000",
-  "price_int": 20000,
+  "price": "¥18,000",
+  "price_int": 18000,
   "prev_price": "¥20,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/18cc75d3-e6ba-4729-b4e8-8d57197bfb51/3754859.jpeg?size=m",
   "history": [
@@ -24,6 +24,10 @@
     {
       "t": 1788111916,
       "p": 20000
+    },
+    {
+      "t": 1788412030,
+      "p": 18000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Vinsmoke+Reiju+SR-P+%5BOP06-069%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

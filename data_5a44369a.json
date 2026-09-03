@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-03 00:30:14 UTC",
+  "datetime": "2026-09-03 04:55:55 UTC",
   "cid": "5a44369a",
   "name": "Yamato C-P [ST13-016]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥21,800",
-  "price_int": 21800,
+  "price": "¥24,800",
+  "price_int": 24800,
   "prev_price": "¥21,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7bb23ab2-d292-49cf-a6f1-a73a593c7e5c/5401709.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4220c1b1-f26d-4a49-a115-a2a0fa6a1d17/2564099.jpeg?size=m",
   "history": [
     {
       "t": 1786594642,
@@ -20,6 +20,10 @@
     {
       "t": 1788261188,
       "p": 21800
+    },
+    {
+      "t": 1788411440,
+      "p": 24800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=C-P+%5BST13-016%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
