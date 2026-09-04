@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-04 14:00:11 UTC",
+  "datetime": "2026-09-04 17:33:20 UTC",
   "cid": "ed609480",
   "name": "Boa Hancock SR-P [OP01-078] B02",
   "code": "OP01-078",
   "rarity": "C",
   "price": "¥13,900",
   "price_int": 13900,
-  "prev_price": "¥14,000",
+  "prev_price": "¥13,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8ba1218b-a651-4ddf-a216-66d28f7509e5/8464457.jpeg?size=m",
   "history": [
-    {
-      "t": 1786546601,
-      "p": 14800
-    },
     {
       "t": 1786813558,
       "p": 16500

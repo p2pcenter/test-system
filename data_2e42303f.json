@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-04 14:00:11 UTC",
+  "datetime": "2026-09-04 17:33:20 UTC",
   "cid": "2e42303f",
   "name": "Donquixote Rocinante",
   "code": "OP04-119",
   "rarity": "SEC",
-  "price": "¥18,500",
-  "price_int": 18500,
+  "price": "¥17,999",
+  "price_int": 17999,
   "prev_price": "¥18,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/acdfa775-689b-460f-97f1-74a303c93797/2419653.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/84280929-006f-4c7c-b999-63f4de067163/8436206.jpeg?size=m",
   "history": [
     {
       "t": 1786697195,
@@ -44,6 +44,10 @@
     {
       "t": 1788443481,
       "p": 18500
+    },
+    {
+      "t": 1788543794,
+      "p": 17999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP04-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

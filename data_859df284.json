@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-04 14:00:11 UTC",
+  "datetime": "2026-09-04 17:33:20 UTC",
   "cid": "859df284",
   "name": "Zoro R-P [OP05-067] Z02",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥13,456",
   "price_int": 13456,
-  "prev_price": "¥13,500",
+  "prev_price": "¥13,456",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1804864c-bc8b-497e-94f8-44252c135e0a/644152.jpeg?size=m",
   "history": [
-    {
-      "t": 1786768445,
-      "p": 15500
-    },
     {
       "t": 1786812730,
       "p": 15000
