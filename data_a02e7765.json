@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-05 08:48:45 UTC",
+  "datetime": "2026-09-05 12:22:20 UTC",
   "cid": "a02e7765",
   "name": "Zoro P [P-045]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥15,800",
   "price_int": 15800,
-  "prev_price": "¥15,900",
+  "prev_price": "¥15,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/47a0b123-e84b-4016-a896-707117e7588a/4923281.jpeg?size=m",
   "history": [
-    {
-      "t": 1786813661,
-      "p": 24000
-    },
     {
       "t": 1786882810,
       "p": 23900
