@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-05 00:17:16 UTC",
+  "datetime": "2026-09-05 04:48:12 UTC",
   "cid": "72a7a764",
   "name": "Ace [OP07-119] A02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
+  "price": "¥14,900",
+  "price_int": 14900,
   "prev_price": "¥15,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6b1d8e63-c737-4bc2-bd21-68d17ee8ffa7/4681369.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a2792bee-4045-4616-b001-a5a7727940b7/5656682.jpeg?size=m",
   "history": [
     {
       "t": 1787243650,
@@ -28,6 +28,10 @@
     {
       "t": 1788222642,
       "p": 15000
+    },
+    {
+      "t": 1788583887,
+      "p": 14900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Portgas+D+Ace+SEC+%5BOP07-119%5D+%28Booster+Pack+500+Yeas+in+the+Future%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
