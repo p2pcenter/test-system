@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-06 14:19:51 UTC",
+  "datetime": "2026-09-06 17:14:30 UTC",
   "cid": "d73ec20c",
   "name": "Zoro [ST18-004]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥30,000",
-  "price_int": 30000,
+  "price": "¥31,500",
+  "price_int": 31500,
   "prev_price": "¥30,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5d7cc51f-1eae-4f60-8ccb-b9f040a1c50d/6706614.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8cf9ff9c-e716-4e47-a4b4-16821de0e90b/5649485.jpeg?size=m",
   "history": [
     {
       "t": 1786945867,
@@ -172,6 +172,10 @@
     {
       "t": 1788675564,
       "p": 30000
+    },
+    {
+      "t": 1788715081,
+      "p": 31500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BST18-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
