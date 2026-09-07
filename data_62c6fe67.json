@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-07 12:55:05 UTC",
+  "datetime": "2026-09-07 18:06:23 UTC",
   "cid": "62c6fe67",
   "name": "Luffy [ST29-001]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥23,500",
-  "price_int": 23500,
+  "price": "¥23,000",
+  "price_int": 23000,
   "prev_price": "¥23,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/06745695-76ed-4ec4-be33-b633acdab42f/5602204.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/054f2626-a14e-48a8-a60d-9c49b492ef8e/7341844.jpeg?size=m",
   "history": [
     {
       "t": 1787045924,
@@ -168,6 +168,10 @@
     {
       "t": 1788762569,
       "p": 23500
+    },
+    {
+      "t": 1788804448,
+      "p": 23000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+L-p+ST29-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

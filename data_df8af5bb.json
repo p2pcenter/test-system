@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-07 12:55:05 UTC",
+  "datetime": "2026-09-07 18:06:23 UTC",
   "cid": "df8af5bb",
   "name": "Luffy L-P OP05-060",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥17,500",
-  "price_int": 17500,
-  "prev_price": "¥17,700",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7085ed42-377e-4b4e-a6b8-e4b8d5a438d4/8118764.jpeg?size=m",
+  "price": "¥17,400",
+  "price_int": 17400,
+  "prev_price": "¥17,500",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bc25d702-df7d-43ce-a469-07085fc60690/4985191.jpeg?size=m",
   "history": [
     {
       "t": 1787047577,
@@ -152,6 +152,10 @@
     {
       "t": 1788786288,
       "p": 17500
+    },
+    {
+      "t": 1788804785,
+      "p": 17400
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+L-P+OP05-060&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
