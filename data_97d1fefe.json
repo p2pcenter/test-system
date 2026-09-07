@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-07 01:15:19 UTC",
+  "datetime": "2026-09-07 06:26:12 UTC",
   "cid": "97d1fefe",
   "name": "Luffy [OP11-118] L12",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥12,000",
-  "price_int": 12000,
+  "price": "¥19,800",
+  "price_int": 19800,
   "prev_price": "¥12,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e8c3543b-b30b-4a57-be47-e489768ff366/1171027.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8eaabe8b-80a0-44ba-bfe7-ae556f91aeb8/7973653.jpeg?size=m",
   "history": [
     {
       "t": 1787015239,
@@ -88,6 +88,10 @@
     {
       "t": 1788737646,
       "p": 12000
+    },
+    {
+      "t": 1788762823,
+      "p": 19800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+sec-p+OP11-118&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
