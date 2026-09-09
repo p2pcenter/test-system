@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-09 06:21:52 UTC",
+  "datetime": "2026-09-09 11:42:04 UTC",
   "cid": "72ca6955",
   "name": "Sakazuki [OP02-099] A10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,980",
-  "price_int": 9980,
+  "price": "¥9,480",
+  "price_int": 9480,
   "prev_price": "¥9,980",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c0bbb0e9-5fe7-437d-8884-32d1a0a9633b/1658673.jpeg?size=m",
   "history": [
@@ -28,6 +28,10 @@
     {
       "t": 1788368668,
       "p": 9980
+    },
+    {
+      "t": 1788954302,
+      "p": 9480
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sakazuki+SR-P+%5BOP02-099%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
