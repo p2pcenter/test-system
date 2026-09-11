@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-11 00:21:20 UTC",
+  "datetime": "2026-09-11 04:59:20 UTC",
   "cid": "2b789620",
   "name": "Saint Ju Peter [OP13-084] S50",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
+  "price": "¥23,500",
+  "price_int": 23500,
   "prev_price": "¥15,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f1125551-9839-45ea-87fe-d6515e3412ac/4956467.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0448e9ce-8c95-4f0f-ae56-c5694495e909/8405903.jpeg?size=m",
   "history": [
     {
       "t": 1787243930,
@@ -16,6 +16,10 @@
     {
       "t": 1788888125,
       "p": 15000
+    },
+    {
+      "t": 1789103478,
+      "p": 23500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Saint+Shepherd+Ju+Peter+R-P+%5BOP13-084%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

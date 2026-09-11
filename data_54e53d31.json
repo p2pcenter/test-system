@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-11 00:21:20 UTC",
+  "datetime": "2026-09-11 04:59:20 UTC",
   "cid": "54e53d31",
   "name": "Rebecca [OP05-091] R31",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥13,500",
-  "price_int": 13500,
+  "price": "¥12,900",
+  "price_int": 12900,
   "prev_price": "¥13,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/dd0e0d49-4cd3-4b47-a34b-95e81ae0ce29/5830211.jpeg?size=m",
   "history": [
@@ -28,6 +28,10 @@
     {
       "t": 1789028882,
       "p": 13500
+    },
+    {
+      "t": 1789103428,
+      "p": 12900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Rebecca+SR-P+%5BOP05-091%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
