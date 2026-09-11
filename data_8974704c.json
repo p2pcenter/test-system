@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-11 13:45:19 UTC",
+  "datetime": "2026-09-11 17:30:26 UTC",
   "cid": "8974704c",
   "name": "Boa Hancock [OP02-059] B03",
   "code": "OP02-059",
   "rarity": "C",
-  "price": "¥13,900",
-  "price_int": 13900,
+  "price": "¥13,000",
+  "price_int": 13000,
   "prev_price": "¥13,900",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bc678125-c6ab-4e35-84fa-9f5f8a8fc880/6378276.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fb996601-530d-43ff-8eb6-d47e42680c13/5607048.jpeg?size=m",
   "history": [
     {
       "t": 1787370336,
@@ -116,6 +116,10 @@
     {
       "t": 1789103453,
       "p": 13900
+    },
+    {
+      "t": 1789147891,
+      "p": 13000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+UC-P+%5BOP02-059%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
