@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-12 13:00:21 UTC",
+  "datetime": "2026-09-12 16:11:29 UTC",
   "cid": "22153281",
   "name": "Reiju [OP06-068] V10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥88,888",
-  "price_int": 88888,
+  "price": "¥15,555",
+  "price_int": 15555,
   "prev_price": "¥88,888",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0c1a1d10-ad45-45c6-90d7-4b41b2db365f/3522038.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8b921165-c13f-4e08-b304-8585d1c79ff8/1288061.jpeg?size=m",
   "history": [
     {
       "t": 1787247490,
@@ -20,6 +20,10 @@
     {
       "t": 1788874866,
       "p": 88888
+    },
+    {
+      "t": 1789230117,
+      "p": 15555
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Vinsmoke+Reiju+C+%5BOP06-068%5D%28Admirable+Collection+%22vol.1+Vinsmoke+Reiju%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
