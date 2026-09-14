@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-14 15:57:48 UTC",
+  "datetime": "2026-09-14 20:12:14 UTC",
   "cid": "8ba569e2",
   "name": "Boa Hancock [PRB02-017]",
   "code": "PRB02-017",
   "rarity": "C",
-  "price": "¥10,300",
-  "price_int": 10300,
+  "price": "¥10,000",
+  "price_int": 10000,
   "prev_price": "¥10,300",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8b9d0ccd-9f88-4bba-9faa-8aab2a1e7274/4418054.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2e6691e4-c21e-4b95-bcc6-934464a1438c/458003.jpeg?size=m",
   "history": [
     {
       "t": 1787206109,
@@ -160,6 +160,10 @@
     {
       "t": 1789356264,
       "p": 10300
+    },
+    {
+      "t": 1789416822,
+      "p": 10000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+SR-P+%5BPRB02-017%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
