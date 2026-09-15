@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-15 01:42:52 UTC",
+  "datetime": "2026-09-15 07:11:09 UTC",
   "cid": "516464b4",
   "name": "Boa Hancock C [ST03-013] B08",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,800",
-  "price_int": 10800,
+  "price": "¥11,000",
+  "price_int": 11000,
   "prev_price": "¥10,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e0a6fb5b-8be7-45d0-9411-56c85e07f5da/6219521.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/12720e8b-c8b1-4e3f-a96f-fdcee011af1b/8464457.jpeg?size=m",
   "history": [
     {
       "t": 1787706654,
@@ -44,6 +44,10 @@
     {
       "t": 1789402256,
       "p": 10800
+    },
+    {
+      "t": 1789456347,
+      "p": 11000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+C+%3AFull+Art+%5BST03-013%5D%28Premium+Booster+%22One+Piece+Card+The+Best%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
