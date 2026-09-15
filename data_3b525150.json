@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-14 23:18:15 UTC",
+  "datetime": "2026-09-15 01:42:52 UTC",
   "cid": "3b525150",
   "name": "Sengoku",
   "code": "OP07-046",
   "rarity": "R",
-  "price": "¥16,380",
-  "price_int": 16380,
+  "price": "¥15,800",
+  "price_int": 15800,
   "prev_price": "¥16,380",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/399f26e4-08e9-4483-b7e6-2546abc68ead/1244335.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a04ff1a5-bd64-47ab-87bc-0f31760cc90f/483739.jpeg?size=m",
   "history": [
     {
       "t": 1787526038,
@@ -60,6 +60,10 @@
     {
       "t": 1789377613,
       "p": 16380
+    },
+    {
+      "t": 1789436615,
+      "p": 15800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sengoku+R-SPC++%5BOP07-046%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
