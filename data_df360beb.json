@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-16 12:42:33 UTC",
+  "datetime": "2026-09-16 17:27:57 UTC",
   "cid": "df360beb",
   "name": "Sugar [OP10-065]",
   "code": "OP10-065",
   "rarity": "C",
-  "price": "¥25,000",
-  "price_int": 25000,
+  "price": "¥22,000",
+  "price_int": 22000,
   "prev_price": "¥25,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0b0e3e32-b2d7-4848-899d-8c80b4c3d2b8/4082704.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c30f4015-5dd5-434a-bc94-5f5493576bfa/8174915.jpeg?size=m",
   "history": [
     {
       "t": 1787825985,
@@ -20,6 +20,10 @@
     {
       "t": 1789281167,
       "p": 25000
+    },
+    {
+      "t": 1789580417,
+      "p": 22000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP10-065%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
