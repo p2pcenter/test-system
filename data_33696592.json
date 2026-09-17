@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-17 01:35:44 UTC",
+  "datetime": "2026-09-17 07:09:44 UTC",
   "cid": "33696592",
   "name": "Luffy [OP05-119]",
   "code": "OP05-119",
   "rarity": "C",
-  "price": "¥77,800",
-  "price_int": 77800,
+  "price": "¥76,500",
+  "price_int": 76500,
   "prev_price": "¥77,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e17f33e4-db80-47c5-82d3-bc304979c77d/5416557.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ce70ca1c-ed76-4ca4-83ff-971af474a452/5024660.jpeg?size=m",
   "history": [
-    {
-      "t": 1787790495,
-      "p": 88500
-    },
     {
       "t": 1787893854,
       "p": 87000
@@ -196,6 +192,10 @@
     {
       "t": 1789590696,
       "p": 77800
+    },
+    {
+      "t": 1789629173,
+      "p": 76500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP05-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
