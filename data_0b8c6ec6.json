@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-18 06:18:15 UTC",
+  "datetime": "2026-09-18 11:36:44 UTC",
   "cid": "0b8c6ec6",
   "name": "Luffy [P09-061] L07",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
+  "price": "¥14,999",
+  "price_int": 14999,
   "prev_price": "¥15,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f9a3c51e-fdc2-4e25-8131-0b72051d28be/617972.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/185e6ff8-6d77-4f1f-8666-6b5b345b4508/6249060.jpeg?size=m",
   "history": [
     {
       "t": 1787939300,
@@ -220,6 +220,10 @@
     {
       "t": 1789695339,
       "p": 15000
+    },
+    {
+      "t": 1789731948,
+      "p": 14999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=luffy+L-P+P09-061&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
