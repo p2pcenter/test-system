@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-18 01:22:37 UTC",
+  "datetime": "2026-09-18 06:18:15 UTC",
   "cid": "798ffaeb",
   "name": "Law [OP13-031]",
   "code": "OP13-031",
   "rarity": "C",
-  "price": "¥23,500",
-  "price_int": 23500,
+  "price": "¥23,200",
+  "price_int": 23200,
   "prev_price": "¥23,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/23e44fca-7839-451d-8d85-f439bf9aabb9/4972305.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2b424415-b3f0-4b18-91e5-cc4edf1227ef/8545566.jpeg?size=m",
   "history": [
     {
       "t": 1787893627,
@@ -144,6 +144,10 @@
     {
       "t": 1789649322,
       "p": 23500
+    },
+    {
+      "t": 1789712401,
+      "p": 23200
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Law+R-SPC+%5BOP13-031%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
