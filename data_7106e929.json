@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-18 11:36:44 UTC",
+  "datetime": "2026-09-18 15:49:49 UTC",
   "cid": "7106e929",
   "name": "Zoro L-P [OP12-020]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥11,900",
   "price_int": 11900,
-  "prev_price": "¥12,500",
+  "prev_price": "¥11,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4855618b-49a0-4b7a-a0d2-a12a8573da4e/6854152.jpeg?size=m",
   "history": [
-    {
-      "t": 1787991149,
-      "p": 18000
-    },
     {
       "t": 1788012473,
       "p": 18777

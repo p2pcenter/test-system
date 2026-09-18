@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-18 11:36:44 UTC",
+  "datetime": "2026-09-18 15:49:49 UTC",
   "cid": "29d7df38",
   "name": "Sanji [PRB01-001] S13",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥8,770",
-  "price_int": 8770,
+  "price": "¥8,000",
+  "price_int": 8000,
   "prev_price": "¥8,770",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ef25bc50-0840-48af-8391-5e9e706a7aaf/8118764.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/622a13d3-0354-4dd8-88c9-a031d0909f94/7842103.jpeg?size=m",
   "history": [
-    {
-      "t": 1787991344,
-      "p": 11000
-    },
     {
       "t": 1788012010,
       "p": 11600
@@ -84,6 +80,10 @@
     {
       "t": 1789649607,
       "p": 8770
+    },
+    {
+      "t": 1789747205,
+      "p": 8000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=PRB01-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
