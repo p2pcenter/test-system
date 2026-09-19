@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-19 11:21:34 UTC",
+  "datetime": "2026-09-19 14:37:58 UTC",
   "cid": "a082d7cb",
   "name": "Tashigi [ST06-006] T11",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥17,000",
-  "price_int": 17000,
+  "price": "¥15,500",
+  "price_int": 15500,
   "prev_price": "¥17,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b05c0b60-66ec-484e-860b-aec5ee3846ce/2075485.png?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/02703d61-d367-4d58-bd39-7b4b322fb46d/918821.jpeg?size=m",
   "history": [
     {
       "t": 1788074052,
@@ -48,6 +48,10 @@
     {
       "t": 1789799285,
       "p": 17000
+    },
+    {
+      "t": 1789829324,
+      "p": 15500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=ST06-006&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
