@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-19 06:26:55 UTC",
+  "datetime": "2026-09-19 11:21:34 UTC",
   "cid": "279c1196",
   "name": "Event [OP10-019] E02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥12,200",
-  "price_int": 12200,
+  "price": "¥12,000",
+  "price_int": 12000,
   "prev_price": "¥12,200",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3a601e61-9bf8-4db3-94ec-229466f7d078/7842103.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b97d7fe1-1d2f-43ae-9a13-41dbf1fe935d/7102524.jpeg?size=m",
   "history": [
-    {
-      "t": 1788012542,
-      "p": 14000
-    },
     {
       "t": 1788073793,
       "p": 13900
@@ -116,6 +112,10 @@
     {
       "t": 1789747074,
       "p": 12200
+    },
+    {
+      "t": 1789817499,
+      "p": 12000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Divine+departur+R-P+%5BOP10-019%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
