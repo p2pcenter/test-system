@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-20 14:01:45 UTC",
+  "datetime": "2026-09-20 17:34:09 UTC",
   "cid": "03ed33d7",
   "name": "Luffy [ST21-001] L14",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥7,799",
   "price_int": 7799,
-  "prev_price": "¥7,500",
+  "prev_price": "¥7,799",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ed39d50a-d31a-4738-92dd-410df7a99ac9/7877561.jpeg?size=m",
   "history": [
-    {
-      "t": 1788140122,
-      "p": 16199
-    },
     {
       "t": 1788189596,
       "p": 14500
