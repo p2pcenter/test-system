@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-20 00:14:46 UTC",
+  "datetime": "2026-09-20 05:11:10 UTC",
   "cid": "29de2158",
   "name": "Sabo [OP04-083] S01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥12,000",
-  "price_int": 12000,
+  "price": "¥11,800",
+  "price_int": 11800,
   "prev_price": "¥12,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/72f13311-65e6-4e43-88fe-d91e50fa0ee4/320179.jpeg?size=m",
   "history": [
@@ -40,6 +40,10 @@
     {
       "t": 1789649233,
       "p": 12000
+    },
+    {
+      "t": 1789881661,
+      "p": 11800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sabo+SR-P+%5BOP04-083%5D+%28Booster+Pack+The+Kingdom+Of+Conspiracy%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
