@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-21 00:49:53 UTC",
+  "datetime": "2026-09-21 05:53:58 UTC",
   "cid": "5490c1b3",
   "name": "Nami [OP01-016]",
   "code": "OP01-016",
   "rarity": "C",
-  "price": "¥36,999",
-  "price_int": 36999,
+  "price": "¥36,800",
+  "price_int": 36800,
   "prev_price": "¥36,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/836d8778-de36-457e-9e72-f7bf34b4b81f/6203397.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1d2d8330-bd8d-4351-b974-a2aef235b14a/6421905.jpeg?size=m",
   "history": [
-    {
-      "t": 1788190111,
-      "p": 48800
-    },
     {
       "t": 1788240783,
       "p": 48400
@@ -140,6 +136,10 @@
     {
       "t": 1789840523,
       "p": 36999
+    },
+    {
+      "t": 1789970228,
+      "p": 36800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-SPC+%5BOP01-016%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
