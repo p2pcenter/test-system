@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-21 18:10:50 UTC",
+  "datetime": "2026-09-21 22:06:31 UTC",
   "cid": "2a65c2d1",
   "name": "Zoro (Juro)",
   "code": "OP05-067",
   "rarity": "R",
   "price": "¥42,000",
   "price_int": 42000,
-  "prev_price": "¥42,500",
+  "prev_price": "¥42,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a17e8e85-9a2d-48c3-a6ea-283385099634/5755157.jpeg?size=m",
   "history": [
-    {
-      "t": 1788276775,
-      "p": 47800
-    },
     {
       "t": 1788288679,
       "p": 47500

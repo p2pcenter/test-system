@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-21 18:10:50 UTC",
+  "datetime": "2026-09-21 22:06:31 UTC",
   "cid": "f6985b78",
   "name": "Luffy [OP09-119] L08",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,400",
-  "price_int": 9400,
+  "price": "¥9,500",
+  "price_int": 9500,
   "prev_price": "¥9,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/614164e6-eee1-43d4-ab78-d17d67affbf1/4956928.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ac59dc6b-8740-40e6-9304-525c92cd8af3/7940064.jpeg?size=m",
   "history": [
     {
       "t": 1788189985,
@@ -100,6 +100,10 @@
     {
       "t": 1789992433,
       "p": 9400
+    },
+    {
+      "t": 1790028541,
+      "p": 9500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+sec-p+OP09-119&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
