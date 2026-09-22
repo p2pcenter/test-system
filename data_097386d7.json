@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-22 00:59:54 UTC",
+  "datetime": "2026-09-22 06:01:17 UTC",
   "cid": "097386d7",
   "name": "Yamato P [P-046]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,000",
-  "price_int": 14000,
+  "price": "¥13,500",
+  "price_int": 13500,
   "prev_price": "¥14,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f5d0ee49-d4ab-4681-9a97-40ed807ee649/7672690.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/669824f5-4b8c-44f3-ae07-a885ee77be22/8463756.jpeg?size=m",
   "history": [
     {
       "t": 1788139764,
@@ -72,6 +72,10 @@
     {
       "t": 1789731943,
       "p": 14000
+    },
+    {
+      "t": 1790057543,
+      "p": 13500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=yamato+P+%5BP-046%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
