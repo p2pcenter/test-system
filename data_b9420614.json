@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-23 11:56:34 UTC",
+  "datetime": "2026-09-23 16:16:13 UTC",
   "cid": "b9420614",
   "name": "Yamato SR-P [EB02-006] Y20",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥17,800",
-  "price_int": 17800,
+  "price": "¥15,800",
+  "price_int": 15800,
   "prev_price": "¥17,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1b649faa-94c6-45a7-8536-7cb5758b5365/8161957.jpeg?size=m",
   "history": [
@@ -20,6 +20,10 @@
     {
       "t": 1790078518,
       "p": 17800
+    },
+    {
+      "t": 1790180363,
+      "p": 15800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SR-P+%5BEB02-006%5D%28Extra+Booster+%22Anime+25th+Collection%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

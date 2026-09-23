@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-23 11:56:34 UTC",
+  "datetime": "2026-09-23 16:16:13 UTC",
   "cid": "34d7a776",
   "name": "Law [OP10-119] T02",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥11,300",
   "price_int": 11300,
-  "prev_price": "¥11,400",
+  "prev_price": "¥11,300",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8fd0ce8c-4009-4dac-bfd2-72546a018a6d/6249060.jpeg?size=m",
   "history": [
-    {
-      "t": 1788411720,
-      "p": 12999
-    },
     {
       "t": 1788443397,
       "p": 12500
