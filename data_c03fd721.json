@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-24 12:05:52 UTC",
+  "datetime": "2026-09-24 17:26:46 UTC",
   "cid": "c03fd721",
   "name": "Dragon [OP07-015]",
   "code": "OP07-015",
   "rarity": "C",
   "price": "¥19,000",
   "price_int": 19000,
-  "prev_price": "¥18,000",
+  "prev_price": "¥19,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/efe9e8bb-2522-4e66-a933-01223359b7bd/8174915.jpeg?size=m",
   "history": [
-    {
-      "t": 1788428245,
-      "p": 19800
-    },
     {
       "t": 1788543283,
       "p": 18999

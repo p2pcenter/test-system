@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-24 12:05:52 UTC",
+  "datetime": "2026-09-24 17:26:46 UTC",
   "cid": "21ec85d3",
   "name": "Ace [OP07-119] A01",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥13,499",
   "price_int": 13499,
-  "prev_price": "¥13,500",
+  "prev_price": "¥13,499",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d2bbbd70-0cdc-4c49-8215-32043f447125/7647796.jpeg?size=m",
   "history": [
-    {
-      "t": 1788368476,
-      "p": 13500
-    },
     {
       "t": 1788530614,
       "p": 13900
