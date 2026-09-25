@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-25 03:26:18 UTC",
+  "datetime": "2026-09-25 09:01:23 UTC",
   "cid": "377a4bf5",
   "name": "Uta [OP02-120] U02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,500",
-  "price_int": 10500,
+  "price": "¥10,400",
+  "price_int": 10400,
   "prev_price": "¥10,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ddc04485-6acc-4f0e-a4e5-a58e021f623c/7700982.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3cb63852-0142-429a-b62d-0972f0591de7/2451473.jpeg?size=m",
   "history": [
     {
       "t": 1788261116,
@@ -36,6 +36,10 @@
     {
       "t": 1790144536,
       "p": 10500
+    },
+    {
+      "t": 1790326922,
+      "p": 10400
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Uta+SEC+%5BOP02-120%5D+%28Premium+Card+Collection+-+Uta+-%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
