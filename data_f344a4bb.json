@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-24 23:45:35 UTC",
+  "datetime": "2026-09-25 03:26:18 UTC",
   "cid": "f344a4bb",
   "name": "Zoro SR-P [EB04-007]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥18,800",
-  "price_int": 18800,
+  "price": "¥18,700",
+  "price_int": 18700,
   "prev_price": "¥18,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5c320cac-994d-47b6-89cd-5e3db0dc20f2/5829121.jpeg?size=m",
   "history": [
@@ -48,6 +48,10 @@
     {
       "t": 1790165425,
       "p": 18800
+    },
+    {
+      "t": 1790307363,
+      "p": 18700
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-P+%5BEB04-007%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
