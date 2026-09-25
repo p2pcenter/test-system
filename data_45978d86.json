@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-25 14:41:17 UTC",
+  "datetime": "2026-09-25 19:07:31 UTC",
   "cid": "45978d86",
   "name": "Shanks [OP09-004]",
   "code": "OP09-004",
   "rarity": "C",
   "price": "¥37,500",
   "price_int": 37500,
-  "prev_price": "¥39,500",
+  "prev_price": "¥37,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ed73af35-ae29-4f02-9419-9d36b83e0beb/8382584.jpeg?size=m",
   "history": [
-    {
-      "t": 1788611308,
-      "p": 39000
-    },
     {
       "t": 1788629687,
       "p": 38888
