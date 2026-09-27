@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-27 05:33:52 UTC",
+  "datetime": "2026-09-27 11:24:20 UTC",
   "cid": "3fa829bb",
   "name": "Event [OP11-114] E04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥13,500",
-  "price_int": 13500,
-  "prev_price": "¥13,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b4e9e789-3fc4-4dc4-a50d-ea72fcd473b7/2933805.jpeg?size=m",
+  "price": "¥13,800",
+  "price_int": 13800,
+  "prev_price": "¥13,500",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7b9f6311-6a60-4dda-ac38-86ef208fb775/5712292.jpeg?size=m",
   "history": [
-    {
-      "t": 1788693330,
-      "p": 16400
-    },
     {
       "t": 1788762715,
       "p": 15000
@@ -136,6 +132,10 @@
     {
       "t": 1790487602,
       "p": 13500
+    },
+    {
+      "t": 1790508340,
+      "p": 13800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP11-114&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

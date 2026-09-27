@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-09-27 05:33:52 UTC",
+  "datetime": "2026-09-27 11:24:20 UTC",
   "cid": "e83ce505",
   "name": "Yamato C [ST13-016]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥88,888",
-  "price_int": 88888,
+  "price": "",
+  "price_int": 0,
   "prev_price": "¥88,888",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5a5dbe23-0300-4d27-bf11-5b10765c68d7/8345114.png?size=m",
   "history": [
@@ -19,5 +19,5 @@
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+C+%5BST13-016%5D+%5BEN%5D%28Promotional+Card+%22Illustration+Box+Vol.1%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
-  "status": "ok"
+  "status": "sold_out"
 }
