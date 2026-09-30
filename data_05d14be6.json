@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-09-30 02:17:18 UTC",
+  "datetime": "2026-09-30 08:52:06 UTC",
   "cid": "05d14be6",
   "name": "Portgas D. Ace [OP13-119]",
   "code": "OP13-119",
   "rarity": "C",
   "price": "¥12,600",
   "price_int": 12600,
-  "prev_price": "¥12,800",
+  "prev_price": "¥12,600",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fe57d80d-7396-4e57-8949-48e206e8b320/8155882.jpeg?size=m",
   "history": [
-    {
-      "t": 1788970112,
-      "p": 22400
-    },
     {
       "t": 1789028909,
       "p": 22300
