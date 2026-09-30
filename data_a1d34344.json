@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-09-30 08:52:06 UTC",
+  "datetime": "2026-09-30 15:37:20 UTC",
   "cid": "a1d34344",
   "name": "Nami [OP11-106] N04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,000",
-  "price_int": 10000,
+  "price": "¥14,500",
+  "price_int": 14500,
   "prev_price": "¥10,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/091cbdda-58d1-4c3c-a470-0baf0805d4f1/7503635.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3133c796-6c60-4f6b-82c8-09e524fb7287/2379645.jpeg?size=m",
   "history": [
     {
       "t": 1789028560,
@@ -56,6 +56,10 @@
     {
       "t": 1790610404,
       "p": 10000
+    },
+    {
+      "t": 1790782662,
+      "p": 14500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP11-106&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
