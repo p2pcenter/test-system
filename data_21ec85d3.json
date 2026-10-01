@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-01 00:21:02 UTC",
+  "datetime": "2026-10-01 06:21:30 UTC",
   "cid": "21ec85d3",
   "name": "Ace [OP07-119] A01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥12,999",
-  "price_int": 12999,
+  "price": "¥12,000",
+  "price_int": 12000,
   "prev_price": "¥12,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b0a0953d-20a1-498e-a861-fc08fd67dcc1/6249060.jpeg?size=m",
   "history": [
@@ -52,6 +52,10 @@
     {
       "t": 1790610721,
       "p": 12999
+    },
+    {
+      "t": 1790835995,
+      "p": 12000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Portgas+D+Ace+SEC-P+%5BOP07-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
