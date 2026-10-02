@@ -1,21 +1,21 @@
 {
-  "datetime": "2026-10-02 02:26:47 UTC",
+  "datetime": "2026-10-02 08:50:30 UTC",
   "cid": "eeab7a4e",
   "name": "Perona [OP12-034] P04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥39,800",
-  "price_int": 39800,
+  "price": "¥49,980",
+  "price_int": 49980,
   "prev_price": "¥39,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c64474b5-4f38-4656-b600-687c1dd85716/6423121.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6ec80a60-aedc-4ba1-a135-0b548f46393f/6423121.jpeg?size=m",
   "history": [
-    {
-      "t": 1787768120,
-      "p": 15000
-    },
     {
       "t": 1788161332,
       "p": 39800
+    },
+    {
+      "t": 1790931266,
+      "p": 49980
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Perona+SR-P+%5BOP12-034%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
