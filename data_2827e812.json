@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-02 15:23:26 UTC",
+  "datetime": "2026-10-02 20:05:02 UTC",
   "cid": "2827e812",
   "name": "Luffy SEC [OP10-118]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥7,680",
   "price_int": 7680,
-  "prev_price": "¥7,000",
+  "prev_price": "¥7,680",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/621189fd-8541-49ad-86c1-216738c3f1b6/7746341.jpeg?size=m",
   "history": [
-    {
-      "t": 1789010084,
-      "p": 9000
-    },
     {
       "t": 1789229572,
       "p": 8800

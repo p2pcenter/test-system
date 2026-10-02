@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-10-02 15:23:26 UTC",
+  "datetime": "2026-10-02 20:05:02 UTC",
   "cid": "e0a36a2e",
   "name": "Yamato SR [OP04-112]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥20,000",
   "price_int": 20000,
-  "prev_price": "¥21,400",
+  "prev_price": "¥20,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6c337425-3ed0-4325-8cde-52d847a12b47/1661127.jpeg?size=m",
   "history": [
-    {
-      "t": 1789218330,
-      "p": 23800
-    },
-    {
-      "t": 1789229838,
-      "p": 23000
-    },
     {
       "t": 1789238346,
       "p": 23800
