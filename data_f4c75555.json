@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-02 08:50:30 UTC",
+  "datetime": "2026-10-02 15:23:26 UTC",
   "cid": "f4c75555",
   "name": "Roger [OP13-003] R01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,000",
-  "price_int": 9000,
+  "price": "¥8,800",
+  "price_int": 8800,
   "prev_price": "¥9,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/14ee5586-bf0a-4e55-9867-65033ef9c2eb/1273863.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/cea9add6-3553-48a9-8f5d-72da983a5af7/6611976.jpeg?size=m",
   "history": [
     {
       "t": 1789189192,
@@ -64,6 +64,10 @@
     {
       "t": 1790862614,
       "p": 9000
+    },
+    {
+      "t": 1790955359,
+      "p": 8800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP13-003&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
