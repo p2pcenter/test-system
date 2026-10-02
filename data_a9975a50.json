@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-01 23:20:38 UTC",
+  "datetime": "2026-10-02 02:26:47 UTC",
   "cid": "a9975a50",
   "name": "Sanji [OP09-065] S12",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,999",
-  "price_int": 9999,
+  "price": "¥12,999",
+  "price_int": 12999,
   "prev_price": "¥9,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ea864be2-b491-4ce2-8bb7-0e1a11df9850/3695844.jpeg?size=m",
   "history": [
@@ -28,6 +28,10 @@
     {
       "t": 1790645497,
       "p": 9999
+    },
+    {
+      "t": 1790908149,
+      "p": 12999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sanji+SR-P+%5BOP09-065%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
