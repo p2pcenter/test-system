@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-02 20:05:02 UTC",
+  "datetime": "2026-10-02 23:57:00 UTC",
   "cid": "1fbde3e2",
   "name": "Perona",
   "code": "OP06-093",
   "rarity": "SR",
-  "price": "¥29,999",
-  "price_int": 29999,
-  "prev_price": "¥19,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/744e6d0c-8f81-41f9-af97-cfa35d75c8ae/7972210.jpeg?size=m",
+  "price": "¥24,800",
+  "price_int": 24800,
+  "prev_price": "¥29,999",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/24ed1c13-2d69-426a-8c4d-026298f89ba6/5978819.jpeg?size=m",
   "history": [
     {
       "t": 1789189159,
@@ -60,6 +60,10 @@
     {
       "t": 1790971802,
       "p": 29999
+    },
+    {
+      "t": 1790986082,
+      "p": 24800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC++%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
