@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-03 09:59:07 UTC",
+  "datetime": "2026-10-03 14:38:52 UTC",
   "cid": "d5a0ec02",
   "name": "Robin [OP09-062] N10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥13,999",
-  "price_int": 13999,
-  "prev_price": "¥8,500",
+  "price": "¥14,800",
+  "price_int": 14800,
+  "prev_price": "¥13,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4aa540fc-aa6c-47b4-8479-3e46e1a2678c/5699791.jpeg?size=m",
   "history": [
-    {
-      "t": 1789229645,
-      "p": 9400
-    },
     {
       "t": 1789303447,
       "p": 9799
@@ -60,6 +56,10 @@
     {
       "t": 1791022152,
       "p": 13999
+    },
+    {
+      "t": 1791038711,
+      "p": 14800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP09-062&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

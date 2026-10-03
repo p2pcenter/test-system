@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-03 09:59:07 UTC",
+  "datetime": "2026-10-03 14:38:52 UTC",
   "cid": "13f0454d",
   "name": "Sabo [OP13-120]",
   "code": "OP13-120",
   "rarity": "C",
   "price": "¥10,500",
   "price_int": 10500,
-  "prev_price": "¥10,000",
+  "prev_price": "¥10,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9b277978-b4f0-46c1-ac9a-81241aa9a2a6/5697306.jpeg?size=m",
   "history": [
-    {
-      "t": 1789203705,
-      "p": 11700
-    },
     {
       "t": 1789303502,
       "p": 11499
