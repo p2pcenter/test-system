@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-04 06:11:31 UTC",
+  "datetime": "2026-10-04 12:43:38 UTC",
   "cid": "0f8a93d3",
   "name": "Boa Hancock [OP07-051]",
   "code": "OP07-051",
   "rarity": "C",
   "price": "¥58,800",
   "price_int": 58800,
-  "prev_price": "¥58,700",
+  "prev_price": "¥58,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/02f8e8a0-1045-4cc5-a483-ad448e3c2717/5416557.jpeg?size=m",
   "history": [
-    {
-      "t": 1789229762,
-      "p": 57500
-    },
     {
       "t": 1789377307,
       "p": 56000
