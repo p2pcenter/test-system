@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-05 02:17:00 UTC",
+  "datetime": "2026-10-05 09:26:59 UTC",
   "cid": "17b5c2f2",
   "name": "Luffy [OP13-118]",
   "code": "OP13-118",
   "rarity": "C",
-  "price": "¥29,000",
-  "price_int": 29000,
-  "prev_price": "¥29,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/31452914-507e-4369-bbd1-7a183c974fad/7214651.jpeg?size=m",
+  "price": "¥29,999",
+  "price_int": 29999,
+  "prev_price": "¥29,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/90194016-a893-4d67-afe7-c33096d0160b/8521922.jpeg?size=m",
   "history": [
     {
       "t": 1789401518,
@@ -228,6 +228,10 @@
     {
       "t": 1791167271,
       "p": 29000
+    },
+    {
+      "t": 1791193001,
+      "p": 29999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-P+%5BOP13-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
