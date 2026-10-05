@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-10-05 09:26:59 UTC",
+  "datetime": "2026-10-05 18:44:45 UTC",
   "cid": "0357f1af",
   "name": "Luffy Taro [ST18-005]",
   "code": "ST18-005",
   "rarity": "C",
-  "price": "¥59,999",
-  "price_int": 59999,
-  "prev_price": "¥55,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/37cf1cc7-6898-494e-b4cd-a9c4fbdd757b/7508166.jpeg?size=m",
+  "price": "¥54,800",
+  "price_int": 54800,
+  "prev_price": "¥59,999",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/73541740-305e-4c45-90f5-ecb087b9ec34/8744486.jpeg?size=m",
   "history": [
-    {
-      "t": 1789457060,
-      "p": 50500
-    },
-    {
-      "t": 1789476842,
-      "p": 50000
-    },
     {
       "t": 1789493927,
       "p": 49999
@@ -160,6 +152,10 @@
     {
       "t": 1791193175,
       "p": 59999
+    },
+    {
+      "t": 1791226664,
+      "p": 54800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Luffy+Taro+SR-SPC+%5BST18-005%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
