@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-05 18:44:45 UTC",
+  "datetime": "2026-10-06 00:35:29 UTC",
   "cid": "a91792b2",
   "name": "Zoro [OP01-001] ",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥8,500",
   "price_int": 8500,
-  "prev_price": "¥8,700",
+  "prev_price": "¥8,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/8a764644-69e0-46ed-bbb0-d385fea24fe1/5697306.jpeg?size=m",
   "history": [
-    {
-      "t": 1789493609,
-      "p": 10999
-    },
     {
       "t": 1789513632,
       "p": 10500
