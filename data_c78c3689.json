@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-07 11:15:18 UTC",
+  "datetime": "2026-10-07 17:58:01 UTC",
   "cid": "c78c3689",
   "name": "Luffy [ST29-001] L31",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥5,880",
   "price_int": 5880,
-  "prev_price": "¥5,900",
+  "prev_price": "¥5,880",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/5096a1f3-fde8-4b26-b021-1457e2eb2da6/4418054.jpeg?size=m",
   "history": [
-    {
-      "t": 1789629427,
-      "p": 7777
-    },
     {
       "t": 1789666316,
       "p": 7700
