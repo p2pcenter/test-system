@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-06 23:33:41 UTC",
+  "datetime": "2026-10-07 04:18:59 UTC",
   "cid": "703f6778",
   "name": " Zoro sanji [ST12-001] Z06",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,740",
-  "price_int": 14740,
+  "price": "¥14,700",
+  "price_int": 14700,
   "prev_price": "¥14,740",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3e5e7d2f-5493-421b-8a0c-cbaa3c13c1f0/7746341.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6feb4038-d2c8-4966-ae4c-e82a5da245ab/4418054.jpeg?size=m",
   "history": [
     {
       "t": 1789543170,
@@ -108,6 +108,10 @@
     {
       "t": 1791296840,
       "p": 14740
+    },
+    {
+      "t": 1791346819,
+      "p": 14700
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=ST12-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
