@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-07 04:18:59 UTC",
+  "datetime": "2026-10-07 11:15:18 UTC",
   "cid": "05d14be6",
   "name": "Portgas D. Ace [OP13-119]",
   "code": "OP13-119",
   "rarity": "C",
-  "price": "¥15,999",
-  "price_int": 15999,
-  "prev_price": "¥15,950",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/e5f4a984-8d94-432f-90db-ae52d7f4d0ab/7977515.jpeg?size=m",
+  "price": "¥14,800",
+  "price_int": 14800,
+  "prev_price": "¥15,999",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/24ae146e-cc2d-4a90-805c-5cc41bafea09/5634707.jpeg?size=m",
   "history": [
-    {
-      "t": 1789476700,
-      "p": 14390
-    },
     {
       "t": 1789629821,
       "p": 14790
@@ -116,6 +112,10 @@
     {
       "t": 1791346828,
       "p": 15999
+    },
+    {
+      "t": 1791372290,
+      "p": 14800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-P+%5BOP13-119%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
