@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-09 01:44:59 UTC",
+  "datetime": "2026-10-09 08:29:07 UTC",
   "cid": "49a2ad8f",
   "name": "Uta [ST16-001] U05",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥11,500",
-  "price_int": 11500,
+  "price": "¥12,000",
+  "price_int": 12000,
   "prev_price": "¥11,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7f0580e7-bda1-42e3-9eca-348d3318ee52/4722650.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a9268769-496a-4bcc-8067-5b874eeb1259/5646191.jpeg?size=m",
   "history": [
     {
       "t": 1789580301,
@@ -16,6 +16,10 @@
     {
       "t": 1791038915,
       "p": 11500
+    },
+    {
+      "t": 1791534636,
+      "p": 12000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=ST16-001&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
