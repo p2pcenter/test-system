@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-10-10 12:52:24 UTC",
+  "datetime": "2026-10-10 17:39:02 UTC",
   "cid": "34d7a776",
   "name": "Law [OP10-119] T02",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥11,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6e79f5be-4e3c-42db-b1e9-04105e681f0f/365975.jpeg?size=m",
   "history": [
-    {
-      "t": 1789712513,
-      "p": 11700
-    },
     {
       "t": 1789913427,
       "p": 11499
