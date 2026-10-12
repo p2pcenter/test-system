@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-12 08:36:33 UTC",
+  "datetime": "2026-10-12 18:35:24 UTC",
   "cid": "4dbedd47",
   "name": "Yamato SR-P [OP13-054]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥22,222",
-  "price_int": 22222,
+  "price": "¥21,999",
+  "price_int": 21999,
   "prev_price": "¥22,222",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6cd01e9f-8692-4625-bd8b-c4a37aba6d0e/5387518.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/41e63bdb-ce5e-4fe7-a18a-c42f93d2e9d9/6217404.jpeg?size=m",
   "history": [
     {
       "t": 1788073528,
@@ -44,6 +44,10 @@
     {
       "t": 1791742747,
       "p": 22222
+    },
+    {
+      "t": 1791830800,
+      "p": 21999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SR-P+%5BOP13-054%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
