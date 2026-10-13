@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-13 08:05:54 UTC",
+  "datetime": "2026-10-13 16:14:51 UTC",
   "cid": "798ffaeb",
   "name": "Law [OP13-031]",
   "code": "OP13-031",
   "rarity": "C",
   "price": "¥23,999",
   "price_int": 23999,
-  "prev_price": "¥23,800",
+  "prev_price": "¥23,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6c5a997f-b62a-4715-a228-77d028b6d4b1/3923825.jpeg?size=m",
   "history": [
-    {
-      "t": 1790144742,
-      "p": 22800
-    },
     {
       "t": 1790164739,
       "p": 22000
