@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-15 22:59:38 UTC",
+  "datetime": "2026-10-16 01:09:39 UTC",
   "cid": "c705b626",
   "name": "Law [ST10-001] T05",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥5,499",
-  "price_int": 5499,
+  "price": "¥5,450",
+  "price_int": 5450,
   "prev_price": "¥5,499",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/328ce572-9d08-457c-819f-61e09a0347d2/8010687.jpeg?size=m",
   "history": [
@@ -64,6 +64,10 @@
     {
       "t": 1792081926,
       "p": 5499
+    },
+    {
+      "t": 1792113571,
+      "p": 5450
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Trafalgar+Law+L+%5BST10-001%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
