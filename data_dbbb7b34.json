@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-17 10:08:55 UTC",
+  "datetime": "2026-10-17 13:50:27 UTC",
   "cid": "dbbb7b34",
   "name": "DON Gara-Gold D03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥18,000",
-  "price_int": 18000,
+  "price": "",
+  "price_int": 0,
   "prev_price": "¥18,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b06d256f-b4e7-449f-a46b-a9dcd5d5a9c2/8275356.jpeg?size=m",
   "history": [
@@ -19,5 +19,5 @@
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=DON%21%21+Card+%3A+Calgara+Super+Parallel&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
-  "status": "ok"
+  "status": "sold_out"
 }

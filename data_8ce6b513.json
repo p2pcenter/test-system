@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-17 10:08:55 UTC",
+  "datetime": "2026-10-17 13:50:27 UTC",
   "cid": "8ce6b513",
   "name": "Boa Hancock [OP07-038] B04",
   "code": "OP07-038",
   "rarity": "C",
   "price": "¥22,500",
   "price_int": 22500,
-  "prev_price": "¥19,500",
+  "prev_price": "¥22,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/fb307e53-89be-4887-af76-63d0efa4753d/5352159.jpeg?size=m",
   "history": [
-    {
-      "t": 1790468441,
-      "p": 17900
-    },
     {
       "t": 1790508357,
       "p": 17800
