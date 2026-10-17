@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-16 22:31:15 UTC",
+  "datetime": "2026-10-17 01:02:59 UTC",
   "cid": "c02a839d",
   "name": "Sabo [OP07-118]",
   "code": "OP07-118",
   "rarity": "C",
-  "price": "¥15,999",
-  "price_int": 15999,
+  "price": "¥15,000",
+  "price_int": 15000,
   "prev_price": "¥15,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ad4ed3ee-0b9a-44db-a5ab-229783099d92/7923121.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/55f4ebb5-776f-4a93-b4a2-7ef53b123464/8029610.jpeg?size=m",
   "history": [
     {
       "t": 1790438051,
@@ -64,6 +64,10 @@
     {
       "t": 1792131291,
       "p": 15999
+    },
+    {
+      "t": 1792199546,
+      "p": 15000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP07-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
