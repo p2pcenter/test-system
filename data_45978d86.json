@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-19 14:51:07 UTC",
+  "datetime": "2026-10-19 20:21:22 UTC",
   "cid": "45978d86",
   "name": "Shanks [OP09-004]",
   "code": "OP09-004",
   "rarity": "C",
-  "price": "¥38,999",
-  "price_int": 38999,
+  "price": "¥37,999",
+  "price_int": 37999,
   "prev_price": "¥38,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/613955b3-3415-4595-9ff7-0ff0b8e841d5/7365260.jpeg?size=m",
   "history": [
@@ -104,6 +104,10 @@
     {
       "t": 1792245396,
       "p": 38999
+    },
+    {
+      "t": 1792441671,
+      "p": 37999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP09-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
