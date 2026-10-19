@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-19 01:33:23 UTC",
+  "datetime": "2026-10-19 07:18:35 UTC",
   "cid": "965e56d1",
   "name": "Yamato SEC-P[OP01-121]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,500",
-  "price_int": 14500,
+  "price": "¥14,000",
+  "price_int": 14000,
   "prev_price": "¥14,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3206ff68-f75c-486d-a4ae-652528c15005/8399770.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6e5f4c07-a400-43cc-98e0-4f9e8912323f/6611976.jpeg?size=m",
   "history": [
     {
       "t": 1790524126,
@@ -28,6 +28,10 @@
     {
       "t": 1791613218,
       "p": 14500
+    },
+    {
+      "t": 1792394646,
+      "p": 14000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+SEC-P%5BOP01-121%5D+%28Booster+Pack+ROMANCE+DAWN+ROMANCE+DAWN%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
