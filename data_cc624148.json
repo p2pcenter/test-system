@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-10-20 14:06:07 UTC",
+  "datetime": "2026-10-20 18:35:59 UTC",
   "cid": "cc624148",
   "name": "Event [OP13-076] E05",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥12,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f07b2d4b-1b5f-4889-bbe8-fed0ebaf523a/5798968.jpeg?size=m",
   "history": [
-    {
-      "t": 1790538092,
-      "p": 10000
-    },
     {
       "t": 1790782885,
       "p": 10500
