@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-10-22 18:41:52 UTC",
+  "datetime": "2026-10-22 22:05:19 UTC",
   "cid": "c705b626",
   "name": "Law [ST10-001] T05",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥5,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/328ce572-9d08-457c-819f-61e09a0347d2/8010687.jpeg?size=m",
   "history": [
-    {
-      "t": 1790908445,
-      "p": 6350
-    },
     {
       "t": 1790972235,
       "p": 6250
