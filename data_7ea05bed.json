@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-22 03:17:58 UTC",
+  "datetime": "2026-10-22 08:49:38 UTC",
   "cid": "7ea05bed",
   "name": "Mihawk [OP12-030]",
   "code": "OP12-030",
   "rarity": "C",
-  "price": "¥19,500",
-  "price_int": 19500,
+  "price": "¥20,800",
+  "price_int": 20800,
   "prev_price": "¥19,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0da86d70-5642-488d-85b3-2234be0b8ed9/7288938.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c5b473f2-e0b2-4e2d-9786-e353ec23753b/4878681.jpeg?size=m",
   "history": [
-    {
-      "t": 1790862440,
-      "p": 23400
-    },
     {
       "t": 1790931417,
       "p": 23380
@@ -104,6 +100,10 @@
     {
       "t": 1792543617,
       "p": 19500
+    },
+    {
+      "t": 1792659451,
+      "p": 20800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPc++%5BOP12-030%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
