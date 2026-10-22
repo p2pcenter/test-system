@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-21 23:31:05 UTC",
+  "datetime": "2026-10-22 03:17:58 UTC",
   "cid": "10d30dda",
   "name": "Sabo [PRB02-014]",
   "code": "PRB02-014",
   "rarity": "C",
-  "price": "¥28,000",
-  "price_int": 28000,
+  "price": "¥27,999",
+  "price_int": 27999,
   "prev_price": "¥28,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1b6c5e4c-18ee-48a5-871a-d2ee7621d481/6579449.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c748cd05-91e0-4fce-857c-93e77ac7c9e8/154807.jpeg?size=m",
   "history": [
     {
       "t": 1790882639,
@@ -112,6 +112,10 @@
     {
       "t": 1792614144,
       "p": 28000
+    },
+    {
+      "t": 1792639554,
+      "p": 27999
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sabo+SR-SPC+%5BPRB02-014%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
