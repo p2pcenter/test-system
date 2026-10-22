@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-22 14:20:20 UTC",
+  "datetime": "2026-10-22 18:41:52 UTC",
   "cid": "8ba569e2",
   "name": "Boa Hancock [PRB02-017]",
   "code": "PRB02-017",
   "rarity": "C",
   "price": "¥10,400",
   "price_int": 10400,
-  "prev_price": "¥10,000",
+  "prev_price": "¥10,400",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/10115610-8be8-40b9-8aea-97e38f491a88/7577323.jpeg?size=m",
   "history": [
-    {
-      "t": 1790931481,
-      "p": 13500
-    },
     {
       "t": 1790954995,
       "p": 15000
