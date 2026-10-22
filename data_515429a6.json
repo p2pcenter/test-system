@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-22 08:49:38 UTC",
+  "datetime": "2026-10-22 14:20:20 UTC",
   "cid": "515429a6",
   "name": "Luffy [OP07-109] L05",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥8,599",
   "price_int": 8599,
-  "prev_price": "¥8,800",
+  "prev_price": "¥8,599",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ec768eaa-46fa-47b9-ba74-358c71d5b7da/7991742.jpeg?size=m",
   "history": [
-    {
-      "t": 1790862895,
-      "p": 9800
-    },
     {
       "t": 1790931826,
       "p": 10399
