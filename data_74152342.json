@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-23 05:43:57 UTC",
+  "datetime": "2026-10-23 11:09:32 UTC",
   "cid": "74152342",
   "name": "Marshall D. Teach",
   "code": "OP09-093",
   "rarity": "SR",
   "price": "¥30,000",
   "price_int": 30000,
-  "prev_price": "¥29,799",
+  "prev_price": "¥30,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/f8b4fdb3-ea7b-4317-99bd-9a656d2746c6/8174915.jpeg?size=m",
   "history": [
-    {
-      "t": 1790836111,
-      "p": 31000
-    },
     {
       "t": 1791022275,
       "p": 32800
