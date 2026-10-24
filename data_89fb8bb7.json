@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-24 11:24:16 UTC",
+  "datetime": "2026-10-24 14:44:30 UTC",
   "cid": "89fb8bb7",
   "name": "Ace [OP13-007] A03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,999",
-  "price_int": 9999,
+  "price": "¥9,900",
+  "price_int": 9900,
   "prev_price": "¥9,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bd455305-8656-48fd-a7b8-323586d3ce90/7991742.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/24d54e6c-a808-42d8-8331-80177abcb90c/4418054.jpeg?size=m",
   "history": [
     {
       "t": 1791038958,
@@ -36,6 +36,10 @@
     {
       "t": 1792796413,
       "p": 9999
+    },
+    {
+      "t": 1792853284,
+      "p": 9900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=op13+007&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
