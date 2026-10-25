@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-10-25 10:43:35 UTC",
+  "datetime": "2026-10-25 14:48:12 UTC",
   "cid": "5d0abcf4",
   "name": "Event [OP06-115] E01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥11,000",
-  "price_int": 11000,
+  "price": "¥10,000",
+  "price_int": 10000,
   "prev_price": "¥11,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/87351199-69c6-4666-a0d4-1ce56f3c1d1b/6050514.jpeg?size=m",
   "history": [
@@ -16,6 +16,10 @@
     {
       "t": 1792245124,
       "p": 11000
+    },
+    {
+      "t": 1792940432,
+      "p": 10000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP06-115&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
