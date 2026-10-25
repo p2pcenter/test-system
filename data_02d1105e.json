@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-25 00:49:11 UTC",
+  "datetime": "2026-10-25 05:40:50 UTC",
   "cid": "02d1105e",
   "name": "Luffy [P-041] L34",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥5,800",
   "price_int": 5800,
-  "prev_price": "¥5,400",
+  "prev_price": "¥5,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/119ba16e-876f-4917-b9c0-a8765f6571b0/6591734.jpeg?size=m",
   "history": [
-    {
-      "t": 1791145975,
-      "p": 6800
-    },
     {
       "t": 1791167062,
       "p": 6499
