@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-24 22:37:58 UTC",
+  "datetime": "2026-10-25 00:49:11 UTC",
   "cid": "02d1105e",
   "name": "Luffy [P-041] L34",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥5,400",
-  "price_int": 5400,
+  "price": "¥5,800",
+  "price_int": 5800,
   "prev_price": "¥5,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1a771bb2-8fe6-40d1-9a2c-bc6a38247231/7819783.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/119ba16e-876f-4917-b9c0-a8765f6571b0/6591734.jpeg?size=m",
   "history": [
     {
       "t": 1791145975,
@@ -140,6 +140,10 @@
     {
       "t": 1792864442,
       "p": 5400
+    },
+    {
+      "t": 1792890032,
+      "p": 5800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey+D+Luffy+%28Gear+5%29+P+%5BP-041%5D+%28Promotion+Card+Seven-Eleven+Collaboration%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
