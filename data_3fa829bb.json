@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-10-26 14:04:55 UTC",
+  "datetime": "2026-10-26 19:44:21 UTC",
   "cid": "3fa829bb",
   "name": "Event [OP11-114] E04",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥16,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/84ed9a90-1f58-4190-bd1b-4228bb89d4df/2946352.jpeg?size=m",
   "history": [
-    {
-      "t": 1790931136,
-      "p": 15900
-    },
     {
       "t": 1791296584,
       "p": 16400
