@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-27 09:36:09 UTC",
+  "datetime": "2026-10-27 15:43:04 UTC",
   "cid": "c03fd721",
   "name": "Dragon [OP07-015]",
   "code": "OP07-015",
   "rarity": "C",
-  "price": "¥19,500",
-  "price_int": 19500,
+  "price": "¥22,500",
+  "price_int": 22500,
   "prev_price": "¥19,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/bc33b30e-4acf-44da-afbf-0466a4f1a85d/6434852.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2e4cc40c-a151-46e2-b312-70c1fbde9b21/3310083.jpeg?size=m",
   "history": [
     {
       "t": 1790252164,
@@ -60,6 +60,10 @@
     {
       "t": 1792940143,
       "p": 19500
+    },
+    {
+      "t": 1793116462,
+      "p": 22500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP07-015%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
