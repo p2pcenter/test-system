@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-29 07:28:23 UTC",
+  "datetime": "2026-10-29 14:36:11 UTC",
   "cid": "d9a5d982",
   "name": "Zoro SR [ST01-013] ",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥9,900",
   "price_int": 9900,
-  "prev_price": "¥9,990",
+  "prev_price": "¥9,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/19714d74-214e-49a3-963c-d128da306d3d/728235.jpeg?size=m",
   "history": [
-    {
-      "t": 1791451843,
-      "p": 14000
-    },
     {
       "t": 1791534651,
       "p": 13800
