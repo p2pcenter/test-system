@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-29 20:03:30 UTC",
+  "datetime": "2026-10-30 00:05:59 UTC",
   "cid": "fa2761b8",
   "name": "Boa Hancock [OP12-014]",
   "code": "OP12-014",
   "rarity": "C",
   "price": "¥61,999",
   "price_int": 61999,
-  "prev_price": "¥62,000",
+  "prev_price": "¥61,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3690cc04-7bb5-4137-b053-5ba18822b3cb/8614219.jpeg?size=m",
   "history": [
-    {
-      "t": 1791560629,
-      "p": 71800
-    },
     {
       "t": 1791578654,
       "p": 71500
