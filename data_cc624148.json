@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-30 06:11:55 UTC",
+  "datetime": "2026-10-30 13:18:37 UTC",
   "cid": "cc624148",
   "name": "Event [OP13-076] E05",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥13,000",
-  "price_int": 13000,
+  "price": "¥12,500",
+  "price_int": 12500,
   "prev_price": "¥13,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/163cf32c-2d6f-402b-9dc1-b7e058e108bd/5646191.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4f7f61b8-3169-4186-b0e2-5f392de374cf/5602204.jpeg?size=m",
   "history": [
     {
       "t": 1791452236,
@@ -56,6 +56,10 @@
     {
       "t": 1793115953,
       "p": 13000
+    },
+    {
+      "t": 1793366483,
+      "p": 12500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP13-076&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

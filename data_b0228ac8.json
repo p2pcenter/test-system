@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-10-30 06:11:55 UTC",
+  "datetime": "2026-10-30 13:18:37 UTC",
   "cid": "b0228ac8",
   "name": "Nami [OP08-106] N03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥7,999",
-  "price_int": 7999,
+  "price": "¥7,900",
+  "price_int": 7900,
   "prev_price": "¥7,999",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/67485f4c-ab91-45bf-8710-e9a75f88d212/1244335.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a9812831-54f0-42c2-be4d-cc15f49009e1/5907002.jpeg?size=m",
   "history": [
     {
       "t": 1791478338,
@@ -72,6 +72,10 @@
     {
       "t": 1793206665,
       "p": 7999
+    },
+    {
+      "t": 1793366371,
+      "p": 7900
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP08-106&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
