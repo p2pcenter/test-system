@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-31 08:20:08 UTC",
+  "datetime": "2026-10-31 14:39:44 UTC",
   "cid": "10d30dda",
   "name": "Sabo [PRB02-014]",
   "code": "PRB02-014",
   "rarity": "C",
   "price": "¥30,000",
   "price_int": 30000,
-  "prev_price": "¥29,700",
+  "prev_price": "¥30,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1987ba02-be47-4e24-af47-61a6ae84257e/7630898.jpeg?size=m",
   "history": [
-    {
-      "t": 1791699751,
-      "p": 29300
-    },
     {
       "t": 1791724684,
       "p": 28499
