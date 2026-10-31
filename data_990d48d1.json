@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-10-31 02:00:35 UTC",
+  "datetime": "2026-10-31 08:20:08 UTC",
   "cid": "990d48d1",
   "name": "Luffy [ST01-012]",
   "code": "ST01-012",
   "rarity": "C",
   "price": "¥38,000",
   "price_int": 38000,
-  "prev_price": "¥38,500",
+  "prev_price": "¥38,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2afc30cd-c919-4b2b-abaa-1b83596b8758/1970226.jpeg?size=m",
   "history": [
-    {
-      "t": 1791654398,
-      "p": 48500
-    },
     {
       "t": 1791699711,
       "p": 48490
