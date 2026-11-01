@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-01 15:44:52 UTC",
+  "datetime": "2026-11-01 20:10:00 UTC",
   "cid": "2827e812",
   "name": "Luffy SEC [OP10-118]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,900",
-  "price_int": 9900,
+  "price": "¥7,500",
+  "price_int": 7500,
   "prev_price": "¥9,900",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/b17d9a9f-c0f3-47fd-af2a-7818af4e8472/266661.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/57012faf-08f1-451b-8bef-2bddf9aa49ac/365975.jpeg?size=m",
   "history": [
-    {
-      "t": 1791613565,
-      "p": 8000
-    },
     {
       "t": 1791830447,
       "p": 7800
@@ -64,6 +60,10 @@
     {
       "t": 1793341285,
       "p": 9900
+    },
+    {
+      "t": 1793564365,
+      "p": 7500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey.D.Luffy+SEC+%5BOP10-118%5D%28Booster+Pack+%22Royal+Blood%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
