@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-02 12:45:46 UTC",
+  "datetime": "2026-11-02 22:08:15 UTC",
   "cid": "e3fb11a1",
   "name": "Portgas D. Ace [EB02-028]",
   "code": "EB02-028",
   "rarity": "C",
   "price": "¥17,000",
   "price_int": 17000,
-  "prev_price": "¥17,200",
+  "prev_price": "¥17,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/76736cf2-14a7-4bdd-aec9-26b432b2dbd8/7125126.jpeg?size=m",
   "history": [
-    {
-      "t": 1791636803,
-      "p": 18400
-    },
     {
       "t": 1791908187,
       "p": 17000
