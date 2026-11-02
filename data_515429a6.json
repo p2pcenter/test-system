@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-01 23:45:09 UTC",
+  "datetime": "2026-11-02 04:26:12 UTC",
   "cid": "515429a6",
   "name": "Luffy [OP07-109] L05",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥7,700",
-  "price_int": 7700,
+  "price": "¥7,980",
+  "price_int": 7980,
   "prev_price": "¥7,700",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/050cd3cd-0090-451a-84c4-3121061b4cda/8396584.png?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/81832902-ebb1-4828-beeb-b1a863565baa/7774745.jpeg?size=m",
   "history": [
     {
       "t": 1791830299,
@@ -116,6 +116,10 @@
     {
       "t": 1793548152,
       "p": 7700
+    },
+    {
+      "t": 1793593803,
+      "p": 7980
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey+D+Luffy+sr-p+op07-109&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
