@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-04 06:50:20 UTC",
+  "datetime": "2026-11-04 15:04:30 UTC",
   "cid": "8633adb2",
   "name": "Sabo [OP07-118] S04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,800",
-  "price_int": 9800,
+  "price": "¥9,500",
+  "price_int": 9500,
   "prev_price": "¥9,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a313b27a-ea96-49fc-96f3-06a29513120a/2828642.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/955d72b8-2dcd-44f4-873b-82550e147aac/3310083.jpeg?size=m",
   "history": [
     {
       "t": 1791699738,
@@ -20,6 +20,10 @@
     {
       "t": 1793284968,
       "p": 9800
+    },
+    {
+      "t": 1793804738,
+      "p": 9500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=sabo+SEC-P+%5BOP07-118%5D+%28Booster+Pack+The+Future+After+500+years%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
