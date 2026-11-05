@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-05 01:37:54 UTC",
+  "datetime": "2026-11-05 08:57:17 UTC",
   "cid": "df361d73",
   "name": "Zoro SEC-P [OP06-118]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,499",
-  "price_int": 15499,
-  "prev_price": "¥14,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/98c8b462-0677-44fa-abd5-cfe0d8da734c/8563159.jpeg?size=m",
+  "price": "¥15,800",
+  "price_int": 15800,
+  "prev_price": "¥15,499",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/adb3c289-fbfc-41e0-8407-93599d0df656/6527268.jpeg?size=m",
   "history": [
-    {
-      "t": 1792044929,
-      "p": 18800
-    },
     {
       "t": 1792131381,
       "p": 17800
@@ -100,6 +96,10 @@
     {
       "t": 1793842717,
       "p": 15499
+    },
+    {
+      "t": 1793869833,
+      "p": 15800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=%E3%83%AD%E3%83%AD%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%BE%E3%83%AD+SEC-p+%5BOP06-118%5D+%28%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF+%E5%8F%8C%E7%92%A7%E3%81%AE%E8%A6%87%E8%80%85%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
