@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-04 21:23:56 UTC",
+  "datetime": "2026-11-05 01:37:54 UTC",
   "cid": "e3fb11a1",
   "name": "Portgas D. Ace [EB02-028]",
   "code": "EB02-028",
   "rarity": "C",
-  "price": "¥17,500",
-  "price_int": 17500,
+  "price": "¥17,300",
+  "price_int": 17300,
   "prev_price": "¥17,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/96c3d2e6-26ca-43a0-a0d5-a3f593c2d303/7630898.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/83bd347b-9027-4e3f-bd2b-154db917340d/3476524.jpeg?size=m",
   "history": [
-    {
-      "t": 1792081802,
-      "p": 17000
-    },
     {
       "t": 1792105699,
       "p": 16800
@@ -56,6 +52,10 @@
     {
       "t": 1793804862,
       "p": 17500
+    },
+    {
+      "t": 1793842892,
+      "p": 17300
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=R-SPC+%5BEB02-028&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
