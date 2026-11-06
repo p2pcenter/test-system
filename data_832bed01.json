@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-11-06 03:09:43 UTC",
+  "datetime": "2026-11-06 11:18:33 UTC",
   "cid": "832bed01",
   "name": "Tashigi [OP12-031] T10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,000",
-  "price_int": 10000,
+  "price": "¥9,500",
+  "price_int": 9500,
   "prev_price": "¥10,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/d9473906-402e-46fb-9af4-90be548aae1e/8295730.jpeg?size=m",
   "history": [
@@ -28,6 +28,10 @@
     {
       "t": 1793548049,
       "p": 10000
+    },
+    {
+      "t": 1793964660,
+      "p": 9500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP12-031&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
