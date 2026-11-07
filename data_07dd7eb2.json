@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-07 09:54:18 UTC",
+  "datetime": "2026-11-07 16:05:43 UTC",
   "cid": "07dd7eb2",
   "name": "Onami [OP06-101]",
   "code": "OP06-101",
   "rarity": "C",
   "price": "¥49,000",
   "price_int": 49000,
-  "prev_price": "¥50,000",
+  "prev_price": "¥49,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2e5e42f5-6789-4d03-ad88-a818a4f52551/8006045.jpeg?size=m",
   "history": [
-    {
-      "t": 1791908352,
-      "p": 47000
-    },
     {
       "t": 1792327452,
       "p": 48000
