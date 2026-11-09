@@ -1,22 +1,14 @@
 {
-  "datetime": "2026-11-09 08:25:10 UTC",
+  "datetime": "2026-11-09 19:00:14 UTC",
   "cid": "5f5357ea",
   "name": "Zoro SEC [OP06-118] Z04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥14,500",
-  "price_int": 14500,
-  "prev_price": "¥15,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0de20d95-be22-4741-b714-22e8877bdba6/3476524.jpeg?size=m",
+  "price": "¥14,499",
+  "price_int": 14499,
+  "prev_price": "¥14,500",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/02e9830f-bfb1-43fa-8515-a1e74e5e98fc/8008029.jpeg?size=m",
   "history": [
-    {
-      "t": 1792311934,
-      "p": 19800
-    },
-    {
-      "t": 1792486418,
-      "p": 19400
-    },
     {
       "t": 1792505202,
       "p": 19000
@@ -120,6 +112,10 @@
     {
       "t": 1794212941,
       "p": 14500
+    },
+    {
+      "t": 1794251630,
+      "p": 14499
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Roronoa+Zoro+SEC+%5BOP06-118%5D%28Special+Goods+Set+%222nd+ANNIVERSARY+SET%22%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
