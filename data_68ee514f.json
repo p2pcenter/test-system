@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-09 01:06:54 UTC",
+  "datetime": "2026-11-09 08:25:10 UTC",
   "cid": "68ee514f",
   "name": "Queen [ST04-005] Q02",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,500",
-  "price_int": 10500,
+  "price": "¥10,400",
+  "price_int": 10400,
   "prev_price": "¥10,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/9cd09bac-a35b-42fb-9691-a179d29d2c7a/4497603.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/2ef61631-6d87-46a4-bfba-d960b4a6a16a/6249060.jpeg?size=m",
   "history": [
     {
       "t": 1792216609,
@@ -44,6 +44,10 @@
     {
       "t": 1794045468,
       "p": 10500
+    },
+    {
+      "t": 1794213167,
+      "p": 10400
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=ST04-005&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
