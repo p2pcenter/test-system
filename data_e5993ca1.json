@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-10 09:32:45 UTC",
+  "datetime": "2026-11-10 17:29:18 UTC",
   "cid": "e5993ca1",
   "name": "Rebecca [OP04-039] R30",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥10,000",
-  "price_int": 10000,
+  "price": "¥9,800",
+  "price_int": 9800,
   "prev_price": "¥10,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3210beef-afb7-4e7a-8f01-24d594c4a46b/5194133.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6d2075a4-8103-40d1-bbc7-b3e5b64bfee5/5513644.jpeg?size=m",
   "history": [
-    {
-      "t": 1792522098,
-      "p": 9999
-    },
     {
       "t": 1792581424,
       "p": 9500
@@ -36,6 +32,10 @@
     {
       "t": 1793898696,
       "p": 10000
+    },
+    {
+      "t": 1794332510,
+      "p": 9800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Rebecca+L-P+%5BOP04-039%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
