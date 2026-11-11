@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-11 02:10:03 UTC",
+  "datetime": "2026-11-11 09:43:06 UTC",
   "cid": "0e77e5ba",
   "name": "Luffy [ST21-001]",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥42,000",
   "price_int": 42000,
-  "prev_price": "¥40,800",
+  "prev_price": "¥42,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6008ac9d-ebef-4a0d-993a-d86940beeef0/6555990.jpeg?size=m",
   "history": [
-    {
-      "t": 1792614239,
-      "p": 48000
-    },
     {
       "t": 1792659427,
       "p": 45000
