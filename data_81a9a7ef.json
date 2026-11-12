@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-12 07:30:57 UTC",
+  "datetime": "2026-11-12 16:33:59 UTC",
   "cid": "81a9a7ef",
   "name": "Sabo (Wanted)",
   "code": "OP13-120",
   "rarity": "SEC",
-  "price": "¥22,400",
-  "price_int": 22400,
+  "price": "¥23,000",
+  "price_int": 23000,
   "prev_price": "¥22,400",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/a00af155-a79f-49aa-99f4-76a33374e9cc/6249060.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/dd633832-f4af-4447-bd79-6cbe64aac816/7658663.jpeg?size=m",
   "history": [
     {
       "t": 1792659457,
@@ -84,6 +84,10 @@
     {
       "t": 1794045720,
       "p": 22400
+    },
+    {
+      "t": 1794501352,
+      "p": 23000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC-SPC+%5BOP13-120%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
