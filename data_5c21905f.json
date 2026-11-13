@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-13 03:08:22 UTC",
+  "datetime": "2026-11-13 11:22:48 UTC",
   "cid": "5c21905f",
   "name": "Luffy [OP04-090] L01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥8,390",
-  "price_int": 8390,
+  "price": "¥8,350",
+  "price_int": 8350,
   "prev_price": "¥8,390",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3c978a59-a74b-4404-bdb0-f51ba38fa370/7746341.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/eacf3859-6515-4315-9b55-d5c8005fc566/694677.jpeg?size=m",
   "history": [
     {
       "t": 1792770643,
@@ -60,6 +60,10 @@
     {
       "t": 1794303890,
       "p": 8390
+    },
+    {
+      "t": 1794569028,
+      "p": 8350
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=luffy+sr-p+OP04-090&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

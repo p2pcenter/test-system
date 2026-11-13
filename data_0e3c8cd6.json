@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-13 03:08:22 UTC",
+  "datetime": "2026-11-13 11:22:48 UTC",
   "cid": "0e3c8cd6",
   "name": "Rob Lucci [OP03-092]",
   "code": "OP03-092",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
+  "price": "¥14,500",
+  "price_int": 14500,
   "prev_price": "¥15,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ffb447e3-d89e-4664-9b18-ad61982fe280/8174915.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7c144344-3888-4033-b68c-1c5a3cce3b20/8692332.jpeg?size=m",
   "history": [
     {
       "t": 1792131372,
@@ -24,6 +24,10 @@
     {
       "t": 1794007818,
       "p": 15000
+    },
+    {
+      "t": 1794569105,
+      "p": 14500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SR-SPC+%5BOP03-092%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
