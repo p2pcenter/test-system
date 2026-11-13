@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-13 11:22:48 UTC",
+  "datetime": "2026-11-13 18:39:10 UTC",
   "cid": "3683ee7a",
   "name": "Sanji [OP04-104] S10",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,500",
-  "price_int": 9500,
+  "price": "¥9,000",
+  "price_int": 9000,
   "prev_price": "¥9,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/07309d60-2eae-41c9-96c4-3ff9ae183873/5435191.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/138355af-f654-44c9-8c10-d20f5baffad8/8051510.jpeg?size=m",
   "history": [
     {
       "t": 1787243978,
@@ -16,6 +16,10 @@
     {
       "t": 1793805191,
       "p": 9500
+    },
+    {
+      "t": 1794595652,
+      "p": 9000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Sanji+SR-P+%5BOP04-104%5D+%28Booster+Pack+The+Kingdom+Of+Conspiracy%29&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

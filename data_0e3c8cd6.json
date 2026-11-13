@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-13 11:22:48 UTC",
+  "datetime": "2026-11-13 18:39:10 UTC",
   "cid": "0e3c8cd6",
   "name": "Rob Lucci [OP03-092]",
   "code": "OP03-092",
   "rarity": "C",
   "price": "¥14,500",
   "price_int": 14500,
-  "prev_price": "¥15,000",
+  "prev_price": "¥14,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7c144344-3888-4033-b68c-1c5a3cce3b20/8692332.jpeg?size=m",
   "history": [
-    {
-      "t": 1792131372,
-      "p": 17800
-    },
     {
       "t": 1792853158,
       "p": 17500
