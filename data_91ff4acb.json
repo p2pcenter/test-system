@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-11-14 00:09:05 UTC",
+  "datetime": "2026-11-14 06:52:03 UTC",
   "cid": "91ff4acb",
   "name": "Shanks [ST16-004]",
   "code": "ST16-004",
   "rarity": "C",
-  "price": "¥29,200",
-  "price_int": 29200,
+  "price": "¥28,500",
+  "price_int": 28500,
   "prev_price": "¥29,200",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0bafd171-df6a-4329-86e4-982b3e39a3a1/8230993.jpeg?size=m",
   "history": [
@@ -72,6 +72,10 @@
     {
       "t": 1794595601,
       "p": 29200
+    },
+    {
+      "t": 1794639619,
+      "p": 28500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Shanks+SR-SPC+%5BST16-004%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
