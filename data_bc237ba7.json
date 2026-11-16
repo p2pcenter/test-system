@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-16 08:18:17 UTC",
+  "datetime": "2026-11-16 18:46:25 UTC",
   "cid": "bc237ba7",
   "name": "Perona [OP06-021] P01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,100",
-  "price_int": 9100,
+  "price": "¥9,000",
+  "price_int": 9000,
   "prev_price": "¥9,100",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/09ec8d6e-5517-4733-8a43-e842f9637f06/8161957.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/ebe5b616-3358-44ed-9a1f-cfc51076dfd2/5885047.jpeg?size=m",
   "history": [
-    {
-      "t": 1793044363,
-      "p": 9500
-    },
     {
       "t": 1793094091,
       "p": 9400
@@ -32,6 +28,10 @@
     {
       "t": 1794735895,
       "p": 9100
+    },
+    {
+      "t": 1794855411,
+      "p": 9000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Perona+L-P+%5BOP06-021%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
