@@ -1,12 +1,12 @@
 {
-  "datetime": "2026-11-17 10:57:39 UTC",
+  "datetime": "2026-11-17 19:40:48 UTC",
   "cid": "7e13eade",
   "name": "Perona [OP06-093] P03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥15,000",
-  "price_int": 15000,
-  "prev_price": "¥14,980",
+  "price": "¥16,500",
+  "price_int": 16500,
+  "prev_price": "¥15,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/4c9af7cb-c234-4956-9c35-6e0878956c68/8662353.png?size=m",
   "history": [
     {
@@ -40,6 +40,10 @@
     {
       "t": 1794913341,
       "p": 15000
+    },
+    {
+      "t": 1794944700,
+      "p": 16500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Perona+SR-P+%5BOP06-093%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
