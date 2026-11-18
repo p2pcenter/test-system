@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-18 02:06:32 UTC",
+  "datetime": "2026-11-18 10:29:29 UTC",
   "cid": "005f1b77",
   "name": "Yamato L-SPC [OP06-022]",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥45,000",
-  "price_int": 45000,
-  "prev_price": "¥48,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1e34dfa5-0f67-49ad-9eef-3b57bb592030/4439880.jpeg?size=m",
+  "price": "¥48,000",
+  "price_int": 48000,
+  "prev_price": "¥45,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/72556e51-964c-4667-b46f-2c2c054c14e5/977218.jpeg?size=m",
   "history": [
     {
       "t": 1793116506,
@@ -60,6 +60,10 @@
     {
       "t": 1794968105,
       "p": 45000
+    },
+    {
+      "t": 1794997907,
+      "p": 48000
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Yamato+L-SPC+%5BOP06-022%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
