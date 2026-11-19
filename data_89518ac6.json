@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-19 09:08:12 UTC",
+  "datetime": "2026-11-19 18:29:04 UTC",
   "cid": "89518ac6",
   "name": "Uta [OP02-120]",
   "code": "OP02-120",
   "rarity": "C",
   "price": "¥22,900",
   "price_int": 22900,
-  "prev_price": "¥23,100",
+  "prev_price": "¥22,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7cb4e1d2-0221-4abe-bd13-b4310e26ed7a/8319152.jpeg?size=m",
   "history": [
-    {
-      "t": 1792998054,
-      "p": 27000
-    },
     {
       "t": 1793367087,
       "p": 26000
