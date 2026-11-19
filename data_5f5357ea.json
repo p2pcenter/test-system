@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-18 18:59:33 UTC",
+  "datetime": "2026-11-19 01:03:22 UTC",
   "cid": "5f5357ea",
   "name": "Zoro SEC [OP06-118] Z04",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥15,700",
   "price_int": 15700,
-  "prev_price": "¥15,999",
+  "prev_price": "¥15,700",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/99df0d44-2541-4f23-a473-015004052578/5769671.jpeg?size=m",
   "history": [
-    {
-      "t": 1793237122,
-      "p": 17799
-    },
     {
       "t": 1793319402,
       "p": 16800
