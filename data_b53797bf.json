@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-21 04:09:03 UTC",
+  "datetime": "2026-11-21 12:53:52 UTC",
   "cid": "b53797bf",
   "name": "Ace [OP02-013]",
   "code": "OP02-013",
   "rarity": "C",
   "price": "¥31,800",
   "price_int": 31800,
-  "prev_price": "¥31,900",
+  "prev_price": "¥31,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/6de082c9-88ee-457f-b9ca-037d37445503/262400.jpeg?size=m",
   "history": [
-    {
-      "t": 1793284610,
-      "p": 31800
-    },
     {
       "t": 1793523256,
       "p": 31500
