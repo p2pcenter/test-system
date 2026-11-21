@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-21 12:53:52 UTC",
+  "datetime": "2026-11-21 19:55:50 UTC",
   "cid": "279c1196",
   "name": "Event [OP10-019] E02",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥11,000",
   "price_int": 11000,
-  "prev_price": "¥11,500",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/eca8cfd5-5169-4195-ac4f-dae3250c1cf5/5697306.jpeg?size=m",
+  "prev_price": "¥11,000",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/0b36115a-3647-4bee-9826-5e03d997053e/6591734.jpeg?size=m",
   "history": [
-    {
-      "t": 1793023609,
-      "p": 11000
-    },
     {
       "t": 1793548138,
       "p": 12000
