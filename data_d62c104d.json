@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-23 02:14:00 UTC",
+  "datetime": "2026-11-23 11:00:36 UTC",
   "cid": "d62c104d",
   "name": "Vivi [OP04-118] V01",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,800",
-  "price_int": 9800,
+  "price": "¥9,700",
+  "price_int": 9700,
   "prev_price": "¥9,800",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1b383535-8b47-49f5-906b-dc2f2c76da05/5266849.jpeg?size=m",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/46cbd58a-9855-499c-a794-06d19a381953/6249060.jpeg?size=m",
   "history": [
     {
       "t": 1792441705,
@@ -36,6 +36,10 @@
     {
       "t": 1795266028,
       "p": 9800
+    },
+    {
+      "t": 1795432222,
+      "p": 9700
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP04-118&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",

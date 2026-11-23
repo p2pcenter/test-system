@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-23 02:14:00 UTC",
+  "datetime": "2026-11-23 11:00:36 UTC",
   "cid": "031aef52",
   "name": "Shirahoshi",
   "code": "EB01-057",
   "rarity": "SR",
   "price": "¥17,999",
   "price_int": 17999,
-  "prev_price": "¥18,399",
+  "prev_price": "¥17,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/7ba1d35b-5531-4bda-a28a-713ff406579c/1491424.jpeg?size=m",
   "history": [
-    {
-      "t": 1793624094,
-      "p": 19800
-    },
     {
       "t": 1793677311,
       "p": 19500
