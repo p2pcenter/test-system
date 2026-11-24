@@ -1,5 +1,5 @@
 {
-  "datetime": "2026-11-23 22:33:03 UTC",
+  "datetime": "2026-11-24 06:44:15 UTC",
   "cid": "f4c75555",
   "name": "Roger [OP13-003] R01",
   "code": "CUSTOM",
@@ -9,10 +9,6 @@
   "prev_price": "¥9,200",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/af7cc7ce-ec3a-498e-b026-eda4ad3c7e4c/8236496.jpeg?size=m",
   "history": [
-    {
-      "t": 1793733062,
-      "p": 9200
-    },
     {
       "t": 1793775068,
       "p": 10999

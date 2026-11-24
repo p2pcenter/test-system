@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-23 22:33:03 UTC",
+  "datetime": "2026-11-24 06:44:15 UTC",
   "cid": "658a59b1",
   "name": "Edward Newgate [ST15-002]",
   "code": "ST15-002",
   "rarity": "C",
   "price": "¥23,800",
   "price_int": 23800,
-  "prev_price": "¥23,899",
+  "prev_price": "¥23,800",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1a2595f1-8dfc-4fa3-8f36-2de2e4a16850/8537158.jpeg?size=m",
   "history": [
-    {
-      "t": 1793677268,
-      "p": 24500
-    },
     {
       "t": 1793751355,
       "p": 24400
