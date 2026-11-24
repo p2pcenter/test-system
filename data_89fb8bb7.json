@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-24 06:44:15 UTC",
+  "datetime": "2026-11-24 18:38:45 UTC",
   "cid": "89fb8bb7",
   "name": "Ace [OP13-007] A03",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥7,000",
   "price_int": 7000,
-  "prev_price": "¥7,500",
+  "prev_price": "¥7,000",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1227ec4e-7108-4d1c-a384-609335529db9/7960122.jpeg?size=m",
   "history": [
-    {
-      "t": 1793564584,
-      "p": 8200
-    },
     {
       "t": 1793805034,
       "p": 8500

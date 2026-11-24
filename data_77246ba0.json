@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-24 06:44:15 UTC",
+  "datetime": "2026-11-24 18:38:45 UTC",
   "cid": "77246ba0",
   "name": "Sabo [OP07-118] S03",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥6,800",
-  "price_int": 6800,
-  "prev_price": "¥7,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/88805bc3-1bef-4a05-b225-17344c6d4e97/6530322.jpeg?size=m",
+  "price": "¥6,500",
+  "price_int": 6500,
+  "prev_price": "¥6,800",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/955d72b8-2dcd-44f4-873b-82550e147aac/3310083.jpeg?size=m",
   "history": [
     {
       "t": 1793236830,
@@ -64,6 +64,10 @@
     {
       "t": 1795503325,
       "p": 6800
+    },
+    {
+      "t": 1795545775,
+      "p": 6500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=SEC+%5BOP07-118%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
