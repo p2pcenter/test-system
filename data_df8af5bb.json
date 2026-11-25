@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-24 18:38:45 UTC",
+  "datetime": "2026-11-25 02:55:42 UTC",
   "cid": "df8af5bb",
   "name": "Luffy L-P OP05-060",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥10,500",
   "price_int": 10500,
-  "prev_price": "¥11,000",
+  "prev_price": "¥10,500",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/210b3099-03b1-4e0a-8ee1-dfcfc34bd78a/8502346.jpeg?size=m",
   "history": [
-    {
-      "t": 1793804850,
-      "p": 13000
-    },
     {
       "t": 1793827518,
       "p": 12800
