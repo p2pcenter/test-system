@@ -1,13 +1,13 @@
 {
-  "datetime": "2026-11-25 12:07:50 UTC",
+  "datetime": "2026-11-25 21:54:32 UTC",
   "cid": "f2244ef9",
   "name": "Luffy [P-043] L35",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥36,500",
-  "price_int": 36500,
-  "prev_price": "¥38,000",
-  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/c95dd9c5-9c27-4669-b8f7-3853180d11ea/7807210.jpeg?size=m",
+  "price": "¥36,800",
+  "price_int": 36800,
+  "prev_price": "¥36,500",
+  "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/095550a0-55d6-458e-bdc2-3134a002e27d/6671136.jpeg?size=m",
   "history": [
     {
       "t": 1793869179,
@@ -156,6 +156,10 @@
     {
       "t": 1795609080,
       "p": 36500
+    },
+    {
+      "t": 1795643775,
+      "p": 36800
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Monkey+D+Luffy+p043&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=4",

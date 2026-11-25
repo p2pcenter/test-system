@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-25 12:07:50 UTC",
+  "datetime": "2026-11-25 21:54:32 UTC",
   "cid": "3020448a",
   "name": "Vivi [EB03-024]",
   "code": "EB03-024",
   "rarity": "C",
   "price": "¥42,800",
   "price_int": 42800,
-  "prev_price": "¥43,800",
+  "prev_price": "¥42,800",
   "image_url": "https://cdn.snkrdunk.com/upload_bg_removed/a1dad62f-57bb-442a-ac96-01ce8cb6bf66.webp?size=m",
   "history": [
-    {
-      "t": 1793869640,
-      "p": 48000
-    },
     {
       "t": 1793899262,
       "p": 48500
