@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-11-25 21:54:32 UTC",
+  "datetime": "2026-11-26 03:56:33 UTC",
   "cid": "93a8d4cc",
   "name": "DON Egghead D04",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥6,900",
-  "price_int": 6900,
+  "price": "¥6,500",
+  "price_int": 6500,
   "prev_price": "¥6,900",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/3c4dd0ec-6fb0-4dd5-bbd2-7404d58ded9f/2575068.jpeg?size=m",
   "history": [
@@ -40,6 +40,10 @@
     {
       "t": 1795608900,
       "p": 6900
+    },
+    {
+      "t": 1795666152,
+      "p": 6500
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=DON%21%21+Card+%3A+Egghead+Super+Parallel&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
