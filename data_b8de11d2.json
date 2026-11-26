@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-11-26 03:56:33 UTC",
+  "datetime": "2026-11-26 13:36:04 UTC",
   "cid": "b8de11d2",
   "name": "Shanks [OP13-065] S21",
   "code": "CUSTOM",
   "rarity": "C",
-  "price": "¥9,999",
-  "price_int": 9999,
+  "price": "",
+  "price_int": 0,
   "prev_price": "¥9,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/1e8a4589-ad40-4a17-8e40-1e1e898d5cb2/4418054.jpeg?size=m",
   "history": [
@@ -23,5 +23,5 @@
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=OP13-065&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
-  "status": "ok"
+  "status": "sold_out"
 }
