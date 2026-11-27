@@ -1,18 +1,14 @@
 {
-  "datetime": "2026-11-27 04:46:38 UTC",
+  "datetime": "2026-11-27 14:41:19 UTC",
   "cid": "085a78fe",
   "name": "Vivi [EB03-001] V03",
   "code": "CUSTOM",
   "rarity": "C",
   "price": "¥5,980",
   "price_int": 5980,
-  "prev_price": "¥6,000",
+  "prev_price": "¥5,980",
   "image_url": "https://cdn.snkrdunk.com/upload_bg_removed/36975d62-0ada-423b-8ea1-4ca98faa0faa.webp?size=m",
   "history": [
-    {
-      "t": 1793705930,
-      "p": 10000
-    },
     {
       "t": 1794045687,
       "p": 9900

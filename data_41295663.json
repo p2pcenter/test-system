@@ -1,11 +1,11 @@
 {
-  "datetime": "2026-11-27 04:46:38 UTC",
+  "datetime": "2026-11-27 14:41:19 UTC",
   "cid": "41295663",
   "name": "Boa Hancock P [P-066]",
   "code": "P-066",
   "rarity": "C",
-  "price": "¥8,999",
-  "price_int": 8999,
+  "price": "¥8,899",
+  "price_int": 8899,
   "prev_price": "¥8,999",
   "image_url": "https://cdn.snkrdunk.com/apparel_used_listings/12c52ab9-f52f-4737-850c-f35b20c3066f/5075343.jpeg?size=m",
   "history": [
@@ -80,6 +80,10 @@
     {
       "t": 1795733676,
       "p": 8999
+    },
+    {
+      "t": 1795790845,
+      "p": 8899
     }
   ],
   "product_url": "https://snkrdunk.com/search?keywords=Boa+Hancock+P+%5BP-066%5D&sort=price_low&itemConditions=psa_10&isSaleOnly=true&page=1",
